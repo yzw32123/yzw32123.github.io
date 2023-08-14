@@ -1,0 +1,1457 @@
+<!doctype html>
+<html lang="en" data-server-rendered="true" data-v-1b705696 data-v-456d51d7>
+ <head>
+  <title>可上组合 - 简志愿</title> 
+  <meta charset="utf-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+  <meta name="keywords" content="egg, typescript, vue, webpack, server side render"> 
+  <meta name="description" content="IBlog"> 
+  <meta http-equiv="content-type" content="text/html;charset=utf-8"> 
+  <meta name="renderer" content="webkit"> 
+  <meta name="force-rendering" content="webkit"> 
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"> 
+  <meta name="msapplication-TileImage" content="images/icons/icon-144x144.png"> 
+  <meta name="msapplication-TileColor" content="#2F3BA2"> 
+  <meta name="apple-mobile-web-app-capable" content="yes"> 
+  <meta name="apple-mobile-web-app-status-bar-style" content="black"> 
+  <meta name="apple-mobile-web-app-title" content="Weather PWA"> 
+  <link rel="apple-touch-icon" href="css/logo_32b3c662a48242c9ac93adec94a42e10.png"> 
+  <link rel="shortcut icon" href="css/favicon_31fb16c799384540a138ec20e6bd66d8.ico" type="image/x-icon"> 
+  <script type="text/javascript" src="js/qrcode.min_5f8e18ddcd5f4b8cbe17cd00df87cf68.js"></script> 
+  <script src="js/echarts.min_f88c39eb12f3435488f64016092fc0a4.js"></script> 
+  <script type="text/javascript" src="js/7moorInit_fd81232d163b452fb33197e2fc06a909.js" async></script>
+  <link rel="stylesheet" href="css/common.4ac08c98_3d27ad0afffb479d9b0d491a21cac593.css">
+  <link rel="stylesheet" href="css/index.deae7c42.css">
+ </head> 
+ <body>
+  <div id="app">
+   <div class="main">
+    <div user-info="userInfo" class="top-header" data-v-62490ec7>
+     <div class="top" data-v-62490ec7>
+      <div class="container" data-v-62490ec7>
+       <div class="left" data-v-62490ec7>
+         欢迎访问简志愿，填出美好未来！ 
+       </div> 
+       <ul class="right" data-v-62490ec7>
+        <li class="program1" data-v-62490ec7> 微信小程序 <span data-v-62490ec7><img src="images/xcx.cda11650_19f5ab3de7fb41cd987d04f67aca5df1.jpg" data-v-62490ec7></span></li> 
+        <li class="program2" data-v-62490ec7> APP下载 <span data-v-62490ec7><img src="images/app_qrcode_b4434fad317c4c8fbdf528c946ee8d36.jpg" data-v-62490ec7></span></li> 
+        <a href="/newbieGuide" data-v-62490ec7><li class="program3" data-v-62490ec7>新手指南</li></a> 
+      <!--  <li class="program2" data-v-62490ec7><a href="/coupon/activate" data-v-62490ec7>激活VIP</a></li> -->
+        <li class="program0" data-v-62490ec7><p data-v-62490ec7><a href="./register.html" data-v-62490ec7>注册</a> <a id="login" data-v-62490ec7>登录</a></p> 
+         <!----></li>
+       </ul>
+      </div>
+     </div> 
+     <div class="nav" data-v-62490ec7>
+      <div class="container" data-v-62490ec7>
+       <div class="secherLogo" data-v-62490ec7>
+        <div class="logo" data-v-62490ec7>
+         <a href="./index.html" data-v-62490ec7><img title="简志愿" src="images/jian_logo.png" data-v-62490ec7></a>
+        </div> 
+        <div class="secher" data-v-62490ec7>
+         <form action="/search" method="get" data-v-b8c29c26 data-v-62490ec7>
+          <input autocomplete="off" type="string" name="keyword" placeholder="搜索学校、专业" maxlength="16" class="f14" data-v-b8c29c26> 
+          <button type="submit" data-v-b8c29c26></button>
+         </form>
+        </div>
+       </div> 
+       <ul class="navbar" data-v-62490ec7>
+        <li data-v-62490ec7><a href="./index.html" class="mian-a" data-v-62490ec7><em data-v-62490ec7>首页</em></a></li> 
+        <li data-v-62490ec7><a href="./colleges.html" class="mian-a" data-v-62490ec7><em data-v-62490ec7>数据查询</em></a> 
+         <div data-v-62490ec7>
+          <a href="./rank.html" data-v-62490ec7>录取数据查询</a> 
+          <a href="./school.html" data-v-62490ec7>招生计划数据</a> 
+          <a href="./colleges.html" data-v-62490ec7>找大学</a> 
+          <a href="./majors.html" data-v-62490ec7>查专业</a> 
+          <a href="./jobs.html" data-v-62490ec7>搜职业</a> 
+         <a href="./college-bang.html" data-v-62490ec7>大学排名</a>
+         <a href="./rank.html" data-v-62490ec7>位次查询</a> 
+         <a href="./batch-line.html" data-v-62490ec7>查批次线</a>
+         </div></li> 
+        <li data-v-62490ec7><a href="./intention-add.html" class="mian-a" data-v-62490ec7><em data-v-62490ec7>志愿填报</em></a> 
+         <div data-v-62490ec7>
+          <a href="./can-school.html" data-v-62490ec7>可上院校 <i class="hot" data-v-62490ec7></i></a> 
+          <a href="./intention-add.html" data-v-62490ec7>智能模拟填报</a>
+         </div></li> 
+        <li data-v-62490ec7><a href="./test-evaluation.html" class="mian-a" data-v-62490ec7><em data-v-62490ec7>测试评估</em></a> 
+         <div data-v-62490ec7>
+          <a href="./test-evaluation.html" data-v-62490ec7>录取概率测试 <i class="hot" data-v-62490ec7></i></a> 
+          <a href="./compare-college.html" data-v-62490ec7>院校对比 <i class="hot" data-v-62490ec7></i></a> 
+          <a href="./subject.html" data-v-62490ec7>专业对比</a>
+         </div></li> 
+        <li data-v-62490ec7><a href="/newGk/index" class="mian-a" data-v-62490ec7><em data-v-62490ec7>生涯规划</em></a> 
+         <div data-v-62490ec7>
+          <a href="./job-for-you.html" data-v-62490ec7>职业性格测试</a> 
+          <a href="/newGk/index" data-v-62490ec7>新高考选科</a>
+         </div></li> 
+        <li data-v-62490ec7><a href="./new.html" class="mian-a" data-v-62490ec7><em data-v-62490ec7>高考资讯</em></a> 
+        <!-- <div data-v-62490ec7>
+          <a href="./new.html" data-v-62490ec7>热门资讯</a> 
+          <a href="/news/2" data-v-62490ec7>高考资讯</a> 
+          <a href="/news/3" data-v-62490ec7>院校动态</a> 
+          <a href="/news/4" data-v-62490ec7>招生政策</a>
+         </div> --></li> 
+       <!-- <li data-v-62490ec7><a href="/classroom" class="mian-a" data-v-62490ec7><em data-v-62490ec7>U选课堂</em></a></li> -->
+       </ul> 
+      <!-- <div class="vipAndPhone" data-v-62490ec7>
+        <div class="vip viped" data-v-62490ec7>
+          开通VIP 
+        </div> 
+        <div class="phones" data-v-62490ec7>
+         手机版 
+         <span data-v-62490ec7><img src="images/app_qrcode_b4434fad317c4c8fbdf528c946ee8d36.jpg" data-v-62490ec7></span>
+        </div>
+       </div> -->
+      </div>
+     </div> 
+   <div class="login-mask" style="display:none;" data-v-65213d27 data-v-62490ec7>
+    <div class="login" data-v-65213d27>
+     <div class="close" data-v-65213d27></div> 
+     <h2 data-v-65213d27><em data-v-65213d27></em> 简志愿登录 <em data-v-65213d27></em></h2> 
+     <div class="messageAndId" data-v-65213d27>
+      <span class="active" data-v-65213d27>账号登录</span>
+      <span data-v-65213d27>会员卡登陆</span>
+     </div> 
+     <ul class="re-input" id="re-input" data-v-65213d27>
+      <form action="/login" method="post" data-v-65213d27>
+       <div class="account" data-v-65213d27>
+        <li data-v-65213d27><input placeholder="请输入用户名" name="uname" type="number" maxlength="11" value="" data-v-6e36b945 data-v-65213d27></li> 
+        <li class="password" data-v-65213d27><input placeholder="请输入密码" name="pwd" type="password" maxlength="16" minlength="6" data-v-e5fc95c0 data-v-65213d27></li> 
+        <li class="authcode" style="display:none;" data-v-65213d27><label data-v-65213d27><span data-v-65213d27></span> <input placeholder="请输入验证码" name="captcha" type="captcha" maxlength="6" minlength="3" data-v-65213d27></label></li>
+       </div> 
+       <!----> 
+       <div class="forget" data-v-65213d27>
+        <a href="/forget-pwd" data-v-65213d27>忘记密码</a> 
+        <a href="./register.html" data-v-65213d27>去注册</a>
+       </div> 
+       <li class="button" data-v-65213d27><button type="button" data-v-65213d27>登录</button></li>
+      </form>
+     </ul> 
+     <ul class="re-input" id="re-inputs" data-v-65213d27>
+      <form action="./login.html" method="post" data-v-65213d27>
+       <div class="account" data-v-65213d27>
+        <li data-v-65213d27><input placeholder="志愿卡、升学卡、体验卡号" name="uname" type="number" maxlength="11" value="" data-v-6e36b945 data-v-65213d27></li> 
+        <li class="password" data-v-65213d27><input placeholder="会员卡密码" name="pwd" type="password" maxlength="16" minlength="6" data-v-e5fc95c0 data-v-65213d27></li> 
+        <li class="authcode" style="display:none;" data-v-65213d27><label data-v-65213d27><span data-v-65213d27></span> <input placeholder="请输入验证码" name="captcha" type="captcha" maxlength="6" minlength="3" data-v-65213d27></label></li>
+       </div> 
+       <!----> 
+       <div class="forget" data-v-65213d27>
+        <a href="/forget-pwd" data-v-65213d27>忘记密码</a> 
+        <a href="/register" data-v-65213d27>去注册</a>
+       </div> 
+       <li class="button" data-v-65213d27><button type="button" data-v-65213d27>登录</button></li>
+      </form>
+     </ul> 
+     <div id="login_container" data-v-65213d27></div> 
+     <div data-v-169f800d class="other" data-v-65213d27>
+      <div class="otherLine" data-v-65213d27>
+       <i data-v-65213d27></i> 
+       <p data-v-169f800d data-v-65213d27>其他登录方式</p>
+      </div> 
+      <a class="weixin" data-v-65213d27></a>
+     </div>
+    </div>
+   </div> 
+     <div class="leftFixList" data-v-62490ec7>
+      <ul data-v-62490ec7>
+       <li class="leftfix1" data-v-62490ec7><a href="###" data-v-62490ec7>小程序</a> <span data-v-62490ec7><img src="images/xcx.cda11650_19f5ab3de7fb41cd987d04f67aca5df1.jpg" data-v-62490ec7></span></li> 
+       <li class="leftfix3" data-v-62490ec7><a href="./compare-college.html" data-v-62490ec7>院校对比</a></li> 
+       <li class="leftfix4" data-v-62490ec7><a href="./intention-add.html" data-v-62490ec7>智能填报</a></li> 
+       <li class="leftfix6" data-v-62490ec7><a href="/newbieGuide" data-v-62490ec7>新手指南</a></li> 
+       <li class="leftfix5" data-v-62490ec7><a data-v-62490ec7>置顶</a></li>
+      </ul>
+     </div>
+    </div> 
+    <!--在這開始寫--> 
+   <div>
+   	<div class="flex justify-between mx-auto items-center" style="width:1300px;" data-v-1b705696="">
+   		<div class="path" style="width:1200px!important;" data-v-1b705696="">
+   			<ul data-v-b62a9f34="" data-v-1b705696="">
+   				<li data-v-b62a9f34="">
+   					<a href="/" data-v-b62a9f34="">首页</a>
+   					<span data-v-b62a9f34="">&nbsp; / &nbsp;&nbsp;</span>
+   				</li>
+   				<li data-v-b62a9f34="">
+   					<a data-v-b62a9f34="">可上组合</a>
+   					<!---->
+   				</li>
+   			</ul>
+   		</div>
+   	</div>
+   	<div class="bg_color page7 leftHidden" data-v-6b61e7ca="">
+   		<div class="add-intention container" data-v-6b61e7ca="">
+   			<div class="userInfo_p userInfo_ps" data-v-6b61e7ca="">
+   				<div data-v-6b61e7ca="">
+   					<ul class="leftist2020">
+   						<li class="li1 actives">
+   							<span>
+   								志愿填报<em></em>
+   							</span>
+   							<div>
+   								<a href="./can-school.html" class="active">可上组合</a>
+   							</div>
+   							<!---->
+   							<div>
+   								<a href="./intention-add.html" class="">智能模拟填报</a>
+   							</div>
+   							<div>
+   								<a href="/my-intention" class="">我的志愿表</a>
+   							</div>
+   						</li>
+   						<li class="li2">
+   							<span>
+   								测试评估<em></em>
+   							</span>
+   							<div>
+   								<a href="./job-for-you.html" class="active">职业性格测试</a>
+   							</div>
+   							<div>
+   								<a href="./test-evaluation.html" class="">录取概率测试</a>
+   							</div>
+   							<div>
+   								<a href="./compare-college.html" class="">院校对比</a>
+   							</div>
+   							<div>
+   								<a href="./subject.html" class="">专业对比</a>
+   							</div>
+   						</li>
+   						<li class="li3">
+   							<span>
+   								数据查询<em></em>
+   							</span>
+   							<div>
+   								<a href="/about-enroll/school/rank" class="active">录取相关数据</a>
+   							</div>
+   							<div>
+   								<a href="/admission-plan/school" class="">招生计划数据</a>
+   							</div>
+   							<!---->
+   						</li>
+   						<li class="li4">
+   							<span>
+   								个人中心<em></em>
+   							</span>
+   							<div>
+   								<a href="/user-info" class="active">个人资料</a>
+   							</div>
+   							<div>
+   								<a href="/coupon/activate" class="">激活VIP</a>
+   							</div>
+   							<div>
+   								<a href="/fav/school" class="">收藏的学校</a>
+   							</div>
+   							<div>
+   								<a href="/fav/major" class="">收藏的专业</a>
+   							</div>
+   							<div>
+   								<a href="/reset-pwd" class="">修改密码</a>
+   							</div>
+   						</li>
+   					</ul>
+   				</div>
+   			</div>
+   			<div class="rightTab" data-v-6b61e7ca="">
+   				<div class="tit" data-v-6b61e7ca="">
+   					<h3 data-v-6b61e7ca="">可上组合</h3>
+   					<span data-v-6b61e7ca="">我的成绩:
+   						<span data-v-6b61e7ca="">
+   							<span data-v-6b61e7ca="">350分</span>
+   							<span data-v-6b61e7ca="">285317位</span>
+   							<span data-v-6b61e7ca="">物理/化学/生物</span>
+   						</span>
+   					</span>
+   					<div class="radio_wrap" data-v-6b61e7ca="">
+   						<span class="radio_box checked" data-v-6b61e7ca="">
+   							<i class="radio_icon" data-v-6b61e7ca=""></i>
+   							不限
+   						</span>
+   						<span class="radio_box " data-v-6b61e7ca="">
+   							<i class="radio_icon" data-v-6b61e7ca=""></i>
+   							冲一冲
+   						</span>
+   						<span class="radio_box" data-v-6b61e7ca="">
+   							<i class="radio_icon" data-v-6b61e7ca=""></i>
+   							稳一稳
+   						</span>
+   						<span class="radio_box" data-v-6b61e7ca="">
+   							<i class="radio_icon" data-v-6b61e7ca=""></i>
+   							保一保
+   						</span>
+   					</div>
+   				</div>
+   				<div class="rightCenter" data-v-6b61e7ca="">
+   					<div class="canFilter" data-v-6b61e7ca="">
+   						<span data-v-6b61e7ca="">筛选条件:</span>
+   						<!---->
+   						<!---->
+   						<!---->
+   						<!---->
+   						<!---->
+   						<!---->
+   						<!---->
+   						<!---->
+   						<!---->
+   					</div>
+   					<ul class="canFilterSelect" data-v-6b61e7ca="">
+   						<li data-v-6b61e7ca="">
+   							<span class="selectTit" data-v-6b61e7ca="">请选择专业 <i data-v-6b61e7ca=""></i>
+   							</span>
+   							<div data="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]" class="selectLi overflowrolling" data-v-20c5af06="" data-v-6b61e7ca="">
+   								<span class="limit" data-v-20c5af06="">
+   									<i class="active" data-v-20c5af06="">不限</i>
+   								</span>
+   								<div class="rolling" data-v-20c5af06="">
+   									<div data-v-20c5af06="">
+   										<span data-v-20c5af06="">
+   											<i data-v-20c5af06="" class="active">农学</i>
+   										</span>
+   										<p data-v-20c5af06="">
+   											<i data-v-20c5af06="" class="">自然保护与环境生态类</i>
+   											<i data-v-20c5af06="" class="">草学类</i>
+   											<i data-v-20c5af06="" class="">动物生产类</i>
+   											<i data-v-20c5af06="" class="">林学类</i>
+   											<i data-v-20c5af06="" class="">水产类</i>
+   											<i data-v-20c5af06="" class="">植物生产类</i>
+   											<i data-v-20c5af06="" class="">动物医学类</i>
+   										</p>
+   									</div>
+   									<div data-v-20c5af06="">
+   										<span data-v-20c5af06="">
+   											<i data-v-20c5af06="" class="active">教育学</i>
+   										</span>
+   										<p data-v-20c5af06="">
+   											<i data-v-20c5af06="" class="">教育学类</i>
+   											<i data-v-20c5af06="" class="">体育学类</i>
+   										</p>
+   									</div>
+   									<div data-v-20c5af06="">
+   										<span data-v-20c5af06="">
+   											<i data-v-20c5af06="" class="active">医学</i>
+   										</span>
+   										<p data-v-20c5af06="">
+   											<i data-v-20c5af06="" class="">临床医学类</i>
+   											<i data-v-20c5af06="" class="">中西医结合类</i>
+   											<i data-v-20c5af06="" class="">药学类</i>
+   											<i data-v-20c5af06="" class="">护理学类</i>
+   											<i data-v-20c5af06="" class="">基础医学类</i>
+   											<i data-v-20c5af06="" class="">医学技术类</i>
+   											<i data-v-20c5af06="" class="">中药学类</i>
+   											<i data-v-20c5af06="" class="">中医学类</i>
+   											<i data-v-20c5af06="" class="">公共卫生与预防医学类</i>
+   											<i data-v-20c5af06="" class="">法医学类</i>
+   											<i data-v-20c5af06="" class="">口腔医学类</i>
+   										</p>
+   									</div>
+   									<div data-v-20c5af06="">
+   										<span data-v-20c5af06="">
+   											<i data-v-20c5af06="" class="active">文学</i>
+   										</span>
+   										<p data-v-20c5af06="">
+   											<i data-v-20c5af06="" class="">新闻传播学类</i>
+   											<i data-v-20c5af06="" class="">外国语言文学类</i>
+   											<i data-v-20c5af06="" class="">中国语言文学类</i>
+   										</p>
+   									</div>
+   									<div data-v-20c5af06="">
+   										<span data-v-20c5af06="">
+   											<i data-v-20c5af06="" class="active">艺术学</i>
+   										</span>
+   										<p data-v-20c5af06="">
+   											<i data-v-20c5af06="" class="">设计学类</i>
+   											<i data-v-20c5af06="" class="">戏剧与影视学类</i>
+   											<i data-v-20c5af06="" class="">艺术学理论类</i>
+   											<i data-v-20c5af06="" class="">美术学类</i>
+   											<i data-v-20c5af06="" class="">音乐与舞蹈学类</i>
+   										</p>
+   									</div>
+   									<div data-v-20c5af06="">
+   										<span data-v-20c5af06="">
+   											<i data-v-20c5af06="" class="active">工学</i>
+   										</span>
+   										<p data-v-20c5af06="">
+   											<i data-v-20c5af06="" class="">水利类</i>
+   											<i data-v-20c5af06="" class="">海洋工程类</i>
+   											<i data-v-20c5af06="" class="">机械类</i>
+   											<i data-v-20c5af06="" class="">电气类</i>
+   											<i data-v-20c5af06="" class="">纺织类</i>
+   											<i data-v-20c5af06="" class="">矿业类</i>
+   											<i data-v-20c5af06="" class="">安全科学与工程类</i>
+   											<i data-v-20c5af06="" class="">农业工程类</i>
+   											<i data-v-20c5af06="" class="">计算机类</i>
+   											<i data-v-20c5af06="" class="">化工与制药类</i>
+   											<i data-v-20c5af06="" class="">仪器类</i>
+   											<i data-v-20c5af06="" class="">生物医学工程类</i>
+   											<i data-v-20c5af06="" class="">航空航天类</i>
+   											<i data-v-20c5af06="" class="">兵器类</i>
+   											<i data-v-20c5af06="" class="">测绘类</i>
+   											<i data-v-20c5af06="" class="">林业工程类</i>
+   											<i data-v-20c5af06="" class="">电子信息类</i>
+   											<i data-v-20c5af06="" class="">公安技术类</i>
+   											<i data-v-20c5af06="" class="">核工程类</i>
+   											<i data-v-20c5af06="" class="">食品科学与工程类</i>
+   											<i data-v-20c5af06="" class="">建筑类</i>
+   											<i data-v-20c5af06="" class="">交通运输类</i>
+   											<i data-v-20c5af06="" class="">环境科学与工程类</i>
+   											<i data-v-20c5af06="" class="">材料类</i>
+   											<i data-v-20c5af06="" class="">轻工类</i>
+   											<i data-v-20c5af06="" class="">地质类</i>
+   											<i data-v-20c5af06="" class="">能源动力类</i>
+   											<i data-v-20c5af06="" class="">土木类</i>
+   											<i data-v-20c5af06="" class="">自动化类</i>
+   											<i data-v-20c5af06="" class="">生物工程类</i>
+   											<i data-v-20c5af06="" class="">力学类</i>
+   											<i data-v-20c5af06="" class="">交叉工程类</i>
+   										</p>
+   									</div>
+   									<div data-v-20c5af06="">
+   										<span data-v-20c5af06="">
+   											<i data-v-20c5af06="" class="active">法学</i>
+   										</span>
+   										<p data-v-20c5af06="">
+   											<i data-v-20c5af06="" class="">社会学类</i>
+   											<i data-v-20c5af06="" class="">公安学类</i>
+   											<i data-v-20c5af06="" class="">政治学类</i>
+   											<i data-v-20c5af06="" class="">民族学类</i>
+   											<i data-v-20c5af06="" class="">马克思主义理论类</i>
+   											<i data-v-20c5af06="" class="">法学类</i>
+   										</p>
+   									</div>
+   									<div data-v-20c5af06="">
+   										<span data-v-20c5af06="">
+   											<i data-v-20c5af06="" class="active">哲学</i>
+   										</span>
+   										<p data-v-20c5af06="">
+   											<i data-v-20c5af06="" class="">哲学类</i>
+   										</p>
+   									</div>
+   									<div data-v-20c5af06="">
+   										<span data-v-20c5af06="">
+   											<i data-v-20c5af06="" class="active">理学</i>
+   										</span>
+   										<p data-v-20c5af06="">
+   											<i data-v-20c5af06="" class="">化学类</i>
+   											<i data-v-20c5af06="" class="">统计学类</i>
+   											<i data-v-20c5af06="" class="">心理学类</i>
+   											<i data-v-20c5af06="" class="">大气科学类</i>
+   											<i data-v-20c5af06="" class="">地质学类</i>
+   											<i data-v-20c5af06="" class="">海洋科学类</i>
+   											<i data-v-20c5af06="" class="">物理学类</i>
+   											<i data-v-20c5af06="" class="">生物科学类</i>
+   											<i data-v-20c5af06="" class="">地球物理学类</i>
+   											<i data-v-20c5af06="" class="">天文学类</i>
+   											<i data-v-20c5af06="" class="">数学类</i>
+   											<i data-v-20c5af06="" class="">地理科学类</i>
+   										</p>
+   									</div>
+   									<div data-v-20c5af06="">
+   										<span data-v-20c5af06="">
+   											<i data-v-20c5af06="" class="active">经济学</i>
+   										</span>
+   										<p data-v-20c5af06="">
+   											<i data-v-20c5af06="" class="">经济学类</i>
+   											<i data-v-20c5af06="" class="">财政学类</i>
+   											<i data-v-20c5af06="" class="">金融学类</i>
+   											<i data-v-20c5af06="" class="">经济与贸易类</i>
+   										</p>
+   									</div>
+   									<div data-v-20c5af06="">
+   										<span data-v-20c5af06="">
+   											<i data-v-20c5af06="" class="active">历史学</i>
+   										</span>
+   										<p data-v-20c5af06="">
+   											<i data-v-20c5af06="" class="">历史学类</i>
+   										</p>
+   									</div>
+   									<div data-v-20c5af06="">
+   										<span data-v-20c5af06="">
+   											<i data-v-20c5af06="" class="active">管理学</i>
+   										</span>
+   										<p data-v-20c5af06="">
+   											<i data-v-20c5af06="" class="">物流管理与工程类</i>
+   											<i data-v-20c5af06="" class="">工商管理类</i>
+   											<i data-v-20c5af06="" class="">管理科学与工程类</i>
+   											<i data-v-20c5af06="" class="">电子商务类</i>
+   											<i data-v-20c5af06="" class="">农业经济管理类</i>
+   											<i data-v-20c5af06="" class="">工业工程类</i>
+   											<i data-v-20c5af06="" class="">公共管理类</i>
+   											<i data-v-20c5af06="" class="">旅游管理类</i>
+   											<i data-v-20c5af06="" class="">图书情报与档案管理类</i>
+   										</p>
+   									</div>
+   									<div data-v-20c5af06="">
+   										<span data-v-20c5af06="">
+   											<i data-v-20c5af06="" class="active">公安与司法类</i>
+   										</span>
+   										<p data-v-20c5af06="">
+   											<i data-v-20c5af06="" class="">公安管理类</i>
+   											<i data-v-20c5af06="" class="">侦查类</i>
+   											<i data-v-20c5af06="" class="">法律实务类</i>
+   											<i data-v-20c5af06="" class="">司法技术类</i>
+   											<i data-v-20c5af06="" class="">法律执行类</i>
+   											<i data-v-20c5af06="" class="">安全防范类</i>
+   										</p>
+   									</div>
+   									<div data-v-20c5af06="">
+   										<span data-v-20c5af06="">
+   											<i data-v-20c5af06="" class="active">交通运输类</i>
+   										</span>
+   										<p data-v-20c5af06="">
+   											<i data-v-20c5af06="" class="">城市轨道交通类</i>
+   											<i data-v-20c5af06="" class="">邮政类</i>
+   											<i data-v-20c5af06="" class="">水上运输类</i>
+   											<i data-v-20c5af06="" class="">航空运输类</i>
+   											<i data-v-20c5af06="" class="">铁道运输类</i>
+   											<i data-v-20c5af06="" class="">道路运输类</i>
+   											<i data-v-20c5af06="" class="">管道运输类</i>
+   										</p>
+   									</div>
+   									<div data-v-20c5af06="">
+   										<span data-v-20c5af06="">
+   											<i data-v-20c5af06="" class="active">水利类</i>
+   										</span>
+   										<p data-v-20c5af06="">
+   											<i data-v-20c5af06="" class="">水土保持与水环境类</i>
+   											<i data-v-20c5af06="" class="">水利水电设备类</i>
+   											<i data-v-20c5af06="" class="">水利工程与管理类</i>
+   											<i data-v-20c5af06="" class="">水文水资源类</i>
+   										</p>
+   									</div>
+   									<div data-v-20c5af06="">
+   										<span data-v-20c5af06="">
+   											<i data-v-20c5af06="" class="active">轻工纺织类</i>
+   										</span>
+   										<p data-v-20c5af06="">
+   											<i data-v-20c5af06="" class="">轻化工类</i>
+   											<i data-v-20c5af06="" class="">包装类</i>
+   											<i data-v-20c5af06="" class="">纺织服装类</i>
+   											<i data-v-20c5af06="" class="">印刷类</i>
+   										</p>
+   									</div>
+   									<div data-v-20c5af06="">
+   										<span data-v-20c5af06="">
+   											<i data-v-20c5af06="" class="active">土木建筑类</i>
+   										</span>
+   										<p data-v-20c5af06="">
+   											<i data-v-20c5af06="" class="">建筑设备类</i>
+   											<i data-v-20c5af06="" class="">城乡规划与管理类</i>
+   											<i data-v-20c5af06="" class="">建设工程管理类</i>
+   											<i data-v-20c5af06="" class="">土建施工类</i>
+   											<i data-v-20c5af06="" class="">房地产类</i>
+   											<i data-v-20c5af06="" class="">建筑设计类</i>
+   											<i data-v-20c5af06="" class="">市政工程类</i>
+   										</p>
+   									</div>
+   									<div data-v-20c5af06="">
+   										<span data-v-20c5af06="">
+   											<i data-v-20c5af06="" class="active">食品药品与粮食类</i>
+   										</span>
+   										<p data-v-20c5af06="">
+   											<i data-v-20c5af06="" class="">食品类</i>
+   											<i data-v-20c5af06="" class="">药品与医疗器械类</i>
+   											<i data-v-20c5af06="" class="">粮食类</i>
+   										</p>
+   									</div>
+   									<div data-v-20c5af06="">
+   										<span data-v-20c5af06="">
+   											<i data-v-20c5af06="" class="active">资源环境与安全类</i>
+   										</span>
+   										<p data-v-20c5af06="">
+   											<i data-v-20c5af06="" class="">石油与天然气类</i>
+   											<i data-v-20c5af06="" class="">安全类</i>
+   											<i data-v-20c5af06="" class="">测绘地理信息类</i>
+   											<i data-v-20c5af06="" class="">环境保护类</i>
+   											<i data-v-20c5af06="" class="">煤炭类</i>
+   											<i data-v-20c5af06="" class="">金属与非金属矿类</i>
+   											<i data-v-20c5af06="" class="">气象类</i>
+   											<i data-v-20c5af06="" class="">资源勘查类</i>
+   										</p>
+   									</div>
+   									<div data-v-20c5af06="">
+   										<span data-v-20c5af06="">
+   											<i data-v-20c5af06="" class="active">公共管理与服务类</i>
+   										</span>
+   										<p data-v-20c5af06="">
+   											<i data-v-20c5af06="" class="">公共事业类</i>
+   											<i data-v-20c5af06="" class="">公共服务类</i>
+   											<i data-v-20c5af06="" class="">文秘类</i>
+   										</p>
+   									</div>
+   									<div data-v-20c5af06="">
+   										<span data-v-20c5af06="">
+   											<i data-v-20c5af06="" class="active">新闻传播类</i>
+   										</span>
+   										<p data-v-20c5af06="">
+   											<i data-v-20c5af06="" class="">广播影视类</i>
+   											<i data-v-20c5af06="" class="">新闻出版类</i>
+   										</p>
+   									</div>
+   									<div data-v-20c5af06="">
+   										<span data-v-20c5af06="">
+   											<i data-v-20c5af06="" class="active">旅游类</i>
+   										</span>
+   										<p data-v-20c5af06="">
+   											<i data-v-20c5af06="" class="">旅游类</i>
+   											<i data-v-20c5af06="" class="">餐饮类</i>
+   										</p>
+   									</div>
+   									<div data-v-20c5af06="">
+   										<span data-v-20c5af06="">
+   											<i data-v-20c5af06="" class="active">教育与体育类</i>
+   										</span>
+   										<p data-v-20c5af06="">
+   											<i data-v-20c5af06="" class="">语言类</i>
+   											<i data-v-20c5af06="" class="">体育类</i>
+   											<i data-v-20c5af06="" class="">教育类</i>
+   										</p>
+   									</div>
+   									<div data-v-20c5af06="">
+   										<span data-v-20c5af06="">
+   											<i data-v-20c5af06="" class="active">农林牧渔类</i>
+   										</span>
+   										<p data-v-20c5af06="">
+   											<i data-v-20c5af06="" class="">农业类</i>
+   											<i data-v-20c5af06="" class="">渔业类</i>
+   											<i data-v-20c5af06="" class="">畜牧业类</i>
+   											<i data-v-20c5af06="" class="">林业类</i>
+   										</p>
+   									</div>
+   									<div data-v-20c5af06="">
+   										<span data-v-20c5af06="">
+   											<i data-v-20c5af06="" class="active">文化艺术类</i>
+   										</span>
+   										<p data-v-20c5af06="">
+   											<i data-v-20c5af06="" class="">表演艺术类</i>
+   											<i data-v-20c5af06="" class="">艺术设计类</i>
+   											<i data-v-20c5af06="" class="">文化服务类</i>
+   											<i data-v-20c5af06="" class="">民族文化艺术类</i>
+   										</p>
+   									</div>
+   									<div data-v-20c5af06="">
+   										<span data-v-20c5af06="">
+   											<i data-v-20c5af06="" class="active">能源动力与材料类</i>
+   										</span>
+   										<p data-v-20c5af06="">
+   											<i data-v-20c5af06="" class="">黑色金属材料类</i>
+   											<i data-v-20c5af06="" class="">热能与发电工程类</i>
+   											<i data-v-20c5af06="" class="">新能源发电工程类</i>
+   											<i data-v-20c5af06="" class="">有色金属材料类</i>
+   											<i data-v-20c5af06="" class="">电力技术类</i>
+   											<i data-v-20c5af06="" class="">建筑材料类</i>
+   											<i data-v-20c5af06="" class="">非金属材料类</i>
+   										</p>
+   									</div>
+   									<div data-v-20c5af06="">
+   										<span data-v-20c5af06="">
+   											<i data-v-20c5af06="" class="active">装备制造类</i>
+   										</span>
+   										<p data-v-20c5af06="">
+   											<i data-v-20c5af06="" class="">船舶与海洋工程装备类</i>
+   											<i data-v-20c5af06="" class="">机电设备类</i>
+   											<i data-v-20c5af06="" class="">汽车制造类</i>
+   											<i data-v-20c5af06="" class="">航空装备类</i>
+   											<i data-v-20c5af06="" class="">机械设计制造类</i>
+   											<i data-v-20c5af06="" class="">轨道装备类</i>
+   										</p>
+   									</div>
+   									<div data-v-20c5af06="">
+   										<span data-v-20c5af06="">
+   											<i data-v-20c5af06="" class="active">财经商贸类</i>
+   										</span>
+   										<p data-v-20c5af06="">
+   											<i data-v-20c5af06="" class="">金融类</i>
+   											<i data-v-20c5af06="" class="">物流类</i>
+   											<i data-v-20c5af06="" class="">经济贸易类</i>
+   											<i data-v-20c5af06="" class="">财政税务类</i>
+   											<i data-v-20c5af06="" class="">财务会计类</i>
+   											<i data-v-20c5af06="" class="">统计类</i>
+   										</p>
+   									</div>
+   									<div data-v-20c5af06="">
+   										<span data-v-20c5af06="">
+   											<i data-v-20c5af06="" class="active">生物与化工类</i>
+   										</span>
+   										<p data-v-20c5af06="">
+   											<i data-v-20c5af06="" class="">生物技术类</i>
+   											<i data-v-20c5af06="" class="">化工技术类</i>
+   										</p>
+   									</div>
+   									<div data-v-20c5af06="">
+   										<span data-v-20c5af06="">
+   											<i data-v-20c5af06="" class="active">电子与信息大类</i>
+   										</span>
+   										<p data-v-20c5af06="">
+   											<i data-v-20c5af06="" class="">通信类</i>
+   											<i data-v-20c5af06="" class="">集成电路类</i>
+   										</p>
+   									</div>
+   									<div data-v-20c5af06="">
+   										<span data-v-20c5af06="">
+   											<i data-v-20c5af06="" class="active">医药卫生大类</i>
+   										</span>
+   										<p data-v-20c5af06="">
+   											<i data-v-20c5af06="" class="">健康管理与促进类</i>
+   											<i data-v-20c5af06="" class="">康复治疗类</i>
+   											<i data-v-20c5af06="" class="">护理类</i>
+   											<i data-v-20c5af06="" class="">公共卫生与卫生管理类</i>
+   											<i data-v-20c5af06="" class="">中医药类</i>
+   											<i data-v-20c5af06="" class="">眼视光类</i>
+   											<i data-v-20c5af06="" class="">医学技术类</i>
+   											<i data-v-20c5af06="" class="">临床医学类</i>
+   										</p>
+   									</div>
+   								</div>
+   							</div>
+   						</li>
+   						<li data-v-6b61e7ca="">
+   							<span class="selectTit" data-v-6b61e7ca="">选择区域 <i data-v-6b61e7ca=""></i>
+   							</span>
+   							<div class="selectLi" data-v-6b61e7ca="">
+   								<div class="secTab" data-v-6b61e7ca="">
+   									<div data-v-490bba84="" data-v-0730b356="" data-v-6b61e7ca="">
+   										<div data-v-490bba84="" class="subnav-box container">
+   											<dl data-v-490bba84="" class="clear">
+   												<div data-v-490bba84="">
+   													<dt data-v-490bba84="">院校区域</dt>
+   													<dd data-v-490bba84="">
+   														<ul data-v-490bba84="" type="radio" class="clear">
+   															<li data-v-490bba84="" data-value="" class="tag active">
+   																不限
+   															</li>
+   															<li data-v-490bba84="" data-value="13" class="tag">
+   																安徽
+   															</li>
+   															<li data-v-490bba84="" data-value="2" class="tag">
+   																北京
+   															</li>
+   															<li data-v-490bba84="" data-value="23" class="tag">
+   																重庆
+   															</li>
+   															<li data-v-490bba84="" data-value="14" class="tag">
+   																福建
+   															</li>
+   															<li data-v-490bba84="" data-value="20" class="tag">
+   																广东
+   															</li>
+   															<li data-v-490bba84="" data-value="21" class="tag">
+   																广西
+   															</li>
+   															<li data-v-490bba84="" data-value="25" class="tag">
+   																贵州
+   															</li>
+   															<li data-v-490bba84="" data-value="29" class="tag">
+   																甘肃
+   															</li>
+   															<li data-v-490bba84="" data-value="9" class="tag">
+   																黑龙江
+   															</li>
+   															<li data-v-490bba84="" data-value="17" class="tag">
+   																河南
+   															</li>
+   															<li data-v-490bba84="" data-value="18" class="tag">
+   																湖北
+   															</li>
+   															<li data-v-490bba84="" data-value="19" class="tag">
+   																湖南
+   															</li>
+   															<li data-v-490bba84="" data-value="22" class="tag">
+   																海南
+   															</li>
+   															<li data-v-490bba84="" data-value="4" class="tag">
+   																河北
+   															</li>
+   															<li data-v-490bba84="" data-value="8" class="tag">
+   																吉林
+   															</li>
+   															<li data-v-490bba84="" data-value="11" class="tag">
+   																江苏
+   															</li>
+   															<li data-v-490bba84="" data-value="15" class="tag">
+   																江西
+   															</li>
+   															<li data-v-490bba84="" data-value="7" class="tag">
+   																辽宁
+   															</li>
+   															<li data-v-490bba84="" data-value="3" class="tag">
+   																天津
+   															</li>
+   															<li data-v-490bba84="" data-value="6" class="tag">
+   																内蒙
+   															</li>
+   															<li data-v-490bba84="" data-value="31" class="tag">
+   																宁夏
+   															</li>
+   															<li data-v-490bba84="" data-value="30" class="tag">
+   																青海
+   															</li>
+   															<li data-v-490bba84="" data-value="5" class="tag">
+   																山西
+   															</li>
+   															<li data-v-490bba84="" data-value="10" class="tag">
+   																上海
+   															</li>
+   															<li data-v-490bba84="" data-value="16" class="tag">
+   																山东
+   															</li>
+   															<li data-v-490bba84="" data-value="24" class="tag">
+   																四川
+   															</li>
+   															<li data-v-490bba84="" data-value="28" class="tag">
+   																陕西
+   															</li>
+   															<li data-v-490bba84="" data-value="27" class="tag">
+   																西藏
+   															</li>
+   															<li data-v-490bba84="" data-value="32" class="tag">
+   																新疆
+   															</li>
+   															<li data-v-490bba84="" data-value="26" class="tag">
+   																云南
+   															</li>
+   															<li data-v-490bba84="" data-value="12" class="tag">
+   																浙江
+   															</li>
+   														</ul>
+   													</dd>
+   												</div>
+   											</dl>
+   										</div>
+   										<!---->
+   									</div>
+   								</div>
+   							</div>
+   						</li>
+   						<li data-v-6b61e7ca="">
+   							<span class="selectTit" data-v-6b61e7ca="">学校类型 <i data-v-6b61e7ca=""></i>
+   							</span>
+   							<div class="selectLi" data-v-6b61e7ca="">
+   								<div class="secTab" data-v-6b61e7ca="">
+   									<div data-v-490bba84="" data-v-730c330a="" data-v-6b61e7ca="">
+   										<div data-v-490bba84="" class="subnav-box container">
+   											<dl data-v-490bba84="" class="clear">
+   												<div data-v-490bba84="">
+   													<dt data-v-490bba84="">院校类型</dt>
+   													<dd data-v-490bba84="">
+   														<ul data-v-490bba84="" type="radio" class="clear">
+   															<li data-v-490bba84="" data-value="" class="tag active">
+   																不限
+   															</li>
+   															<li data-v-490bba84="" data-value="1" class="tag">
+   																工科
+   															</li>
+   															<li data-v-490bba84="" data-value="2" class="tag">
+   																语言
+   															</li>
+   															<li data-v-490bba84="" data-value="3" class="tag">
+   																综合
+   															</li>
+   															<li data-v-490bba84="" data-value="4" class="tag">
+   																医药
+   															</li>
+   															<li data-v-490bba84="" data-value="5" class="tag">
+   																体育
+   															</li>
+   															<li data-v-490bba84="" data-value="6" class="tag">
+   																财经
+   															</li>
+   															<li data-v-490bba84="" data-value="7" class="tag">
+   																艺术
+   															</li>
+   															<li data-v-490bba84="" data-value="8" class="tag">
+   																民族
+   															</li>
+   															<li data-v-490bba84="" data-value="9" class="tag">
+   																师范
+   															</li>
+   															<li data-v-490bba84="" data-value="10" class="tag">
+   																林业
+   															</li>
+   															<li data-v-490bba84="" data-value="11" class="tag">
+   																农业
+   															</li>
+   															<li data-v-490bba84="" data-value="12" class="tag">
+   																政法
+   															</li>
+   															<li data-v-490bba84="" data-value="13" class="tag">
+   																军事
+   															</li>
+   														</ul>
+   													</dd>
+   												</div>
+   											</dl>
+   										</div>
+   										<!---->
+   									</div>
+   								</div>
+   							</div>
+   						</li>
+   						<li data-v-6b61e7ca="">
+   							<span class="selectTit" data-v-6b61e7ca="">院校特征 <i data-v-6b61e7ca=""></i>
+   							</span>
+   							<div class="selectLi" data-v-6b61e7ca="">
+   								<div class="secTab" data-v-6b61e7ca="">
+   									<div data-v-3c39bc99="" data-v-6b61e7ca="">
+   										<div data-v-3c39bc99="" class="subnav-box container">
+   											<dl data-v-3c39bc99="" class="clear">
+   												<div data-v-3c39bc99="">
+   													<dt data-v-3c39bc99="">院校特征</dt>
+   													<dd data-v-3c39bc99="">
+   														<ul data-v-3c39bc99="" type="radio" class="clear">
+   															<li data-v-3c39bc99="" class="active">
+   																不限
+   															</li>
+   															<li data-v-3c39bc99="" class="">
+   																985
+   															</li>
+   															<li data-v-3c39bc99="" class="">
+   																211
+   															</li>
+   															<li data-v-3c39bc99="" class="">
+   																双一流
+   															</li>
+   															<li data-v-3c39bc99="" class="">
+   																研究生推免资格
+   															</li>
+   															<li data-v-3c39bc99="" class="">
+   																研究生院
+   															</li>
+   														</ul>
+   													</dd>
+   												</div>
+   											</dl>
+   										</div>
+   										<!---->
+   									</div>
+   								</div>
+   							</div>
+   						</li>
+   						<li data-v-6b61e7ca="">
+   							<span class="selectTit" data-v-6b61e7ca="">办学性质 <i data-v-6b61e7ca=""></i>
+   							</span>
+   							<div class="selectLi" data-v-6b61e7ca="">
+   								<div class="secTab" data-v-6b61e7ca="">
+   									<div data-v-467efb10="" data-v-a75ff408="" data-v-6b61e7ca="">
+   										<div data-v-467efb10="" class="subnav-box container">
+   											<dl data-v-467efb10="" class="clear">
+   												<div data-v-467efb10="">
+   													<dt data-v-467efb10="">办学性质</dt>
+   													<dd data-v-467efb10="">
+   														<ul data-v-467efb10="" type="radio" class="clear">
+   															<li data-v-467efb10="" data-value="" class="tag active">
+   																不限
+   															</li>
+   															<li data-v-467efb10="" data-value="GONG_BAN" class="tag">
+   																公办
+   															</li>
+   															<li data-v-467efb10="" data-value="MIN_BAN" class="tag">
+   																民办
+   															</li>
+   															<li data-v-467efb10="" data-value="ZHONG_WAI" class="tag">
+   																中外合作
+   															</li>
+   														</ul>
+   													</dd>
+   												</div>
+   											</dl>
+   										</div>
+   										<!---->
+   									</div>
+   								</div>
+   							</div>
+   						</li>
+   						<li class="secher secher2" data-v-6b61e7ca="">
+   							<form data-v-6b61e7ca="">
+   								<input type="text" placeholder="输入院校或专业名称" maxlength="16" data-v-6b61e7ca="">
+   								<button type="button" data-v-6b61e7ca=""></button>
+   							</form>
+   						</li>
+   					</ul>
+   					<div class="selectPici canSelect" data-v-6b61e7ca="">
+   						<div data-v-467efb10="" data-v-7502e0ec="" data-v-6b61e7ca="">
+   							<div data-v-467efb10="" class="subnav-box container">
+   								<dl data-v-467efb10="" class="clear">
+   									<div data-v-467efb10="">
+   										<dt data-v-467efb10="">填报批次</dt>
+   										<dd data-v-467efb10="">
+   											<ul data-v-467efb10="" type="radio" class="clear">
+   												<li data-v-467efb10="" data-value="1" class="tag">
+   													本科批-439分
+   												</li>
+   												<li data-v-467efb10="" data-value="11" class="tag active">
+   													专科批-200分
+   												</li>
+   											</ul>
+   										</dd>
+   									</div>
+   								</dl>
+   							</div>
+   							<!---->
+   						</div>
+   					</div>
+   					<div class="resultsList2021" data-v-6b61e7ca="">
+   						<ul data-v-6b61e7ca="">
+   							<li data-v-6b61e7ca="">
+   								<span data-v-6b61e7ca="" class="probability2021 chong"></span>
+   								<span data-v-6b61e7ca="" class="collection2021">
+   									<span data-v-5a69054b="" data-v-6b61e7ca="" class="">未收藏</span>
+   								</span>
+   								<div data-v-6b61e7ca="" class="centerScMoj">
+   									<div data-v-6b61e7ca="" class="firstLine">
+   										<h3 data-v-6b61e7ca="">巴中职业技术学院 - [0058]</h3>
+   										<p data-v-6b61e7ca="">
+   											<span data-v-6b61e7ca="">综合</span>
+   											<span data-v-6b61e7ca="">/四川</span>
+   											<!---->
+   											<!---->
+   										</p>
+   									</div>
+   									<div data-v-6b61e7ca="" class="secLine">
+   										<p data-v-6b61e7ca="">临床医学</p>
+   									</div>
+   									<div data-v-6b61e7ca="" class="thirdLine">
+   										<p data-v-6b61e7ca="">
+   											<span data-v-6b61e7ca="">专业代码：</span>
+   											<i data-v-6b61e7ca="">14</i>
+   										</p>
+   										<p data-v-6b61e7ca="">
+   											<span data-v-6b61e7ca="">2023年招生计划：</span>
+   											<i data-v-6b61e7ca="">11人</i>
+   											<i data-v-6b61e7ca="">
+   												<em data-v-6b61e7ca="" class="lineobli">/</em>3年
+   											</i>
+   											<i data-v-6b61e7ca="">
+   												<em data-v-6b61e7ca="" class="lineobli">/</em>￥12000
+   											</i>
+   											<i data-v-6b61e7ca="">
+   												<em data-v-6b61e7ca="" class="lineobli">/</em>不限
+   											</i>
+   										</p>
+   									</div>
+   									<div data-v-6b61e7ca="" class="fourLine flex items-center">
+   										<p data-v-6b61e7ca="">
+   											<span data-v-6b61e7ca="">录取年份：</span>
+   											<i data-v-6b61e7ca="">2022</i>
+   										</p>
+   										<p data-v-6b61e7ca="">
+   											<span data-v-6b61e7ca="">录取科目：</span>
+   											<i data-v-6b61e7ca="">物理</i>
+   										</p>
+   										<p data-v-6b61e7ca="">
+   											<span data-v-6b61e7ca="">录取批次：</span>
+   											<i data-v-6b61e7ca="">专科批</i>
+   										</p>
+   										<p data-v-6b61e7ca="">
+   											<span data-v-6b61e7ca="">录取人数：</span>
+   											<i data-v-6b61e7ca="">7</i>
+   										</p>
+   										<p data-v-6b61e7ca="">
+   											<span data-v-6b61e7ca="">最低分：</span>
+   											<i data-v-6b61e7ca="">339分</i>
+   										</p>
+   										<p data-v-6b61e7ca="">
+   											<span data-v-6b61e7ca="">最低分位次：</span>
+   											<i data-v-6b61e7ca="">262073位</i>
+   										</p>
+   										<!---->
+   										<!---->
+   										<p data-v-6b61e7ca="">
+   											<span data-v-6b61e7ca="">
+   												<span class="el-popover__reference-wrapper">
+   													<button data-v-6b61e7ca="" type="button" class="el-button el-button--text el-popover__reference" aria-describedby="el-popover-8127" tabindex="0">
+   														<!---->
+   														<!---->
+   														<span>
+   															<svg data-v-6b61e7ca="" t="1678761363060" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="3823" width="16" height="16" class="icon">
+   																<path data-v-6b61e7ca="" d="M512 938.666667c235.648 0 426.666667-191.018667 426.666667-426.666667S747.648 85.333333 512 85.333333 85.333333 276.352 85.333333 512s191.018667 426.666667 426.666667 426.666667z m0 85.333333C229.248 1024 0 794.752 0 512S229.248 0 512 0s512 229.248 512 512-229.248 512-512 512z" fill="#0079FA" p-id="3824"></path>
+   																<path data-v-6b61e7ca="" d="M520.96 232.106667c-62.293333 0-111.786667 17.92-147.626667 54.613333-36.693333 35.84-54.613333 84.48-54.613333 146.773333h90.453333c0-37.546667 7.68-67.413333 23.04-87.893333 17.066667-23.893333 45.226667-35.84 83.626667-35.84 30.72 0 54.613333 8.533333 71.68 25.6 16.213333 17.066667 24.746667 40.106667 24.746667 69.973333 0 22.186667-7.68 42.666667-23.04 62.293334l-14.506667 16.213333c-52.906667 46.933333-85.333333 81.92-97.28 105.813333-11.093333 22.186667-16.213333 49.493333-16.213333 81.066667v14.506667h91.306666v-14.506667c0-21.333333 4.266667-40.106667 13.653334-57.173333 7.68-15.36 19.626667-29.866667 34.986666-43.52 40.96-34.986667 64.853333-57.173333 72.533334-66.56 20.48-27.306667 31.573333-62.293333 31.573333-104.106667 0-51.2-17.066667-92.16-50.346667-122.026667-34.133333-30.72-78.506667-45.226667-133.973333-45.226666z m-14.506667 499.2c-17.92 0-32.426667 5.12-43.52 17.066666-12.8 11.093333-18.773333 25.6-18.773333 43.52 0 17.066667 5.973333 31.573333 18.773333 43.52 11.093333 11.946667 25.6 17.92 43.52 17.92 17.066667 0 32.426667-5.973333 45.226667-17.066666 11.946667-11.946667 17.92-26.453333 17.92-44.373334 0-17.92-5.973333-32.426667-17.92-43.52-11.946667-11.946667-27.306667-17.066667-45.226667-17.066666z" fill="#0079FA" p-id="3825"></path>
+   															</svg>
+   														</span>
+   													</button>
+   												</span>
+   											</span>
+   										</p>
+   									</div>
+   								</div>
+   							</li>
+   							<li data-v-6b61e7ca="">
+   								<span data-v-6b61e7ca="" class="probability2021 chong"></span>
+   								<span data-v-6b61e7ca="" class="collection2021">
+   									<span data-v-5a69054b="" data-v-6b61e7ca="" class="">未收藏</span>
+   								</span>
+   								<div data-v-6b61e7ca="" class="centerScMoj">
+   									<div data-v-6b61e7ca="" class="firstLine">
+   										<h3 data-v-6b61e7ca="">北京汇佳职业学院 - [0116]</h3>
+   										<p data-v-6b61e7ca="">
+   											<span data-v-6b61e7ca="">语言</span>
+   											<span data-v-6b61e7ca="">/北京</span>
+   											<!---->
+   											<!---->
+   										</p>
+   									</div>
+   									<div data-v-6b61e7ca="" class="secLine">
+   										<p data-v-6b61e7ca="">物联网应用技术</p>
+   									</div>
+   									<div data-v-6b61e7ca="" class="thirdLine">
+   										<p data-v-6b61e7ca="">
+   											<span data-v-6b61e7ca="">专业代码：</span>
+   											<i data-v-6b61e7ca="">16</i>
+   										</p>
+   										<p data-v-6b61e7ca="">
+   											<span data-v-6b61e7ca="">2023年招生计划：</span>
+   											<i data-v-6b61e7ca="">2人</i>
+   											<i data-v-6b61e7ca="">
+   												<em data-v-6b61e7ca="" class="lineobli">/</em>3年
+   											</i>
+   											<i data-v-6b61e7ca="">
+   												<em data-v-6b61e7ca="" class="lineobli">/</em>￥19000
+   											</i>
+   											<i data-v-6b61e7ca="">
+   												<em data-v-6b61e7ca="" class="lineobli">/</em>不限
+   											</i>
+   										</p>
+   									</div>
+   									<div data-v-6b61e7ca="" class="fourLine flex items-center">
+   										<p data-v-6b61e7ca="">
+   											<span data-v-6b61e7ca="">录取年份：</span>
+   											<i data-v-6b61e7ca="">2022</i>
+   										</p>
+   										<p data-v-6b61e7ca="">
+   											<span data-v-6b61e7ca="">录取科目：</span>
+   											<i data-v-6b61e7ca="">物理</i>
+   										</p>
+   										<p data-v-6b61e7ca="">
+   											<span data-v-6b61e7ca="">录取批次：</span>
+   											<i data-v-6b61e7ca="">专科批</i>
+   										</p>
+   										<p data-v-6b61e7ca="">
+   											<span data-v-6b61e7ca="">录取人数：</span>
+   											<i data-v-6b61e7ca="">4</i>
+   										</p>
+   										<p data-v-6b61e7ca="">
+   											<span data-v-6b61e7ca="">最低分：</span>
+   											<i data-v-6b61e7ca="">339分</i>
+   										</p>
+   										<p data-v-6b61e7ca="">
+   											<span data-v-6b61e7ca="">最低分位次：</span>
+   											<i data-v-6b61e7ca="">262073位</i>
+   										</p>
+   										<!---->
+   										<!---->
+   										<p data-v-6b61e7ca="">
+   											<span data-v-6b61e7ca="">
+   												<div role="tooltip" id="el-popover-8634" aria-hidden="true" class="el-popover el-popper el-popover--plain" tabindex="0" style="width: 200px; display: none;">
+   													<!---->物联网应用技术</div>
+   												<span class="el-popover__reference-wrapper">
+   													<button data-v-6b61e7ca="" type="button" class="el-button el-button--text el-popover__reference" aria-describedby="el-popover-8634" tabindex="0">
+   														<!---->
+   														<!---->
+   														<span>
+   															<svg data-v-6b61e7ca="" t="1678761363060" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="3823" width="16" height="16" class="icon">
+   																<path data-v-6b61e7ca="" d="M512 938.666667c235.648 0 426.666667-191.018667 426.666667-426.666667S747.648 85.333333 512 85.333333 85.333333 276.352 85.333333 512s191.018667 426.666667 426.666667 426.666667z m0 85.333333C229.248 1024 0 794.752 0 512S229.248 0 512 0s512 229.248 512 512-229.248 512-512 512z" fill="#0079FA" p-id="3824"></path>
+   																<path data-v-6b61e7ca="" d="M520.96 232.106667c-62.293333 0-111.786667 17.92-147.626667 54.613333-36.693333 35.84-54.613333 84.48-54.613333 146.773333h90.453333c0-37.546667 7.68-67.413333 23.04-87.893333 17.066667-23.893333 45.226667-35.84 83.626667-35.84 30.72 0 54.613333 8.533333 71.68 25.6 16.213333 17.066667 24.746667 40.106667 24.746667 69.973333 0 22.186667-7.68 42.666667-23.04 62.293334l-14.506667 16.213333c-52.906667 46.933333-85.333333 81.92-97.28 105.813333-11.093333 22.186667-16.213333 49.493333-16.213333 81.066667v14.506667h91.306666v-14.506667c0-21.333333 4.266667-40.106667 13.653334-57.173333 7.68-15.36 19.626667-29.866667 34.986666-43.52 40.96-34.986667 64.853333-57.173333 72.533334-66.56 20.48-27.306667 31.573333-62.293333 31.573333-104.106667 0-51.2-17.066667-92.16-50.346667-122.026667-34.133333-30.72-78.506667-45.226667-133.973333-45.226666z m-14.506667 499.2c-17.92 0-32.426667 5.12-43.52 17.066666-12.8 11.093333-18.773333 25.6-18.773333 43.52 0 17.066667 5.973333 31.573333 18.773333 43.52 11.093333 11.946667 25.6 17.92 43.52 17.92 17.066667 0 32.426667-5.973333 45.226667-17.066666 11.946667-11.946667 17.92-26.453333 17.92-44.373334 0-17.92-5.973333-32.426667-17.92-43.52-11.946667-11.946667-27.306667-17.066667-45.226667-17.066666z" fill="#0079FA" p-id="3825"></path>
+   															</svg>
+   														</span>
+   													</button>
+   												</span>
+   											</span>
+   										</p>
+   									</div>
+   									<div data-v-6b61e7ca="" class="fourLine flex items-center">
+   										<p data-v-6b61e7ca="">
+   											<span data-v-6b61e7ca="">录取年份：</span>
+   											<i data-v-6b61e7ca="">2021</i>
+   										</p>
+   										<p data-v-6b61e7ca="">
+   											<span data-v-6b61e7ca="">录取科目：</span>
+   											<i data-v-6b61e7ca="">物理</i>
+   										</p>
+   										<p data-v-6b61e7ca="">
+   											<span data-v-6b61e7ca="">录取批次：</span>
+   											<i data-v-6b61e7ca="">专科批</i>
+   										</p>
+   										<p data-v-6b61e7ca="">
+   											<span data-v-6b61e7ca="">录取人数：</span>
+   											<i data-v-6b61e7ca="">4</i>
+   										</p>
+   										<p data-v-6b61e7ca="">
+   											<span data-v-6b61e7ca="">最低分：</span>
+   											<i data-v-6b61e7ca="">261分</i>
+   										</p>
+   										<p data-v-6b61e7ca="">
+   											<span data-v-6b61e7ca="">最低分位次：</span>
+   											<i data-v-6b61e7ca="">212956位</i>
+   										</p>
+   										<!---->
+   										<!---->
+   										<p data-v-6b61e7ca="">
+   											<span data-v-6b61e7ca="">
+   												<div role="tooltip" id="el-popover-8134" aria-hidden="true" class="el-popover el-popper el-popover--plain" tabindex="0" style="width: 200px; display: none;">
+   													<!---->物联网应用技术(智能控制)</div>
+   												<span class="el-popover__reference-wrapper">
+   													<button data-v-6b61e7ca="" type="button" class="el-button el-button--text el-popover__reference" aria-describedby="el-popover-8134" tabindex="0">
+   														<!---->
+   														<!---->
+   														<span>
+   															<svg data-v-6b61e7ca="" t="1678761363060" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="3823" width="16" height="16" class="icon">
+   																<path data-v-6b61e7ca="" d="M512 938.666667c235.648 0 426.666667-191.018667 426.666667-426.666667S747.648 85.333333 512 85.333333 85.333333 276.352 85.333333 512s191.018667 426.666667 426.666667 426.666667z m0 85.333333C229.248 1024 0 794.752 0 512S229.248 0 512 0s512 229.248 512 512-229.248 512-512 512z" fill="#0079FA" p-id="3824"></path>
+   																<path data-v-6b61e7ca="" d="M520.96 232.106667c-62.293333 0-111.786667 17.92-147.626667 54.613333-36.693333 35.84-54.613333 84.48-54.613333 146.773333h90.453333c0-37.546667 7.68-67.413333 23.04-87.893333 17.066667-23.893333 45.226667-35.84 83.626667-35.84 30.72 0 54.613333 8.533333 71.68 25.6 16.213333 17.066667 24.746667 40.106667 24.746667 69.973333 0 22.186667-7.68 42.666667-23.04 62.293334l-14.506667 16.213333c-52.906667 46.933333-85.333333 81.92-97.28 105.813333-11.093333 22.186667-16.213333 49.493333-16.213333 81.066667v14.506667h91.306666v-14.506667c0-21.333333 4.266667-40.106667 13.653334-57.173333 7.68-15.36 19.626667-29.866667 34.986666-43.52 40.96-34.986667 64.853333-57.173333 72.533334-66.56 20.48-27.306667 31.573333-62.293333 31.573333-104.106667 0-51.2-17.066667-92.16-50.346667-122.026667-34.133333-30.72-78.506667-45.226667-133.973333-45.226666z m-14.506667 499.2c-17.92 0-32.426667 5.12-43.52 17.066666-12.8 11.093333-18.773333 25.6-18.773333 43.52 0 17.066667 5.973333 31.573333 18.773333 43.52 11.093333 11.946667 25.6 17.92 43.52 17.92 17.066667 0 32.426667-5.973333 45.226667-17.066666 11.946667-11.946667 17.92-26.453333 17.92-44.373334 0-17.92-5.973333-32.426667-17.92-43.52-11.946667-11.946667-27.306667-17.066667-45.226667-17.066666z" fill="#0079FA" p-id="3825"></path>
+   															</svg>
+   														</span>
+   													</button>
+   												</span>
+   											</span>
+   										</p>
+   									</div>
+   								</div>
+   							</li>
+   							<li data-v-6b61e7ca="">
+   								<span data-v-6b61e7ca="" class="probability2021 chong"></span>
+   								<span data-v-6b61e7ca="" class="collection2021">
+   									<span data-v-5a69054b="" data-v-6b61e7ca="" class="">未收藏</span>
+   								</span>
+   								<div data-v-6b61e7ca="" class="centerScMoj">
+   									<div data-v-6b61e7ca="" class="firstLine">
+   										<h3 data-v-6b61e7ca="">曹妃甸职业技术学院 - [0200]</h3>
+   										<p data-v-6b61e7ca="">
+   											<span data-v-6b61e7ca="">综合</span>
+   											<span data-v-6b61e7ca="">/河北</span>
+   											<!---->
+   											<!---->
+   										</p>
+   									</div>
+   									<div data-v-6b61e7ca="" class="secLine">
+   										<p data-v-6b61e7ca="">高速铁路客运服务(校企合作订单班，详询院校)</p>
+   									</div>
+   									<div data-v-6b61e7ca="" class="thirdLine">
+   										<p data-v-6b61e7ca="">
+   											<span data-v-6b61e7ca="">专业代码：</span>
+   											<i data-v-6b61e7ca="">69</i>
+   										</p>
+   										<p data-v-6b61e7ca="">
+   											<span data-v-6b61e7ca="">2023年招生计划：</span>
+   											<i data-v-6b61e7ca="">25人</i>
+   											<i data-v-6b61e7ca="">
+   												<em data-v-6b61e7ca="" class="lineobli">/</em>3年
+   											</i>
+   											<i data-v-6b61e7ca="">
+   												<em data-v-6b61e7ca="" class="lineobli">/</em>￥16800
+   											</i>
+   											<i data-v-6b61e7ca="">
+   												<em data-v-6b61e7ca="" class="lineobli">/</em>不限
+   											</i>
+   										</p>
+   									</div>
+   									<div data-v-6b61e7ca="" class="fourLine flex items-center">
+   										<p data-v-6b61e7ca="">
+   											<span data-v-6b61e7ca="">录取年份：</span>
+   											<i data-v-6b61e7ca="">2022</i>
+   										</p>
+   										<p data-v-6b61e7ca="">
+   											<span data-v-6b61e7ca="">录取科目：</span>
+   											<i data-v-6b61e7ca="">物理</i>
+   										</p>
+   										<p data-v-6b61e7ca="">
+   											<span data-v-6b61e7ca="">录取批次：</span>
+   											<i data-v-6b61e7ca="">专科批</i>
+   										</p>
+   										<p data-v-6b61e7ca="">
+   											<span data-v-6b61e7ca="">录取人数：</span>
+   											<i data-v-6b61e7ca="">15</i>
+   										</p>
+   										<p data-v-6b61e7ca="">
+   											<span data-v-6b61e7ca="">最低分：</span>
+   											<i data-v-6b61e7ca="">339分</i>
+   										</p>
+   										<p data-v-6b61e7ca="">
+   											<span data-v-6b61e7ca="">最低分位次：</span>
+   											<i data-v-6b61e7ca="">262073位</i>
+   										</p>
+   										<!---->
+   										<!---->
+   										<p data-v-6b61e7ca="">
+   											<span data-v-6b61e7ca="">
+   												<div role="tooltip" id="el-popover-4178" aria-hidden="true" class="el-popover el-popper el-popover--plain" tabindex="0" style="width: 200px; display: none;">
+   													<!---->高速铁路客运服务(校企合作订单班，详询院校)</div>
+   												<span class="el-popover__reference-wrapper">
+   													<button data-v-6b61e7ca="" type="button" class="el-button el-button--text el-popover__reference" aria-describedby="el-popover-4178" tabindex="0">
+   														<!---->
+   														<!---->
+   														<span>
+   															<svg data-v-6b61e7ca="" t="1678761363060" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="3823" width="16" height="16" class="icon">
+   																<path data-v-6b61e7ca="" d="M512 938.666667c235.648 0 426.666667-191.018667 426.666667-426.666667S747.648 85.333333 512 85.333333 85.333333 276.352 85.333333 512s191.018667 426.666667 426.666667 426.666667z m0 85.333333C229.248 1024 0 794.752 0 512S229.248 0 512 0s512 229.248 512 512-229.248 512-512 512z" fill="#0079FA" p-id="3824"></path>
+   																<path data-v-6b61e7ca="" d="M520.96 232.106667c-62.293333 0-111.786667 17.92-147.626667 54.613333-36.693333 35.84-54.613333 84.48-54.613333 146.773333h90.453333c0-37.546667 7.68-67.413333 23.04-87.893333 17.066667-23.893333 45.226667-35.84 83.626667-35.84 30.72 0 54.613333 8.533333 71.68 25.6 16.213333 17.066667 24.746667 40.106667 24.746667 69.973333 0 22.186667-7.68 42.666667-23.04 62.293334l-14.506667 16.213333c-52.906667 46.933333-85.333333 81.92-97.28 105.813333-11.093333 22.186667-16.213333 49.493333-16.213333 81.066667v14.506667h91.306666v-14.506667c0-21.333333 4.266667-40.106667 13.653334-57.173333 7.68-15.36 19.626667-29.866667 34.986666-43.52 40.96-34.986667 64.853333-57.173333 72.533334-66.56 20.48-27.306667 31.573333-62.293333 31.573333-104.106667 0-51.2-17.066667-92.16-50.346667-122.026667-34.133333-30.72-78.506667-45.226667-133.973333-45.226666z m-14.506667 499.2c-17.92 0-32.426667 5.12-43.52 17.066666-12.8 11.093333-18.773333 25.6-18.773333 43.52 0 17.066667 5.973333 31.573333 18.773333 43.52 11.093333 11.946667 25.6 17.92 43.52 17.92 17.066667 0 32.426667-5.973333 45.226667-17.066666 11.946667-11.946667 17.92-26.453333 17.92-44.373334 0-17.92-5.973333-32.426667-17.92-43.52-11.946667-11.946667-27.306667-17.066667-45.226667-17.066666z" fill="#0079FA" p-id="3825"></path>
+   															</svg>
+   														</span>
+   													</button>
+   												</span>
+   											</span>
+   										</p>
+   									</div>
+   									<div data-v-6b61e7ca="" class="fourLine flex items-center">
+   										<p data-v-6b61e7ca="">
+   											<span data-v-6b61e7ca="">录取年份：</span>
+   											<i data-v-6b61e7ca="">2021</i>
+   										</p>
+   										<p data-v-6b61e7ca="">
+   											<span data-v-6b61e7ca="">录取科目：</span>
+   											<i data-v-6b61e7ca="">物理</i>
+   										</p>
+   										<p data-v-6b61e7ca="">
+   											<span data-v-6b61e7ca="">录取批次：</span>
+   											<i data-v-6b61e7ca="">专科批</i>
+   										</p>
+   										<p data-v-6b61e7ca="">
+   											<span data-v-6b61e7ca="">录取人数：</span>
+   											<i data-v-6b61e7ca="">1</i>
+   										</p>
+   										<p data-v-6b61e7ca="">
+   											<span data-v-6b61e7ca="">最低分：</span>
+   											<i data-v-6b61e7ca="">237分</i>
+   										</p>
+   										<p data-v-6b61e7ca="">
+   											<span data-v-6b61e7ca="">最低分位次：</span>
+   											<i data-v-6b61e7ca="">214513位</i>
+   										</p>
+   										<!---->
+   										<!---->
+   										<p data-v-6b61e7ca="">
+   											<span data-v-6b61e7ca="">
+   												<div role="tooltip" id="el-popover-3707" aria-hidden="true" class="el-popover el-popper el-popover--plain" tabindex="0" style="width: 200px; display: none;">
+   													<!---->高速铁路客运服务</div>
+   												<span class="el-popover__reference-wrapper">
+   													<button data-v-6b61e7ca="" type="button" class="el-button el-button--text el-popover__reference" aria-describedby="el-popover-3707" tabindex="0">
+   														<!---->
+   														<!---->
+   														<span>
+   															<svg data-v-6b61e7ca="" t="1678761363060" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="3823" width="16" height="16" class="icon">
+   																<path data-v-6b61e7ca="" d="M512 938.666667c235.648 0 426.666667-191.018667 426.666667-426.666667S747.648 85.333333 512 85.333333 85.333333 276.352 85.333333 512s191.018667 426.666667 426.666667 426.666667z m0 85.333333C229.248 1024 0 794.752 0 512S229.248 0 512 0s512 229.248 512 512-229.248 512-512 512z" fill="#0079FA" p-id="3824"></path>
+   																<path data-v-6b61e7ca="" d="M520.96 232.106667c-62.293333 0-111.786667 17.92-147.626667 54.613333-36.693333 35.84-54.613333 84.48-54.613333 146.773333h90.453333c0-37.546667 7.68-67.413333 23.04-87.893333 17.066667-23.893333 45.226667-35.84 83.626667-35.84 30.72 0 54.613333 8.533333 71.68 25.6 16.213333 17.066667 24.746667 40.106667 24.746667 69.973333 0 22.186667-7.68 42.666667-23.04 62.293334l-14.506667 16.213333c-52.906667 46.933333-85.333333 81.92-97.28 105.813333-11.093333 22.186667-16.213333 49.493333-16.213333 81.066667v14.506667h91.306666v-14.506667c0-21.333333 4.266667-40.106667 13.653334-57.173333 7.68-15.36 19.626667-29.866667 34.986666-43.52 40.96-34.986667 64.853333-57.173333 72.533334-66.56 20.48-27.306667 31.573333-62.293333 31.573333-104.106667 0-51.2-17.066667-92.16-50.346667-122.026667-34.133333-30.72-78.506667-45.226667-133.973333-45.226666z m-14.506667 499.2c-17.92 0-32.426667 5.12-43.52 17.066666-12.8 11.093333-18.773333 25.6-18.773333 43.52 0 17.066667 5.973333 31.573333 18.773333 43.52 11.093333 11.946667 25.6 17.92 43.52 17.92 17.066667 0 32.426667-5.973333 45.226667-17.066666 11.946667-11.946667 17.92-26.453333 17.92-44.373334 0-17.92-5.973333-32.426667-17.92-43.52-11.946667-11.946667-27.306667-17.066667-45.226667-17.066666z" fill="#0079FA" p-id="3825"></path>
+   															</svg>
+   														</span>
+   													</button>
+   												</span>
+   											</span>
+   										</p>
+   									</div>
+   									<div data-v-6b61e7ca="" class="fourLine flex items-center">
+   										<p data-v-6b61e7ca="">
+   											<span data-v-6b61e7ca="">录取年份：</span>
+   											<i data-v-6b61e7ca="">2021</i>
+   										</p>
+   										<p data-v-6b61e7ca="">
+   											<span data-v-6b61e7ca="">录取科目：</span>
+   											<i data-v-6b61e7ca="">物理</i>
+   										</p>
+   										<p data-v-6b61e7ca="">
+   											<span data-v-6b61e7ca="">录取批次：</span>
+   											<i data-v-6b61e7ca="">专科批</i>
+   										</p>
+   										<p data-v-6b61e7ca="">
+   											<span data-v-6b61e7ca="">录取人数：</span>
+   											<i data-v-6b61e7ca="">1</i>
+   										</p>
+   										<p data-v-6b61e7ca="">
+   											<span data-v-6b61e7ca="">最低分：</span>
+   											<i data-v-6b61e7ca="">233分</i>
+   										</p>
+   										<p data-v-6b61e7ca="">
+   											<span data-v-6b61e7ca="">最低分位次：</span>
+   											<i data-v-6b61e7ca="">214716位</i>
+   										</p>
+   										<!---->
+   										<!---->
+   										<p data-v-6b61e7ca="">
+   											<span data-v-6b61e7ca="">
+   												<div role="tooltip" id="el-popover-296" aria-hidden="true" class="el-popover el-popper el-popover--plain" tabindex="0" style="width: 200px; display: none;">
+   													<!---->高速铁路客运服务</div>
+   												<span class="el-popover__reference-wrapper">
+   													<button data-v-6b61e7ca="" type="button" class="el-button el-button--text el-popover__reference" aria-describedby="el-popover-296" tabindex="0">
+   														<!---->
+   														<!---->
+   														<span>
+   															<svg data-v-6b61e7ca="" t="1678761363060" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="3823" width="16" height="16" class="icon">
+   																<path data-v-6b61e7ca="" d="M512 938.666667c235.648 0 426.666667-191.018667 426.666667-426.666667S747.648 85.333333 512 85.333333 85.333333 276.352 85.333333 512s191.018667 426.666667 426.666667 426.666667z m0 85.333333C229.248 1024 0 794.752 0 512S229.248 0 512 0s512 229.248 512 512-229.248 512-512 512z" fill="#0079FA" p-id="3824"></path>
+   																<path data-v-6b61e7ca="" d="M520.96 232.106667c-62.293333 0-111.786667 17.92-147.626667 54.613333-36.693333 35.84-54.613333 84.48-54.613333 146.773333h90.453333c0-37.546667 7.68-67.413333 23.04-87.893333 17.066667-23.893333 45.226667-35.84 83.626667-35.84 30.72 0 54.613333 8.533333 71.68 25.6 16.213333 17.066667 24.746667 40.106667 24.746667 69.973333 0 22.186667-7.68 42.666667-23.04 62.293334l-14.506667 16.213333c-52.906667 46.933333-85.333333 81.92-97.28 105.813333-11.093333 22.186667-16.213333 49.493333-16.213333 81.066667v14.506667h91.306666v-14.506667c0-21.333333 4.266667-40.106667 13.653334-57.173333 7.68-15.36 19.626667-29.866667 34.986666-43.52 40.96-34.986667 64.853333-57.173333 72.533334-66.56 20.48-27.306667 31.573333-62.293333 31.573333-104.106667 0-51.2-17.066667-92.16-50.346667-122.026667-34.133333-30.72-78.506667-45.226667-133.973333-45.226666z m-14.506667 499.2c-17.92 0-32.426667 5.12-43.52 17.066666-12.8 11.093333-18.773333 25.6-18.773333 43.52 0 17.066667 5.973333 31.573333 18.773333 43.52 11.093333 11.946667 25.6 17.92 43.52 17.92 17.066667 0 32.426667-5.973333 45.226667-17.066666 11.946667-11.946667 17.92-26.453333 17.92-44.373334 0-17.92-5.973333-32.426667-17.92-43.52-11.946667-11.946667-27.306667-17.066667-45.226667-17.066666z" fill="#0079FA" p-id="3825"></path>
+   															</svg>
+   														</span>
+   													</button>
+   												</span>
+   											</span>
+   										</p>
+   									</div>
+   								</div>
+   							</li>
+   						</ul>
+   						
+   						<!---->
+   					</div>
+   				</div>
+   			</div>
+   		</div>
+   	</div>
+   </div>
+    <!----> 
+    <!----> 
+    <div class="footer clearfix">
+     <div class="container links">
+      <div class="right-cols">
+       <div class="col flex flex-col items-center">
+        <img src="images/weixinkefu.e361ef75_d258e6e11fd84819841ab40d1572d2cf.png"> 
+        <p><a href="#">微信官方客服</a></p>
+       </div> 
+       <div class="col flex flex-col items-center">
+        <img src="images/app_qrcode_b4434fad317c4c8fbdf528c946ee8d36.jpg"> 
+        <p><a href="#">下载手机APP</a></p>
+       </div>
+      </div> 
+      <div class="left-cols">
+       <div class="col">
+        <ul>
+         <li>新手帮助</li> 
+         <li><a href="/news/detail/u/faq">常见问题</a></li> 
+         <li><a href="/newbieGuide">新手指南</a></li> 
+        <!-- <li><a href="/vip">开通VIP</a></li> -->
+        </ul>
+       </div> 
+       <div class="col">
+        <ul>
+         <li>关于我们</li> 
+         <li><a href="/news/detail/u/about">公司介绍</a></li> 
+         <li><a href="/news/detail/u/contact">联系我们</a></li>
+        </ul>
+       </div> 
+       <div class="col">
+        <ul>
+         <li>官方声明</li> 
+         <li><a href="/news/detail/u/service">服务条款</a></li> 
+         <li><a href="/news/detail/u/disclaimer">免责声明</a></li>
+        </ul>
+       </div> 
+       <div class="col" style=" width: 190px;">
+        <ul>
+         <li>联系我们</li> 
+         <li>客服：400-0680-068</li> 
+         <li>客服微信：gaokaouxuan120</li>
+        </ul>
+       </div>
+      </div>
+     </div> 
+     <div class="copyright">
+      <div class="indexwidth100">
+       <span class="logo"></span> 
+       <div class="copy2">
+        <p>© 2023 简志愿  云启智慧科技有限公司</p> 
+        <a target="_blank" href="https://beian.miit.gov.cn/">鄂ICP备20010258号-2</a>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div> 
+ 
+  <script type="text/javascript" src="js/runtime.f4634494_c7e3b7c7a5e942f28319583e284b9290.js"></script>
+  <script type="text/javascript" src="js/common.637fc29a_fc57cd0883694e87b28ac92233b14a39.js"></script>
+  <script src="js/jquery-1.8.3.min.js"></script>
+  <script type="text/javascript" src="js/index.js"></script>  
+  
+ </body>
+</html>

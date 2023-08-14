@@ -1,0 +1,355 @@
+[ 2023-07-30T02:38:26+08:00 ] 10.0.8.4 175.24.212.162 GET /
+[ log ] www.lingdayun.com/ [运行时间：0.016225s][吞吐率：61.63req/s] [内存消耗：1,714.50kb] [文件加载：44]
+[ info ] [ LANG ] /www/wwwroot/yanyanyang/www.lingdayun.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'host' => 'www.lingdayun.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/yanyanyang/www.lingdayun.com/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/yanyanyang/www.lingdayun.com/public/../application/index/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-30T04:06:04+08:00 ] 10.0.8.4 218.11.13.12 GET /
+[ log ] www.lingdayun.com/ [运行时间：0.017443s][吞吐率：57.33req/s] [内存消耗：1,709.45kb] [文件加载：44]
+[ info ] [ LANG ] /www/wwwroot/yanyanyang/www.lingdayun.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+  'host' => 'www.lingdayun.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/yanyanyang/www.lingdayun.com/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/yanyanyang/www.lingdayun.com/public/../application/index/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-30T04:38:57+08:00 ] 10.0.8.4 51.222.253.12 GET /
+[ log ] www.lingdayun.com/ [运行时间：0.016235s][吞吐率：61.60req/s] [内存消耗：1,709.58kb] [文件加载：44]
+[ info ] [ LANG ] /www/wwwroot/yanyanyang/www.lingdayun.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'deflate, gzip, br',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)',
+  'host' => 'www.lingdayun.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/yanyanyang/www.lingdayun.com/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/yanyanyang/www.lingdayun.com/public/../application/index/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-30T11:33:39+08:00 ] 10.0.8.4 111.7.96.169 GET /
+[ log ] www.lingdayun.com/ [运行时间：0.018153s][吞吐率：55.09req/s] [内存消耗：1,714.30kb] [文件加载：44]
+[ info ] [ LANG ] /www/wwwroot/yanyanyang/www.lingdayun.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'upgrade-insecure-requests' => '1',
+  'sec-gpc' => '1',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept-language' => 'en;q=0.9',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36',
+  'host' => 'www.lingdayun.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/yanyanyang/www.lingdayun.com/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/yanyanyang/www.lingdayun.com/public/../application/index/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-30T11:33:40+08:00 ] 10.0.8.4 111.7.96.169 GET /
+[ log ] www.lingdayun.com/ [运行时间：0.016577s][吞吐率：60.32req/s] [内存消耗：1,711.99kb] [文件加载：44]
+[ info ] [ LANG ] /www/wwwroot/yanyanyang/www.lingdayun.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'upgrade-insecure-requests' => '1',
+  'accept-language' => 'en',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'host' => 'www.lingdayun.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/yanyanyang/www.lingdayun.com/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/yanyanyang/www.lingdayun.com/public/../application/index/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-30T13:12:23+08:00 ] 10.0.8.4 218.11.13.45 GET /
+[ log ] www.lingdayun.com/ [运行时间：0.019397s][吞吐率：51.55req/s] [内存消耗：1,709.45kb] [文件加载：44]
+[ info ] [ LANG ] /www/wwwroot/yanyanyang/www.lingdayun.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+  'host' => 'www.lingdayun.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/yanyanyang/www.lingdayun.com/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/yanyanyang/www.lingdayun.com/public/../application/index/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-30T14:11:37+08:00 ] 10.0.8.4 87.236.176.108 GET /
+[ log ] www.lingdayun.com/ [运行时间：0.016551s][吞吐率：60.42req/s] [内存消耗：1,711.30kb] [文件加载：44]
+[ info ] [ LANG ] /www/wwwroot/yanyanyang/www.lingdayun.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip',
+  'referer' => 'http://www.lingdayun.com',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (compatible; InternetMeasurement/1.0; +https://internet-measurement.com/)',
+  'host' => 'www.lingdayun.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/yanyanyang/www.lingdayun.com/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/yanyanyang/www.lingdayun.com/public/../application/index/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-30T15:45:27+08:00 ] 10.0.8.4 107.172.5.251 GET /?IO.popen(%27cat%20%2Fetc%2Fpasswd%27).read%0A%23
+[ log ] www.lingdayun.com/?IO.popen(%27cat%20%2Fetc%2Fpasswd%27).read%0A%23 [运行时间：0.016636s][吞吐率：60.11req/s] [内存消耗：1,711.96kb] [文件加载：44]
+[ info ] [ LANG ] /www/wwwroot/yanyanyang/www.lingdayun.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2226.0 Safari/537.36',
+  'host' => 'www.lingdayun.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'IO_popen(\'cat_/etc/passwd\')_read
+#' => '',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/yanyanyang/www.lingdayun.com/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/yanyanyang/www.lingdayun.com/public/../application/index/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-30T16:11:31+08:00 ] 10.0.8.4 107.172.5.251 GET /
+[ log ] www.lingdayun.com/ [运行时间：0.016041s][吞吐率：62.34req/s] [内存消耗：1,711.34kb] [文件加载：44]
+[ info ] [ LANG ] /www/wwwroot/yanyanyang/www.lingdayun.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'accept-language' => 'en',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.47 Safari/537.36',
+  'host' => 'www.lingdayun.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/yanyanyang/www.lingdayun.com/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/yanyanyang/www.lingdayun.com/public/../application/index/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-30T21:03:00+08:00 ] 10.0.8.4 1.13.189.243 GET /
+[ log ] www.lingdayun.com/ [运行时间：0.016365s][吞吐率：61.11req/s] [内存消耗：1,711.77kb] [文件加载：44]
+[ info ] [ LANG ] /www/wwwroot/yanyanyang/www.lingdayun.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'host' => 'www.lingdayun.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/yanyanyang/www.lingdayun.com/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/yanyanyang/www.lingdayun.com/public/../application/index/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-30T21:04:59+08:00 ] 10.0.8.4 218.11.13.12 GET /
+[ log ] www.lingdayun.com/ [运行时间：0.017213s][吞吐率：58.10req/s] [内存消耗：1,709.45kb] [文件加载：44]
+[ info ] [ LANG ] /www/wwwroot/yanyanyang/www.lingdayun.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0',
+  'host' => 'www.lingdayun.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/yanyanyang/www.lingdayun.com/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/yanyanyang/www.lingdayun.com/public/../application/index/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2023-07-30T23:52:12+08:00 ] 10.0.8.4 198.235.24.50 GET /
+[ log ] www.lingdayun.com/ [运行时间：0.016517s][吞吐率：60.54req/s] [内存消耗：1,709.02kb] [文件加载：44]
+[ info ] [ LANG ] /www/wwwroot/yanyanyang/www.lingdayun.com/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'http://82.157.249.182:80/',
+  'host' => 'www.lingdayun.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/yanyanyang/www.lingdayun.com/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/yanyanyang/www.lingdayun.com/public/../application/index/view/index/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

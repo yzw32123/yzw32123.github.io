@@ -1,0 +1,72 @@
+
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, maximum-scale=1.0, initial-scale=1.0, user-scalable=0" />
+<title></title>
+<link type="text/css" rel="stylesheet" href="css/style.css">
+</head>
+<body style="background:#F0F0F0">
+<div class="header">
+<div class="box">
+<div class="L"><a onClick="javascript:history.back(-1)" class="goback"><img src="images/goback.png" /></a></div>
+<div class="C"><p>常见问题</p></div>
+</div>
+</div>
+<div class="clear"></div>
+<div class="hbox"></div>
+<div class="helpBox">
+<ul id="tuijian">
+<li><img src="images/11.jpg" class="icon"><p>java流行框架有哪些</p><img src="images/go.png" class="go"></li>
+<li><img src="images/11.jpg" class="icon"><p>学UI网—UI设计师学习教程平台</p><img src="images/go.png" class="go"></li>
+<li><img src="images/11.jpg" class="icon"><p>jQuery 语法| 菜鸟教程</p><img src="images/go.png" class="go"></li>
+<li><img src="images/11.jpg" class="icon"><p>UI设计_UI_UI教程-Uimaker-专注UI设计</p><img src="images/go.png" class="go"></li>
+<li><img src="images/11.jpg" class="icon"><p>jQuery EasyUI 教程</p><img src="images/go.png" class="go"></li>
+<li><img src="images/11.jpg" class="icon"><p>jQuery 测验</p><img src="images/go.png" class="go"></li>
+<li><img src="images/11.jpg" class="icon"><p>jquery 菜鸟教程__150天转行web前端工程师</p><img src="images/go.png" class="go"></li>
+<li><img src="images/11.jpg" class="icon"><p>ui设计师需要学习什么软件?</p><img src="images/go.png" class="go"></li>
+<li><img src="images/11.jpg" class="icon"><p>ui设计用什么软件</p><img src="images/go.png" class="go"></li>
+<li><img src="images/11.jpg" class="icon"><p>jQuery Validate </p><img src="images/go.png" class="go"></li>
+<li><img src="images/11.jpg" class="icon"><p>ui设计需要学什么基本准则</p><img src="images/go.png" class="go"></li>
+<li><img src="images/11.jpg" class="icon"><p>ui设计师需要学习什么软件?</p><img src="images/go.png" class="go"></li>
+<li><img src="images/11.jpg" class="icon"><p>ui设计用什么软件</p><img src="images/go.png" class="go"></li>
+</ul>
+</div>
+</body>
+</html>
+<script src="../static/html/js/jquery.min.js" type="text/javascript"></script>
+    <script src="../static/html/js/bootstrap.min.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		video_tuijian();
+		function video_tuijian(){
+						 $.ajax({
+						     url:"/index.php/api/weishi/answer",
+						     dataType:"json",
+						     type:"get",
+						     success:function(json){
+								 ///static/uploads/'+val['video_pic']+'
+								 var html = '';
+						         console.log(json);
+						       if(json['code'] != 1){
+								  
+						 					html += '<h3>暂无问题</h3>';
+						 				}else{
+											  $.each(json['msg'],function (n,val) {
+												  var wenti = val['wenti'];
+												  var wentis = wenti.substring(0,20);
+												  html += '<a href="./helps.html?id='+val['id']+'"><li><img src="images/11.jpg" class="icon"><p>'+wentis+'...</p><img src="images/go.png" class="go"></li></a>';
+												  /* else{
+													  
+													  html += '<a href="yinpin_chakan.html?id='+val['id']+'"><div class="tj"><div class="col-xs-6 col-sm-6 col-md-6"><img src="/static/html/images/yinpin.png" style="margin-top:12px"/></div><div class="col-xs-6 col-sm-6 col-md-6 p"><p>《'+val['video_name']+'》</p><p>教师：'+val['teacher_name']+'</p><p>分类:'+val['nianji_cate']+'&nbsp;&nbsp;'+val['kemu_cate']+'</p></div></div><div class="line"></div></a>';
+												  } */
+											                          
+											                        });
+											
+										}
+						         	$("#tuijian").html(html);
+						 
+						     }
+						 })
+		}
+	</script>

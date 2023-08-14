@@ -1,0 +1,901 @@
+<!doctype html>
+<html lang="en" data-server-rendered="true" data-v-1b705696 data-v-456d51d7>
+ <head>
+  <title>招生计划数据 - 简志愿</title> 
+  <meta charset="utf-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+  <meta name="keywords" content="egg, typescript, vue, webpack, server side render"> 
+  <meta name="description" content="IBlog"> 
+  <meta http-equiv="content-type" content="text/html;charset=utf-8"> 
+  <meta name="renderer" content="webkit"> 
+  <meta name="force-rendering" content="webkit"> 
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"> 
+  <meta name="msapplication-TileImage" content="images/icons/icon-144x144.png"> 
+  <meta name="msapplication-TileColor" content="#2F3BA2"> 
+  <meta name="apple-mobile-web-app-capable" content="yes"> 
+  <meta name="apple-mobile-web-app-status-bar-style" content="black"> 
+  <meta name="apple-mobile-web-app-title" content="Weather PWA"> 
+  <link rel="apple-touch-icon" href="css/logo_32b3c662a48242c9ac93adec94a42e10.png"> 
+  <link rel="shortcut icon" href="css/favicon_31fb16c799384540a138ec20e6bd66d8.ico" type="image/x-icon"> 
+  <script type="text/javascript" src="js/qrcode.min_5f8e18ddcd5f4b8cbe17cd00df87cf68.js"></script> 
+  <script src="js/echarts.min_f88c39eb12f3435488f64016092fc0a4.js"></script> 
+  <script type="text/javascript" src="js/7moorInit_fd81232d163b452fb33197e2fc06a909.js" async></script>
+  <link rel="stylesheet" href="css/common.4ac08c98_3d27ad0afffb479d9b0d491a21cac593.css">
+  <link rel="stylesheet" href="css/index.deae7c42.css">
+ </head> 
+ <body>
+  <div id="app">
+   <div class="main">
+    <div user-info="userInfo" class="top-header" data-v-62490ec7>
+     <div class="top" data-v-62490ec7>
+      <div class="container" data-v-62490ec7>
+       <div class="left" data-v-62490ec7>
+         欢迎访问简志愿，填出美好未来！ 
+       </div> 
+       <ul class="right" data-v-62490ec7>
+        <li class="program1" data-v-62490ec7> 微信小程序 <span data-v-62490ec7><img src="images/xcx.cda11650_19f5ab3de7fb41cd987d04f67aca5df1.jpg" data-v-62490ec7></span></li> 
+        <li class="program2" data-v-62490ec7> APP下载 <span data-v-62490ec7><img src="images/app_qrcode_b4434fad317c4c8fbdf528c946ee8d36.jpg" data-v-62490ec7></span></li> 
+        <a href="/newbieGuide" data-v-62490ec7><li class="program3" data-v-62490ec7>新手指南</li></a> 
+      <!--  <li class="program2" data-v-62490ec7><a href="/coupon/activate" data-v-62490ec7>激活VIP</a></li> -->
+        <li class="program0" data-v-62490ec7><p data-v-62490ec7><a href="./register.html" data-v-62490ec7>注册</a> <a id="login" data-v-62490ec7>登录</a></p> 
+         <!----></li>
+       </ul>
+      </div>
+     </div> 
+     <div class="nav" data-v-62490ec7>
+      <div class="container" data-v-62490ec7>
+       <div class="secherLogo" data-v-62490ec7>
+        <div class="logo" data-v-62490ec7>
+         <a href="./index.html" data-v-62490ec7><img title="简志愿" src="images/jian_logo.png" data-v-62490ec7></a>
+        </div> 
+        <div class="secher" data-v-62490ec7>
+         <form action="/search" method="get" data-v-b8c29c26 data-v-62490ec7>
+          <input autocomplete="off" type="string" name="keyword" placeholder="搜索学校、专业" maxlength="16" class="f14" data-v-b8c29c26> 
+          <button type="submit" data-v-b8c29c26></button>
+         </form>
+        </div>
+       </div> 
+       <ul class="navbar" data-v-62490ec7>
+        <li data-v-62490ec7><a href="./index.html" class="mian-a" data-v-62490ec7><em data-v-62490ec7>首页</em></a></li> 
+        <li data-v-62490ec7><a href="./colleges.html" class="mian-a" data-v-62490ec7><em data-v-62490ec7>数据查询</em></a> 
+         <div data-v-62490ec7>
+          <a href="./rank.html" data-v-62490ec7>录取数据查询</a> 
+          <a href="./school.html" data-v-62490ec7>招生计划数据</a> 
+          <a href="./colleges.html" data-v-62490ec7>找大学</a> 
+          <a href="./majors.html" data-v-62490ec7>查专业</a> 
+          <a href="./jobs.html" data-v-62490ec7>搜职业</a> 
+         <a href="./college-bang.html" data-v-62490ec7>大学排名</a>
+         <a href="./rank.html" data-v-62490ec7>位次查询</a> 
+         <a href="./batch-line.html" data-v-62490ec7>查批次线</a>
+         </div></li> 
+        <li data-v-62490ec7><a href="./intention-add.html" class="mian-a" data-v-62490ec7><em data-v-62490ec7>志愿填报</em></a> 
+         <div data-v-62490ec7>
+          <a href="./can-school.html" data-v-62490ec7>可上院校 <i class="hot" data-v-62490ec7></i></a> 
+          <a href="./intention-add.html" data-v-62490ec7>智能模拟填报</a>
+         </div></li> 
+        <li data-v-62490ec7><a href="./test-evaluation.html" class="mian-a" data-v-62490ec7><em data-v-62490ec7>测试评估</em></a> 
+         <div data-v-62490ec7>
+          <a href="./test-evaluation.html" data-v-62490ec7>录取概率测试 <i class="hot" data-v-62490ec7></i></a> 
+          <a href="./compare-college.html" data-v-62490ec7>院校对比 <i class="hot" data-v-62490ec7></i></a> 
+          <a href="./subject.html" data-v-62490ec7>专业对比</a>
+         </div></li> 
+        <li data-v-62490ec7><a href="/newGk/index" class="mian-a" data-v-62490ec7><em data-v-62490ec7>生涯规划</em></a> 
+         <div data-v-62490ec7>
+          <a href="./job-for-you.html" data-v-62490ec7>职业性格测试</a> 
+          <a href="/newGk/index" data-v-62490ec7>新高考选科</a>
+         </div></li> 
+        <li data-v-62490ec7><a href="./new.html" class="mian-a" data-v-62490ec7><em data-v-62490ec7>高考资讯</em></a> 
+         <!-- <div data-v-62490ec7>
+          <a href="./new.html" data-v-62490ec7>热门资讯</a> 
+          <a href="/news/2" data-v-62490ec7>高考资讯</a> 
+          <a href="/news/3" data-v-62490ec7>院校动态</a> 
+          <a href="/news/4" data-v-62490ec7>招生政策</a>
+         </div> --></li> 
+       <!-- <li data-v-62490ec7><a href="/classroom" class="mian-a" data-v-62490ec7><em data-v-62490ec7>U选课堂</em></a></li> -->
+       </ul> 
+      <!-- <div class="vipAndPhone" data-v-62490ec7>
+        <div class="vip viped" data-v-62490ec7>
+          开通VIP 
+        </div> 
+        <div class="phones" data-v-62490ec7>
+         手机版 
+         <span data-v-62490ec7><img src="images/app_qrcode_b4434fad317c4c8fbdf528c946ee8d36.jpg" data-v-62490ec7></span>
+        </div>
+       </div> -->
+      </div>
+     </div> 
+   <div class="login-mask" style="display:none;" data-v-65213d27 data-v-62490ec7>
+    <div class="login" data-v-65213d27>
+     <div class="close" data-v-65213d27></div> 
+     <h2 data-v-65213d27><em data-v-65213d27></em> 简志愿登录 <em data-v-65213d27></em></h2> 
+     <div class="messageAndId" data-v-65213d27>
+      <span class="active" data-v-65213d27>账号登录</span>
+      <span data-v-65213d27>会员卡登陆</span>
+     </div> 
+     <ul class="re-input" id="re-input" data-v-65213d27>
+      <form action="/login" method="post" data-v-65213d27>
+       <div class="account" data-v-65213d27>
+        <li data-v-65213d27><input placeholder="请输入用户名" name="uname" type="number" maxlength="11" value="" data-v-6e36b945 data-v-65213d27></li> 
+        <li class="password" data-v-65213d27><input placeholder="请输入密码" name="pwd" type="password" maxlength="16" minlength="6" data-v-e5fc95c0 data-v-65213d27></li> 
+        <li class="authcode" style="display:none;" data-v-65213d27><label data-v-65213d27><span data-v-65213d27></span> <input placeholder="请输入验证码" name="captcha" type="captcha" maxlength="6" minlength="3" data-v-65213d27></label></li>
+       </div> 
+       <!----> 
+       <div class="forget" data-v-65213d27>
+        <a href="/forget-pwd" data-v-65213d27>忘记密码</a> 
+        <a href="./register.html" data-v-65213d27>去注册</a>
+       </div> 
+       <li class="button" data-v-65213d27><button type="button" data-v-65213d27>登录</button></li>
+      </form>
+     </ul> 
+     <ul class="re-input" id="re-inputs" data-v-65213d27>
+      <form action="./login.html" method="post" data-v-65213d27>
+       <div class="account" data-v-65213d27>
+        <li data-v-65213d27><input placeholder="志愿卡、升学卡、体验卡号" name="uname" type="number" maxlength="11" value="" data-v-6e36b945 data-v-65213d27></li> 
+        <li class="password" data-v-65213d27><input placeholder="会员卡密码" name="pwd" type="password" maxlength="16" minlength="6" data-v-e5fc95c0 data-v-65213d27></li> 
+        <li class="authcode" style="display:none;" data-v-65213d27><label data-v-65213d27><span data-v-65213d27></span> <input placeholder="请输入验证码" name="captcha" type="captcha" maxlength="6" minlength="3" data-v-65213d27></label></li>
+       </div> 
+       <!----> 
+       <div class="forget" data-v-65213d27>
+        <a href="/forget-pwd" data-v-65213d27>忘记密码</a> 
+        <a href="/register" data-v-65213d27>去注册</a>
+       </div> 
+       <li class="button" data-v-65213d27><button type="button" data-v-65213d27>登录</button></li>
+      </form>
+     </ul> 
+     <div id="login_container" data-v-65213d27></div> 
+     <div data-v-169f800d class="other" data-v-65213d27>
+      <div class="otherLine" data-v-65213d27>
+       <i data-v-65213d27></i> 
+       <p data-v-169f800d data-v-65213d27>其他登录方式</p>
+      </div> 
+      <a class="weixin" data-v-65213d27></a>
+     </div>
+    </div>
+   </div> 
+     <div class="leftFixList" data-v-62490ec7>
+      <ul data-v-62490ec7>
+       <li class="leftfix1" data-v-62490ec7><a href="###" data-v-62490ec7>小程序</a> <span data-v-62490ec7><img src="images/xcx.cda11650_19f5ab3de7fb41cd987d04f67aca5df1.jpg" data-v-62490ec7></span></li> 
+       <li class="leftfix3" data-v-62490ec7><a href="./compare-college.html" data-v-62490ec7>院校对比</a></li> 
+       <li class="leftfix4" data-v-62490ec7><a href="./intention-add.html" data-v-62490ec7>智能填报</a></li> 
+       <li class="leftfix6" data-v-62490ec7><a href="/newbieGuide" data-v-62490ec7>新手指南</a></li> 
+       <li class="leftfix5" data-v-62490ec7><a data-v-62490ec7>置顶</a></li>
+      </ul>
+     </div>
+    </div> 
+    <!----> 
+    <div>
+     <div class="flex justify-between mx-auto items-center" style="width:1300px;" data-v-1b705696>
+      <div class="path" style="width:1200px!important;" data-v-1b705696>
+       <ul data-v-b62a9f34 data-v-1b705696>
+        <li data-v-b62a9f34><a href="/" data-v-b62a9f34>首页</a> <span data-v-b62a9f34>&nbsp; / &nbsp;&nbsp;</span></li>
+        <li data-v-b62a9f34><a href="/jobs" data-v-b62a9f34>招生计划数据</a> 
+         <!----></li>
+       </ul>
+      </div> 
+     </div> 
+    <div data-v-237e381c="" class="aboutEnroll container aboutEnroll2021">
+    	<ul data-v-237e381c="" class="newsTit">
+    		<a data-v-237e381c="" href="./school.html">
+    			<li data-v-237e381c="" class="active">
+    				学校招生计划
+    			</li>
+    		</a>
+    		<a data-v-237e381c="" href="./school.html">
+    			<li data-v-237e381c="" class="">
+    				专业招生计划
+    			</li>
+    		</a>
+    	</ul>
+    	<div data-v-237e381c="" class="admissionScore">
+    		<ul data-v-7e879cf6="" data-v-237e381c="" class="classifySearch">
+    			<form data-v-7e879cf6="" id="top" action="/./school.html" method="get">
+    				<li data-v-7e879cf6="">
+    					<select data-v-4b26cbf8="" data-v-7e879cf6="" placeholder="请选择省份" disabled="disabled" type="number" name="user_province_id">
+    						<!---->
+    						<option data-v-4b26cbf8="" value="13">
+    							A 安徽
+    						</option>
+    						<option data-v-4b26cbf8="" value="2">
+    							B 北京
+    						</option>
+    						<option data-v-4b26cbf8="" value="23">
+    							C 重庆
+    						</option>
+    						<option data-v-4b26cbf8="" value="14">
+    							F 福建
+    						</option>
+    						<option data-v-4b26cbf8="" value="20">
+    							G 广东
+    						</option>
+    						<option data-v-4b26cbf8="" value="21">
+    							G 广西
+    						</option>
+    						<option data-v-4b26cbf8="" value="25">
+    							G 贵州
+    						</option>
+    						<option data-v-4b26cbf8="" value="29">
+    							G 甘肃
+    						</option>
+    						<option data-v-4b26cbf8="" value="9">
+    							H 黑龙江
+    						</option>
+    						<option data-v-4b26cbf8="" value="17">
+    							H 河南
+    						</option>
+    						<option data-v-4b26cbf8="" value="18">
+    							H 湖北
+    						</option>
+    						<option data-v-4b26cbf8="" value="19">
+    							H 湖南
+    						</option>
+    						<option data-v-4b26cbf8="" value="22">
+    							H 海南
+    						</option>
+    						<option data-v-4b26cbf8="" value="4">
+    							H 河北
+    						</option>
+    						<option data-v-4b26cbf8="" value="8">
+    							J 吉林
+    						</option>
+    						<option data-v-4b26cbf8="" value="11">
+    							J 江苏
+    						</option>
+    						<option data-v-4b26cbf8="" value="15">
+    							J 江西
+    						</option>
+    						<option data-v-4b26cbf8="" value="7">
+    							L 辽宁
+    						</option>
+    						<option data-v-4b26cbf8="" value="3">
+    							T 天津
+    						</option>
+    						<option data-v-4b26cbf8="" value="6">
+    							N 内蒙
+    						</option>
+    						<option data-v-4b26cbf8="" value="31">
+    							N 宁夏
+    						</option>
+    						<option data-v-4b26cbf8="" value="30">
+    							Q 青海
+    						</option>
+    						<option data-v-4b26cbf8="" value="5">
+    							S 山西
+    						</option>
+    						<option data-v-4b26cbf8="" value="10">
+    							S 上海
+    						</option>
+    						<option data-v-4b26cbf8="" value="16">
+    							S 山东
+    						</option>
+    						<option data-v-4b26cbf8="" value="24">
+    							S 四川
+    						</option>
+    						<option data-v-4b26cbf8="" value="28">
+    							S 陕西
+    						</option>
+    						<option data-v-4b26cbf8="" value="27">
+    							X 西藏
+    						</option>
+    						<option data-v-4b26cbf8="" value="32">
+    							X 新疆
+    						</option>
+    						<option data-v-4b26cbf8="" value="26">
+    							Y 云南
+    						</option>
+    						<option data-v-4b26cbf8="" value="12">
+    							Z 浙江
+    						</option>
+    					</select>
+    				</li>
+    				<li data-v-7e879cf6="">
+    					<span data-v-7e879cf6="">年份</span>
+    					<select data-v-6001b7cc="" data-v-7e879cf6="" name="year" id="" placeholder="请选择年份" type="number">
+    						<option data-v-6001b7cc="" value="2023">2023
+    						</option>
+    						<option data-v-6001b7cc="" value="2022">2022
+    						</option>
+    						<option data-v-6001b7cc="" value="2021">2021
+    						</option>
+    						<option data-v-6001b7cc="" value="2020">2020
+    						</option>
+    						<option data-v-6001b7cc="" value="2019">2019
+    						</option>
+    						<option data-v-6001b7cc="" value="2018">2018
+    						</option>
+    						<option data-v-6001b7cc="" value="2017">2017
+    						</option>
+    					</select>
+    				</li>
+    				<li data-v-7e879cf6="">
+    					<span data-v-7e879cf6="">科目</span>
+    					<select data-v-3e2f07e5="" data-v-7e879cf6="" name="subject_type" id="" placeholder="请选择文理科" type="number">
+    						<option data-v-3e2f07e5="" value="L">历史方向
+    						</option>
+    						<option data-v-3e2f07e5="" value="W">物理方向
+    						</option>
+    					</select>
+    				</li>
+    				<li data-v-7e879cf6="">
+    					<span data-v-7e879cf6="">批次</span>
+    					<select data-v-69be0db3="" data-v-7e879cf6="" name="batch_id" id="" placeholder="请选择批次" class="indexSelect" type="number">
+    						<option data-v-69be0db3="" value="1">本科批
+    						</option>
+    						<option data-v-69be0db3="" value="11">专科批
+    						</option>
+    					</select>
+    				</li>
+    				<!---->
+    				<li data-v-7e879cf6="" class="buttonSelect">
+    					<span data-v-7e879cf6="">院校</span>
+    					<div data-v-7e05d0fa="" data-v-7e879cf6="" class="targetSchool" type="number" name="school_id" style="position: relative;">
+    						<input data-v-7e05d0fa="" type="text" readonly="readonly" placeholder="请输入学校名称" style="position: absolute;">
+    						<input data-v-7e05d0fa="" disabled="disabled" type="text" placeholder="请输入学校名称" style="position: absolute; display: none;">
+    						<div data-v-7e05d0fa="" id="schoolBox" class="targetbox" style="display: none;">
+    							<ul data-v-7e05d0fa="" class="ulinput">
+    								<input data-v-7e05d0fa="" name="school_id" placeholder="请输入学科名称" style="display: none;">
+    								<input data-v-7e05d0fa="" id="schoolKeywordInp" type="text" placeholder="请输入学校名称..." maxlength="16">
+    							</ul>
+    						</div>
+    					</div>
+    				</li>
+    				<!---->
+    				<button data-v-7e879cf6="" type="button">查询</button>
+    			</form>
+    		</ul>
+    	</div>
+    	<div data-v-237e381c="" class="rankList2021">
+    		<div data-v-237e381c="" class="schoolData">
+    			<ul data-v-237e381c="">
+    				<li data-v-237e381c="" class="lis">
+    					<span data-v-237e381c="" class="collection2021">
+    						<span data-v-5a69054b="" data-v-237e381c="" class="">未收藏</span>
+    					</span>
+    					<div data-v-237e381c="" class="schoolMessage majorMessage majorMessageEdit">
+    						<div data-v-237e381c="" class="schoolName major">
+    							<h5 data-v-237e381c="">
+    								<a data-v-237e381c="" href="/college/1/score">清华大学</a>
+    								<!---->
+    							</h5>
+    							<h6 data-v-237e381c="">
+    								<a data-v-237e381c="" href="/major/11193/score">文科试验班类(通用基础类)(含社会学(等专业)专业)</a>
+    							</h6>
+    							<p data-v-237e381c="">
+    								<i data-v-237e381c="">不限</i>
+    								<!---->
+    								<i data-v-237e381c="">/ 招生人数:2</i>
+    								<i data-v-237e381c="">/ 北京</i>
+    								<i data-v-237e381c="">/ 本科批</i>
+    								<i data-v-237e381c="">/ 985</i>
+    								<i data-v-237e381c="">/ 211</i>
+    							</p>
+    							<div data-v-237e381c="" class="tryTest">
+    								<span data-v-237e381c="" class="test">
+    									<a data-v-237e381c="" href="./test-evaluation.html?school_id=1&amp;vv_said=d7106de0708b485d" target="_blank">测录取概率 </a>
+    								</span>
+    								<span data-v-e3d177e4="" data-v-237e381c="" class="vs">取消对比</span>
+    							</div>
+    						</div>
+    					</div>
+    					<div data-v-237e381c="" class="schoolHistoryData">
+    						<ul data-v-237e381c="">
+    							<li data-v-237e381c="" class="tit">
+    								<p data-v-237e381c="">年份</p>
+    								<p data-v-237e381c="">科目</p>
+    								<p data-v-237e381c="">录取人数</p>
+    								<p data-v-237e381c="">最低分</p>
+    								<p data-v-237e381c="">最低分位次</p>
+    								<p data-v-237e381c="">省控线</p>
+    								<p data-v-237e381c="">最低分差</p>
+    							</li>
+    							<li data-v-237e381c="">
+    								<span data-v-237e381c="">2022</span>
+    								<span data-v-237e381c="">历史</span>
+    								<span data-v-237e381c="">2</span>
+    								<span data-v-237e381c="">665</span>
+    								<span data-v-237e381c="">32</span>
+    								<span data-v-237e381c="">443</span>
+    								<span data-v-237e381c="">222</span>
+    							</li>
+    							<li data-v-237e381c="">
+    								<span data-v-237e381c="">2021</span>
+    								<span data-v-237e381c="">历史</span>
+    								<span data-v-237e381c="">3</span>
+    								<span data-v-237e381c="">674</span>
+    								<span data-v-237e381c="">30</span>
+    								<span data-v-237e381c="">454</span>
+    								<span data-v-237e381c="">220</span>
+    							</li>
+    							<li data-v-237e381c="">
+    								<span data-v-237e381c="">2020</span>
+    								<span data-v-237e381c="">文科</span>
+    								<span data-v-237e381c="">--</span>
+    								<span data-v-237e381c="">679</span>
+    								<span data-v-237e381c="">1</span>
+    								<span data-v-237e381c="">465</span>
+    								<span data-v-237e381c="">214</span>
+    							</li>
+    							<li data-v-237e381c="">
+    								<span data-v-237e381c="">2019</span>
+    								<span data-v-237e381c="">文科</span>
+    								<span data-v-237e381c="">2</span>
+    								<span data-v-237e381c="">684</span>
+    								<span data-v-237e381c="">12</span>
+    								<span data-v-237e381c="">549</span>
+    								<span data-v-237e381c="">135</span>
+    							</li>
+    						</ul>
+    						<!---->
+    					</div>
+    				</li>
+    				<li data-v-237e381c="" class="lis">
+    					<span data-v-237e381c="" class="collection2021">
+    						<span data-v-5a69054b="" data-v-237e381c="" class="">未收藏</span>
+    					</span>
+    					<div data-v-237e381c="" class="schoolMessage majorMessage majorMessageEdit">
+    						<div data-v-237e381c="" class="schoolName major">
+    							<h5 data-v-237e381c="">
+    								<a data-v-237e381c="" href="/college/2/score">北京大学</a>
+    								<!---->
+    							</h5>
+    							<h6 data-v-237e381c="">
+    								<a data-v-237e381c="" href="/major/11193/score">文科试验班类(文科基础类专业)(含中国语言文学类专业)</a>
+    							</h6>
+    							<p data-v-237e381c="">
+    								<i data-v-237e381c="">不限</i>
+    								<!---->
+    								<i data-v-237e381c="">/ 招生人数:22</i>
+    								<i data-v-237e381c="">/ 北京</i>
+    								<i data-v-237e381c="">/ 本科批</i>
+    								<i data-v-237e381c="">/ 985</i>
+    								<i data-v-237e381c="">/ 211</i>
+    							</p>
+    							<div data-v-237e381c="" class="tryTest">
+    								<span data-v-237e381c="" class="test">
+    									<a data-v-237e381c="" href="./test-evaluation.html?school_id=2&amp;vv_said=2e138cf9ab6b0b17" target="_blank">测录取概率 </a>
+    								</span>
+    								<span data-v-e3d177e4="" data-v-237e381c="" class="vs">取消对比</span>
+    							</div>
+    						</div>
+    					</div>
+    					<div data-v-237e381c="" class="schoolHistoryData">
+    						<ul data-v-237e381c="">
+    							<li data-v-237e381c="" class="tit">
+    								<p data-v-237e381c="">年份</p>
+    								<p data-v-237e381c="">科目</p>
+    								<p data-v-237e381c="">录取人数</p>
+    								<p data-v-237e381c="">最低分</p>
+    								<p data-v-237e381c="">最低分位次</p>
+    								<p data-v-237e381c="">省控线</p>
+    								<p data-v-237e381c="">最低分差</p>
+    							</li>
+    							<li data-v-237e381c="">
+    								<span data-v-237e381c="">2022</span>
+    								<span data-v-237e381c="">历史</span>
+    								<span data-v-237e381c="">22</span>
+    								<span data-v-237e381c="">656</span>
+    								<span data-v-237e381c="">32</span>
+    								<span data-v-237e381c="">443</span>
+    								<span data-v-237e381c="">213</span>
+    							</li>
+    							<li data-v-237e381c="">
+    								<span data-v-237e381c="">2021</span>
+    								<span data-v-237e381c="">历史</span>
+    								<span data-v-237e381c="">22</span>
+    								<span data-v-237e381c="">660</span>
+    								<span data-v-237e381c="">30</span>
+    								<span data-v-237e381c="">454</span>
+    								<span data-v-237e381c="">206</span>
+    							</li>
+    							<li data-v-237e381c="">
+    								<span data-v-237e381c="">2020</span>
+    								<span data-v-237e381c="">文科</span>
+    								<span data-v-237e381c="">--</span>
+    								<span data-v-237e381c="">677</span>
+    								<span data-v-237e381c="">1</span>
+    								<span data-v-237e381c="">465</span>
+    								<span data-v-237e381c="">212</span>
+    							</li>
+    							<li data-v-237e381c="">
+    								<span data-v-237e381c="">2019</span>
+    								<span data-v-237e381c="">文科</span>
+    								<span data-v-237e381c="">1</span>
+    								<span data-v-237e381c="">682</span>
+    								<span data-v-237e381c="">13</span>
+    								<span data-v-237e381c="">549</span>
+    								<span data-v-237e381c="">133</span>
+    							</li>
+    						</ul>
+    						<!---->
+    					</div>
+    				</li>
+    				<li data-v-237e381c="" class="lis">
+    					<span data-v-237e381c="" class="collection2021">
+    						<span data-v-5a69054b="" data-v-237e381c="" class="">未收藏</span>
+    					</span>
+    					<div data-v-237e381c="" class="schoolMessage majorMessage majorMessageEdit">
+    						<div data-v-237e381c="" class="schoolName major">
+    							<h5 data-v-237e381c="">
+    								<a data-v-237e381c="" href="/college/3/score">复旦大学</a>
+    								<!---->
+    							</h5>
+    							<h6 data-v-237e381c="">
+    								<a data-v-237e381c="" href="/major/11192/score">社会科学试验班(含政治及行政学、国政等专业)(含行政管理、社会学、社会工作专业)</a>
+    							</h6>
+    							<p data-v-237e381c="">
+    								<i data-v-237e381c="">不限</i>
+    								<!---->
+    								<i data-v-237e381c="">/ 招生人数:2</i>
+    								<i data-v-237e381c="">/ 上海</i>
+    								<i data-v-237e381c="">/ 本科批</i>
+    								<i data-v-237e381c="">/ 985</i>
+    								<i data-v-237e381c="">/ 211</i>
+    							</p>
+    							<div data-v-237e381c="" class="tryTest">
+    								<span data-v-237e381c="" class="test">
+    									<a data-v-237e381c="" href="./test-evaluation.html?school_id=3&amp;vv_said=64a55aae9f18e728" target="_blank">测录取概率 </a>
+    								</span>
+    								<span data-v-e3d177e4="" data-v-237e381c="" class="vs">取消对比</span>
+    							</div>
+    						</div>
+    					</div>
+    					<div data-v-237e381c="" class="schoolHistoryData">
+    						<ul data-v-237e381c="">
+    							<li data-v-237e381c="" class="tit">
+    								<p data-v-237e381c="">年份</p>
+    								<p data-v-237e381c="">科目</p>
+    								<p data-v-237e381c="">录取人数</p>
+    								<p data-v-237e381c="">最低分</p>
+    								<p data-v-237e381c="">最低分位次</p>
+    								<p data-v-237e381c="">省控线</p>
+    								<p data-v-237e381c="">最低分差</p>
+    							</li>
+    							<li data-v-237e381c="">
+    								<span data-v-237e381c="">2022</span>
+    								<span data-v-237e381c="">历史</span>
+    								<span data-v-237e381c="">2</span>
+    								<span data-v-237e381c="">646</span>
+    								<span data-v-237e381c="">83</span>
+    								<span data-v-237e381c="">443</span>
+    								<span data-v-237e381c="">203</span>
+    							</li>
+    							<li data-v-237e381c="">
+    								<span data-v-237e381c="">2021</span>
+    								<span data-v-237e381c="">历史</span>
+    								<span data-v-237e381c="">2</span>
+    								<span data-v-237e381c="">653</span>
+    								<span data-v-237e381c="">76</span>
+    								<span data-v-237e381c="">454</span>
+    								<span data-v-237e381c="">199</span>
+    							</li>
+    						</ul>
+    						<!---->
+    					</div>
+    				</li>
+    				<li data-v-237e381c="" class="lis">
+    					<span data-v-237e381c="" class="collection2021">
+    						<span data-v-5a69054b="" data-v-237e381c="" class="">未收藏</span>
+    					</span>
+    					<div data-v-237e381c="" class="schoolMessage majorMessage majorMessageEdit">
+    						<div data-v-237e381c="" class="schoolName major">
+    							<h5 data-v-237e381c="">
+    								<a data-v-237e381c="" href="/college/3/score">复旦大学</a>
+    								<!---->
+    							</h5>
+    							<h6 data-v-237e381c="">
+    								<a data-v-237e381c="" href="/major/625/score">经济学类(拔尖学生培养基地)(含经济学、经济学(数理经济方向拔尖项目)、经济学(国际项目UIPE)、金融学、国际经济与贸易(国际经济学)、国际经济与贸易(国际经济学方向)、财政学、保险学专业)</a>
+    							</h6>
+    							<p data-v-237e381c="">
+    								<i data-v-237e381c="">不限</i>
+    								<!---->
+    								<i data-v-237e381c="">/ 招生人数:2</i>
+    								<i data-v-237e381c="">/ 上海</i>
+    								<i data-v-237e381c="">/ 本科批</i>
+    								<i data-v-237e381c="">/ 985</i>
+    								<i data-v-237e381c="">/ 211</i>
+    							</p>
+    							<div data-v-237e381c="" class="tryTest">
+    								<span data-v-237e381c="" class="test">
+    									<a data-v-237e381c="" href="./test-evaluation.html?school_id=3&amp;vv_said=64a55aae9f18e728" target="_blank">测录取概率 </a>
+    								</span>
+    								<span data-v-e3d177e4="" data-v-237e381c="" class="vs">取消对比</span>
+    							</div>
+    						</div>
+    					</div>
+    					<div data-v-237e381c="" class="schoolHistoryData">
+    						<ul data-v-237e381c="">
+    							<li data-v-237e381c="" class="tit">
+    								<p data-v-237e381c="">年份</p>
+    								<p data-v-237e381c="">科目</p>
+    								<p data-v-237e381c="">录取人数</p>
+    								<p data-v-237e381c="">最低分</p>
+    								<p data-v-237e381c="">最低分位次</p>
+    								<p data-v-237e381c="">省控线</p>
+    								<p data-v-237e381c="">最低分差</p>
+    							</li>
+    							<li data-v-237e381c="">
+    								<span data-v-237e381c="">2022</span>
+    								<span data-v-237e381c="">历史</span>
+    								<span data-v-237e381c="">2</span>
+    								<span data-v-237e381c="">648</span>
+    								<span data-v-237e381c="">68</span>
+    								<span data-v-237e381c="">443</span>
+    								<span data-v-237e381c="">205</span>
+    							</li>
+    							<li data-v-237e381c="">
+    								<span data-v-237e381c="">2021</span>
+    								<span data-v-237e381c="">历史</span>
+    								<span data-v-237e381c="">2</span>
+    								<span data-v-237e381c="">656</span>
+    								<span data-v-237e381c="">55</span>
+    								<span data-v-237e381c="">454</span>
+    								<span data-v-237e381c="">202</span>
+    							</li>
+    							<li data-v-237e381c="">
+    								<span data-v-237e381c="">2020</span>
+    								<span data-v-237e381c="">文科</span>
+    								<span data-v-237e381c="">--</span>
+    								<span data-v-237e381c="">663</span>
+    								<span data-v-237e381c="">44</span>
+    								<span data-v-237e381c="">465</span>
+    								<span data-v-237e381c="">198</span>
+    							</li>
+    							<li data-v-237e381c="">
+    								<span data-v-237e381c="">2019</span>
+    								<span data-v-237e381c="">文科</span>
+    								<span data-v-237e381c="">2</span>
+    								<span data-v-237e381c="">670</span>
+    								<span data-v-237e381c="">42</span>
+    								<span data-v-237e381c="">549</span>
+    								<span data-v-237e381c="">121</span>
+    							</li>
+    						</ul>
+    						<!---->
+    					</div>
+    				</li>
+    				<li data-v-237e381c="" class="lis">
+    					<span data-v-237e381c="" class="collection2021">
+    						<span data-v-5a69054b="" data-v-237e381c="" class="">未收藏</span>
+    					</span>
+    					<div data-v-237e381c="" class="schoolMessage majorMessage majorMessageEdit">
+    						<div data-v-237e381c="" class="schoolName major">
+    							<h5 data-v-237e381c="">
+    								<a data-v-237e381c="" href="/college/3/score">复旦大学</a>
+    								<!---->
+    							</h5>
+    							<h6 data-v-237e381c="">
+    								<a data-v-237e381c="" href="/major/542/score">法学(卓越法律人才基地)</a>
+    							</h6>
+    							<p data-v-237e381c="">
+    								<i data-v-237e381c="">不限</i>
+    								<!---->
+    								<i data-v-237e381c="">/ 招生人数:2</i>
+    								<i data-v-237e381c="">/ 上海</i>
+    								<i data-v-237e381c="">/ 本科批</i>
+    								<i data-v-237e381c="">/ 985</i>
+    								<i data-v-237e381c="">/ 211</i>
+    							</p>
+    							<div data-v-237e381c="" class="tryTest">
+    								<span data-v-237e381c="" class="test">
+    									<a data-v-237e381c="" href="./test-evaluation.html?school_id=3&amp;vv_said=64a55aae9f18e728" target="_blank">测录取概率 </a>
+    								</span>
+    								<span data-v-e3d177e4="" data-v-237e381c="" class="vs">取消对比</span>
+    							</div>
+    						</div>
+    					</div>
+    					<div data-v-237e381c="" class="schoolHistoryData">
+    						<ul data-v-237e381c="">
+    							<li data-v-237e381c="" class="tit">
+    								<p data-v-237e381c="">年份</p>
+    								<p data-v-237e381c="">科目</p>
+    								<p data-v-237e381c="">录取人数</p>
+    								<p data-v-237e381c="">最低分</p>
+    								<p data-v-237e381c="">最低分位次</p>
+    								<p data-v-237e381c="">省控线</p>
+    								<p data-v-237e381c="">最低分差</p>
+    							</li>
+    							<li data-v-237e381c="">
+    								<span data-v-237e381c="">2022</span>
+    								<span data-v-237e381c="">历史</span>
+    								<span data-v-237e381c="">2</span>
+    								<span data-v-237e381c="">647</span>
+    								<span data-v-237e381c="">74</span>
+    								<span data-v-237e381c="">443</span>
+    								<span data-v-237e381c="">204</span>
+    							</li>
+    							<li data-v-237e381c="">
+    								<span data-v-237e381c="">2021</span>
+    								<span data-v-237e381c="">历史</span>
+    								<span data-v-237e381c="">2</span>
+    								<span data-v-237e381c="">653</span>
+    								<span data-v-237e381c="">76</span>
+    								<span data-v-237e381c="">454</span>
+    								<span data-v-237e381c="">199</span>
+    							</li>
+    							<li data-v-237e381c="">
+    								<span data-v-237e381c="">2020</span>
+    								<span data-v-237e381c="">文科</span>
+    								<span data-v-237e381c="">--</span>
+    								<span data-v-237e381c="">661</span>
+    								<span data-v-237e381c="">59</span>
+    								<span data-v-237e381c="">465</span>
+    								<span data-v-237e381c="">196</span>
+    							</li>
+    							<li data-v-237e381c="">
+    								<span data-v-237e381c="">2019</span>
+    								<span data-v-237e381c="">文科</span>
+    								<span data-v-237e381c="">1</span>
+    								<span data-v-237e381c="">668</span>
+    								<span data-v-237e381c="">61</span>
+    								<span data-v-237e381c="">549</span>
+    								<span data-v-237e381c="">119</span>
+    							</li>
+    						</ul>
+    						<!---->
+    					</div>
+    				</li>
+    				<li data-v-237e381c="" class="lis">
+    					<span data-v-237e381c="" class="collection2021">
+    						<span data-v-5a69054b="" data-v-237e381c="" class="">未收藏</span>
+    					</span>
+    					<div data-v-237e381c="" class="schoolMessage majorMessage majorMessageEdit">
+    						<div data-v-237e381c="" class="schoolName major">
+    							<h5 data-v-237e381c="">
+    								<a data-v-237e381c="" href="/college/3/score">复旦大学</a>
+    								<!---->
+    							</h5>
+    							<h6 data-v-237e381c="">
+    								<a data-v-237e381c="" href="/major/125/score">新闻传播学类(卓越新闻人才计划)(含新闻学、广播电视学、传播学、广告学专业)</a>
+    							</h6>
+    							<p data-v-237e381c="">
+    								<i data-v-237e381c="">不限</i>
+    								<!---->
+    								<i data-v-237e381c="">/ 招生人数:2</i>
+    								<i data-v-237e381c="">/ 上海</i>
+    								<i data-v-237e381c="">/ 本科批</i>
+    								<i data-v-237e381c="">/ 985</i>
+    								<i data-v-237e381c="">/ 211</i>
+    							</p>
+    							<div data-v-237e381c="" class="tryTest">
+    								<span data-v-237e381c="" class="test">
+    									<a data-v-237e381c="" href="./test-evaluation.html?school_id=3&amp;vv_said=64a55aae9f18e728" target="_blank">测录取概率 </a>
+    								</span>
+    								<span data-v-e3d177e4="" data-v-237e381c="" class="vs">取消对比</span>
+    							</div>
+    						</div>
+    					</div>
+    					<div data-v-237e381c="" class="schoolHistoryData">
+    						<ul data-v-237e381c="">
+    							<li data-v-237e381c="" class="tit">
+    								<p data-v-237e381c="">年份</p>
+    								<p data-v-237e381c="">科目</p>
+    								<p data-v-237e381c="">录取人数</p>
+    								<p data-v-237e381c="">最低分</p>
+    								<p data-v-237e381c="">最低分位次</p>
+    								<p data-v-237e381c="">省控线</p>
+    								<p data-v-237e381c="">最低分差</p>
+    							</li>
+    							<li data-v-237e381c="">
+    								<span data-v-237e381c="">2022</span>
+    								<span data-v-237e381c="">历史</span>
+    								<span data-v-237e381c="">2</span>
+    								<span data-v-237e381c="">645</span>
+    								<span data-v-237e381c="">93</span>
+    								<span data-v-237e381c="">443</span>
+    								<span data-v-237e381c="">202</span>
+    							</li>
+    							<li data-v-237e381c="">
+    								<span data-v-237e381c="">2021</span>
+    								<span data-v-237e381c="">历史</span>
+    								<span data-v-237e381c="">2</span>
+    								<span data-v-237e381c="">654</span>
+    								<span data-v-237e381c="">69</span>
+    								<span data-v-237e381c="">454</span>
+    								<span data-v-237e381c="">200</span>
+    							</li>
+    							<li data-v-237e381c="">
+    								<span data-v-237e381c="">2020</span>
+    								<span data-v-237e381c="">文科</span>
+    								<span data-v-237e381c="">--</span>
+    								<span data-v-237e381c="">662</span>
+    								<span data-v-237e381c="">52</span>
+    								<span data-v-237e381c="">465</span>
+    								<span data-v-237e381c="">197</span>
+    							</li>
+    							<li data-v-237e381c="">
+    								<span data-v-237e381c="">2019</span>
+    								<span data-v-237e381c="">文科</span>
+    								<span data-v-237e381c="">3</span>
+    								<span data-v-237e381c="">666</span>
+    								<span data-v-237e381c="">81</span>
+    								<span data-v-237e381c="">549</span>
+    								<span data-v-237e381c="">117</span>
+    							</li>
+    						</ul>
+    						<!---->
+    					</div>
+    				</li>
+    			</ul>
+    		</div>
+    		<div data-v-1bf4e7f0="" data-v-237e381c="" user="[object Object]">
+    			<!---->
+    			<!---->
+    			<!---->
+    			<div data-v-1bf4e7f0="" class="haveToVip">
+    				<div data-v-1bf4e7f0="">
+    					<!-- <a data-v-1bf4e7f0="" href="/vip/pay?prevUrl=/">立即开通</a>
+    					<a data-v-1bf4e7f0="" href="/coupon/activate">激活VIP</a> -->
+    					<a data-v-1bf4e7f0="" href="/coupon/activate?type=card">权益兑换</a>
+    				</div>
+    			</div>
+    			<!---->
+    		</div>
+    		<!---->
+    	</div>
+    </div>
+    </div> 
+    <!----> 
+    <!----> 
+    <div class="footer clearfix">
+     <div class="container links">
+      <div class="right-cols">
+       <div class="col flex flex-col items-center">
+        <img src="images/weixinkefu.e361ef75_d258e6e11fd84819841ab40d1572d2cf.png"> 
+        <p><a href="#">微信官方客服</a></p>
+       </div> 
+       <div class="col flex flex-col items-center">
+        <img src="images/app_qrcode_b4434fad317c4c8fbdf528c946ee8d36.jpg"> 
+        <p><a href="#">下载手机APP</a></p>
+       </div>
+      </div> 
+      <div class="left-cols">
+       <div class="col">
+        <ul>
+         <li>新手帮助</li> 
+         <li><a href="/news/detail/u/faq">常见问题</a></li> 
+         <li><a href="/newbieGuide">新手指南</a></li> 
+        <!-- <li><a href="/vip">开通VIP</a></li> -->
+        </ul>
+       </div> 
+       <div class="col">
+        <ul>
+         <li>关于我们</li> 
+         <li><a href="/news/detail/u/about">公司介绍</a></li> 
+         <li><a href="/news/detail/u/contact">联系我们</a></li>
+        </ul>
+       </div> 
+       <div class="col">
+        <ul>
+         <li>官方声明</li> 
+         <li><a href="/news/detail/u/service">服务条款</a></li> 
+         <li><a href="/news/detail/u/disclaimer">免责声明</a></li>
+        </ul>
+       </div> 
+       <div class="col" style=" width: 190px;">
+        <ul>
+         <li>联系我们</li> 
+         <li>客服：400-0680-068</li> 
+         <li>客服微信：gaokaouxuan120</li>
+        </ul>
+       </div>
+      </div>
+     </div> 
+     <div class="copyright">
+      <div class="indexwidth100">
+       <span class="logo"></span> 
+       <div class="copy2">
+        <p>© 2023 简志愿  云启智慧科技有限公司</p> 
+        <a target="_blank" href="https://beian.miit.gov.cn/">鄂ICP备20010258号-2</a>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div> 
+ 
+  <script type="text/javascript" src="js/runtime.f4634494_c7e3b7c7a5e942f28319583e284b9290.js"></script>
+  <script type="text/javascript" src="js/common.637fc29a_fc57cd0883694e87b28ac92233b14a39.js"></script>
+  <script src="js/jquery-1.8.3.min.js"></script>
+  <script type="text/javascript" src="js/index.js"></script>  
+  
+ </body>
+</html>

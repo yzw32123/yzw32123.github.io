@@ -1,0 +1,118 @@
+<!doctype html>
+<html class="no-js">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=0">
+	<meta name="viewport" content="width=drvice-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;"> -->
+	<meta name="viewport" content="width=device-width,user-scalable=no, initial-scale=1">
+	<title>黔管家</title> 
+
+	<link rel="icon" type="image/png" href="../qgj_qt/images/favicon.png"> 
+
+	<link rel="stylesheet" href="css/amazeui.min.css">
+	<link rel="stylesheet" href="css/swiper.min.css">
+	<link rel="stylesheet" href="css/app.css"> 
+	<!-- jquery -->
+	<script src="js/jquery.min.js"></script>  
+	<script src="js/swiper.min.js"></script>
+
+</head>
+
+<body>
+ 
+<!-- 外框 -->
+<div id="waik"> 
+<!-- 头部 --> 
+<div id="top" style="background:#24c516;" class="ziye_top"> 
+    <div class="sos_t sos_t_zy "> 
+        <div class="fanh_shang fanh_yems">
+            <a href="javascript:;" onclick="history.back();"><img src="images/jiant1.png"></a>
+        </div>
+        <div class="text">浏览记录</div>
+        <div class="right">
+            <div class="zd"><a href="#">删除</a></div> 
+        </div>
+    </div>  
+</div>
+ <!-- 分类详情 -->
+ 
+<!-- list -->
+<!-- 内容 -->
+<br>
+<br>
+<br> 
+<div class="list_kuang  delete_my">
+    <ul>
+        <div class="bt">今天</div>
+        <li> 
+            <label class="am-checkbox-inline">
+                <input type="checkbox" value="option1">  
+            </label> 
+            <a href="list_xq.html">
+                <div class="img"><img src="images/list_img.jpg" alt=""></div>
+                <div class="right">
+                    <h2>推—乔迁旺专业居民公司搬家，24小时服务，就近派车就近派车</h2>
+                    <span>白云公园</span>  
+                    <b>保洁</b>
+                    <div class="liulan"><spn> 11：09</spn></div>
+                </div> 
+            </a> 
+        </li> 
+        <li>
+            <label class="am-checkbox-inline">
+                <input type="checkbox" value="option1">  
+            </label> 
+            <a href="list_xq.html">
+                <div class="img"><img src="images/list_img1.jpg" alt=""></div>
+                <div class="right">
+                    <h2>推—乔迁旺专业居民公司搬家，24小时服务，就近派车就近派车</h2>
+                    <span>白云公园</span>  
+                    <b>保洁</b>
+                    <div class="liulan"><spn> 11：09</spn></div>
+                </div> 
+            </a> 
+        </li> 
+        <li>
+            <label class="am-checkbox-inline">
+                <input type="checkbox" value="option1">  
+            </label> 
+            <a href="list_xq.html">
+                <div class="img"><img src="images/pl_img.jpg" alt=""></div>
+                <div class="right">
+                    <h2>推—乔迁旺专业居民公司搬家，24小时服务，就近派车就近派车</h2>
+                    <span>白云公园</span>  
+                    <b>保洁</b>
+                    <div class="liulan"><spn> 11：09</spn></div>
+                </div> 
+            </a> 
+        </li> 
+    </ul>
+</div>      
+
+<!-- 外框结束div -->
+</div> 
+<div class="delete_footer"> 
+    <label class="am-checkbox-inline">
+        <input type="checkbox" value="option1">  全选
+    </label>
+   <dov><p class="no">取消</p><p>清除</p></dov>
+</div>
+<!-- js妹子ui -->
+<script src="js/amazeui.min.js"></script>   
+</body>
+</html> 
+<script>
+    $(function(){
+        $(".sos_t_zy .right .zd>a").mousedown(function(){
+            $(".delete_my>ul").addClass("delete");
+            $(".delete_footer").css("display","flex");
+        })
+        $(".delete_footer .no").mousedown(function(){
+            $(".delete_my>ul").removeClass("delete");
+            $(".delete_footer").css("display","none");
+        })
+    })
+</script>

@@ -1,0 +1,1010 @@
+<!doctype html>
+<html lang="en">
+ <head> 
+  <title>大学 - 简志愿</title> 
+  <meta name="keywords"> 
+  <meta name="description"> 
+  <meta http-equiv="content-type" content="text/html;charset=utf-8"> 
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"> 
+  <link rel="shortcut icon" href="css/favicon.ico" type="image/x-icon"> 
+  <script type="text/javascript" src="js/qrcode.min.js"></script> 
+  <script src="js/echarts.js"></script> 
+  <script type="text/javascript" src="js/7moorInit.js" async></script> 
+  <link rel="stylesheet" href="css/common.4ac08c98.css"> 
+  <link rel="stylesheet" href="css/index.7ab7aca6.css"> 
+  <style>
+    .chart {
+      width: 100%;
+      height: 100%;
+      min-height: 400px!important;
+    }
+
+  </style> 
+ </head> 
+ <body> 
+ <body>
+ 	<div data-v-1b705696="" data-v-0935509e="" id="app">
+ 		<div class="main">
+ 			<div data-v-62490ec7="" class="top-header" user-info="userInfo">
+ 				<div data-v-62490ec7="" class="top">
+ 					<div data-v-62490ec7="" class="container">
+ 						<div data-v-62490ec7="" class="left">
+ 							欢迎访问高考U选，填出美好未来！
+ 						</div>
+ 						<ul data-v-62490ec7="" class="right">
+ 							<li data-v-62490ec7="" class="program1">
+ 								微信小程序
+ 								<span data-v-62490ec7="">
+ 									<img data-v-62490ec7="" src="//static.gkux.com/static/web/public/img/xcx.cda11650.jpg">
+ 								</span>
+ 							</li>
+ 							<li data-v-62490ec7="" class="program2">
+ 								APP下载
+ 								<span data-v-62490ec7="">
+ 									<img data-v-62490ec7="" src="//static.gkux.com/static/b06261536/images/app_qrcode.jpg">
+ 								</span>
+ 							</li>
+ 							<a data-v-62490ec7="" href="/newbieGuide">
+ 								<li data-v-62490ec7="" class="program3">新手指南</li>
+ 							</a>
+ 							<li data-v-62490ec7="" class="program2">
+ 								<a data-v-62490ec7="" href="/coupon/activate">激活VIP</a>
+ 							</li>
+ 							<!-- <li data-v-62490ec7="" class="program0">
+ 								
+ 								<p data-v-62490ec7="">
+ 									<a data-v-62490ec7="" href="/user-info">阳阳灬校长1</a>
+ 									<span data-v-62490ec7="" class="userInfospan">
+ 										<a data-v-62490ec7="" href="/user-info">基本信息</a>
+ 										<a data-v-62490ec7="" href="/coupon/activate">激活VIP</a>
+ 										<a data-v-62490ec7="" href="/my-intention">我的志愿</a>
+ 										<a data-v-62490ec7="" href="/fav/school">我的收藏</a>
+ 										<a data-v-62490ec7="" href="/consult">我的咨询</a>
+ 										<a data-v-62490ec7="" href="/reset-pwd">修改密码</a>
+ 										<a data-v-62490ec7="">立即退出</a>
+ 									</span>
+ 									
+ 								</p>
+ 							</li> -->
+							<li class="program0" data-v-62490ec7><p data-v-62490ec7><a href="./register.html" data-v-62490ec7>注册</a> <a id="login" data-v-62490ec7>登录</a></p>
+							 <!----></li>
+ 						</ul>
+ 					</div>
+ 				</div>
+ 				<div data-v-62490ec7="" class="nav">
+ 					<div data-v-62490ec7="" class="container">
+ 						<div data-v-62490ec7="" class="secherLogo">
+ 							<div data-v-62490ec7="" class="logo">
+ 								<a data-v-62490ec7="" href="./index.html">
+ 									<img data-v-62490ec7="" title="简志愿" src="./images/jian_logo.png">
+ 								</a>
+ 							</div>
+ 							<div data-v-62490ec7="" class="secher">
+ 								<form data-v-b8c29c26="" data-v-62490ec7="" action="/search" method="get">
+ 									<input data-v-b8c29c26="" autocomplete="off" type="string" name="keyword" placeholder="搜索学校、专业" maxlength="16" class="f14">
+ 									<button data-v-b8c29c26="" type="submit"></button>
+ 								</form>
+ 							</div>
+ 						</div>
+ 						<ul data-v-62490ec7="" class="navbar">
+ 							<li data-v-62490ec7="">
+ 								<a data-v-62490ec7="" href="./index.html" class="mian-a">
+ 									<em data-v-62490ec7="">首页</em>
+ 								</a>
+ 							</li>
+ 							<li data-v-62490ec7="">
+ 								<a data-v-62490ec7="" href="/colleges" class="mian-a">
+ 									<em data-v-62490ec7="">数据查询</em>
+ 								</a>
+ 								<div data-v-62490ec7="">
+ 									<a data-v-62490ec7="" href="/about-enroll/school/rank">录取数据查询</a>
+ 									<a data-v-62490ec7="" href="/admission-plan/school">招生计划数据</a>
+ 									<a data-v-62490ec7="" href="./colleges.html">找大学</a>
+ 									<a data-v-62490ec7="" href="./majors.html">查专业</a>
+ 									<a data-v-62490ec7="" href="./jobs.html">搜职业</a>
+ 									<a href="./college-bang.html" data-v-62490ec7>大学排名</a>
+ 									<a href="./rank.html" data-v-62490ec7>位次查询</a> 
+ 									<a href="./batch-line.html" data-v-62490ec7>查批次线</a>
+ 								</div>
+ 							</li>
+ 							<li data-v-62490ec7="">
+ 								<a data-v-62490ec7="" href="./intention-add.html" class="mian-a">
+ 									<em data-v-62490ec7="">志愿填报</em>
+ 								</a>
+ 								<div data-v-62490ec7="">
+ 									<a data-v-62490ec7="" href="./can-school.html">可上院校
+ 										<i data-v-62490ec7="" class="hot"></i>
+ 									</a>
+ 									<a data-v-62490ec7="" href="./intention-add.html">智能模拟填报</a>
+ 								</div>
+ 							</li>
+ 							<li data-v-62490ec7="">
+ 								<a data-v-62490ec7="" href="./test-evaluation.html" class="mian-a">
+ 									<em data-v-62490ec7="">测试评估</em>
+ 								</a>
+ 								<div data-v-62490ec7="">
+ 									<a data-v-62490ec7="" href="./test-evaluation.html">录取概率测试
+ 										<i data-v-62490ec7="" class="hot"></i>
+ 									</a>
+ 									<a data-v-62490ec7="" href="./compare-college.html">院校对比
+ 										<i data-v-62490ec7="" class="hot"></i>
+ 									</a>
+ 									<a data-v-62490ec7="" href="./subject.html">专业对比</a>
+ 								</div>
+ 							</li>
+ 							<li data-v-62490ec7="">
+ 								<a data-v-62490ec7="" href="/newGk/index" class="mian-a">
+ 									<em data-v-62490ec7="">生涯规划</em>
+ 								</a>
+ 								<div data-v-62490ec7="">
+ 									<a data-v-62490ec7="" href="./job-for-you.html">职业性格测试</a>
+ 									<a data-v-62490ec7="" href="/newGk/index">新高考选科</a>
+ 								</div>
+ 							</li>
+ 							<li data-v-62490ec7="">
+ 								<a data-v-62490ec7="" href="./new.html" class="mian-a">
+ 									<em data-v-62490ec7="">高考资讯</em>
+ 								</a>
+ 								<!-- <div data-v-62490ec7="">
+ 									<a data-v-62490ec7="" href="./new.html">热门资讯</a>
+ 									<a data-v-62490ec7="" href="/news/2">高考资讯</a>
+ 									<a data-v-62490ec7="" href="/news/3">院校动态</a>
+ 									<a data-v-62490ec7="" href="/news/4">招生政策</a>
+ 								</div> -->
+ 							</li>
+ 							<!-- <li data-v-62490ec7="">
+ 								<a data-v-62490ec7="" href="/classroom" class="mian-a">
+ 									<em data-v-62490ec7="">U选课堂</em>
+ 								</a>
+ 							</li> -->
+ 						</ul>
+ 						<!-- <div data-v-62490ec7="" class="vipAndPhone">
+ 							<div data-v-62490ec7="" class="vip viped">
+ 								开通VIP
+ 							</div>
+ 							<div data-v-62490ec7="" class="phones">手机版
+ 								<span data-v-62490ec7="">
+ 									<img data-v-62490ec7="" src="//static.gkux.com/static/b06261536/images/app_qrcode.jpg">
+ 								</span>
+ 							</div>
+ 						</div> -->
+ 					</div>
+ 				</div>
+ 			<div class="login-mask" style="display:none;" data-v-65213d27 data-v-62490ec7>
+ 			 <div class="login" data-v-65213d27>
+ 			  <div class="close" data-v-65213d27></div> 
+ 			  <h2 data-v-65213d27><em data-v-65213d27></em> 简志愿登录 <em data-v-65213d27></em></h2> 
+ 			  <div class="messageAndId" data-v-65213d27>
+ 			   <span class="active" data-v-65213d27>账号登录</span>
+ 			   <span data-v-65213d27>会员卡登陆</span>
+ 			  </div> 
+ 			  <ul class="re-input" id="re-input" data-v-65213d27>
+ 			   <form action="/login" method="post" data-v-65213d27>
+ 			    <div class="account" data-v-65213d27>
+ 			     <li data-v-65213d27><input placeholder="请输入用户名" name="uname" type="number" maxlength="11" value="" data-v-6e36b945 data-v-65213d27></li> 
+ 			     <li class="password" data-v-65213d27><input placeholder="请输入密码" name="pwd" type="password" maxlength="16" minlength="6" data-v-e5fc95c0 data-v-65213d27></li> 
+ 			     <li class="authcode" style="display:none;" data-v-65213d27><label data-v-65213d27><span data-v-65213d27></span> <input placeholder="请输入验证码" name="captcha" type="captcha" maxlength="6" minlength="3" data-v-65213d27></label></li>
+ 			    </div> 
+ 			    <!----> 
+ 			    <div class="forget" data-v-65213d27>
+ 			     <a href="/forget-pwd" data-v-65213d27>忘记密码</a> 
+ 			     <a href="./register.html" data-v-65213d27>去注册</a>
+ 			    </div> 
+ 			    <li class="button" data-v-65213d27><button type="button" data-v-65213d27>登录</button></li>
+ 			   </form>
+ 			  </ul> 
+ 			  <ul class="re-input" id="re-inputs" data-v-65213d27>
+ 			   <form action="./login.html" method="post" data-v-65213d27>
+ 			    <div class="account" data-v-65213d27>
+ 			     <li data-v-65213d27><input placeholder="志愿卡、升学卡、体验卡号" name="uname" type="number" maxlength="11" value="" data-v-6e36b945 data-v-65213d27></li> 
+ 			     <li class="password" data-v-65213d27><input placeholder="会员卡密码" name="pwd" type="password" maxlength="16" minlength="6" data-v-e5fc95c0 data-v-65213d27></li> 
+ 			     <li class="authcode" style="display:none;" data-v-65213d27><label data-v-65213d27><span data-v-65213d27></span> <input placeholder="请输入验证码" name="captcha" type="captcha" maxlength="6" minlength="3" data-v-65213d27></label></li>
+ 			    </div> 
+ 			    <!----> 
+ 			    <div class="forget" data-v-65213d27>
+ 			     <a href="/forget-pwd" data-v-65213d27>忘记密码</a> 
+ 			     <a href="/register" data-v-65213d27>去注册</a>
+ 			    </div> 
+ 			    <li class="button" data-v-65213d27><button type="button" data-v-65213d27>登录</button></li>
+ 			   </form>
+ 			  </ul> 
+ 			  <div id="login_container" data-v-65213d27></div> 
+ 			  <div data-v-169f800d class="other" data-v-65213d27>
+ 			   <div class="otherLine" data-v-65213d27>
+ 			    <i data-v-65213d27></i> 
+ 			    <p data-v-169f800d data-v-65213d27>其他登录方式</p>
+ 			   </div> 
+ 			   <a class="weixin" data-v-65213d27></a>
+ 			  </div>
+ 			 </div>
+ 			</div> 
+ 				<div data-v-62490ec7="" class="leftFixList">
+ 					<ul data-v-62490ec7="">
+ 						<li data-v-62490ec7="" class="leftfix1">
+ 							<a data-v-62490ec7="" href="###">小程序</a>
+ 							<span data-v-62490ec7="">
+ 								<img data-v-62490ec7="" src="//static.gkux.com/static/web/public/img/xcx.cda11650.jpg">
+ 							</span>
+ 						</li>
+ 						<li data-v-62490ec7="" class="leftfix3">
+ 							<a data-v-62490ec7="" href="./compare-college.html">院校对比</a>
+ 						</li>
+ 						<li data-v-62490ec7="" class="leftfix4">
+ 							<a data-v-62490ec7="" href="./intention-add.html">智能填报</a>
+ 						</li>
+ 						<li data-v-62490ec7="" class="leftfix6">
+ 							<a data-v-62490ec7="" href="/newbieGuide">新手指南</a>
+ 						</li>
+ 						<li data-v-62490ec7="" class="leftfix5">
+ 							<a data-v-62490ec7="">置顶</a>
+ 						</li>
+ 					</ul>
+ 				</div>
+ 			</div>
+ 			<!---->
+ 			<div>
+ 				<div data-v-1b705696="" class="flex justify-between mx-auto items-center" style="width: 1300px;">
+ 					<div data-v-1b705696="" class="path" style="width: 1200px !important;">
+ 						<ul data-v-b62a9f34="" data-v-1b705696="">
+ 							<li data-v-b62a9f34="">
+ 								<a data-v-b62a9f34="" href="/">首页</a>
+ 								<span data-v-b62a9f34="">&nbsp; / &nbsp;&nbsp;</span>
+ 							</li>
+ 							<li data-v-b62a9f34="">
+ 								<a data-v-b62a9f34="" href="/colleges">找大学</a>
+ 								<!---->
+ 							</li>
+ 						</ul>
+ 					</div>
+ 				</div>
+ 				<div data-v-0935509e="" class="seclct2021">
+ 					<div data-v-ef0528d4="" data-v-0935509e="">
+ 						<div data-v-ef0528d4="" class="subnav-box container">
+ 							<dl data-v-ef0528d4="" class="clear">
+ 								<div data-v-ef0528d4="">
+ 									<dt data-v-ef0528d4="">院校区域</dt>
+ 									<dd data-v-ef0528d4="">
+ 										<div data-v-490bba84="" data-v-0730b356="" data-v-ef0528d4="">
+ 											<!---->
+ 											<ul data-v-490bba84="" type="radio" class="clear">
+ 												<li data-v-490bba84="" data-value="" class="tag active">
+ 													不限
+ 												</li>
+ 												<li data-v-490bba84="" data-value="13" class="tag">
+ 													安徽
+ 												</li>
+ 												<li data-v-490bba84="" data-value="2" class="tag">
+ 													北京
+ 												</li>
+ 												<li data-v-490bba84="" data-value="23" class="tag">
+ 													重庆
+ 												</li>
+ 												<li data-v-490bba84="" data-value="14" class="tag">
+ 													福建
+ 												</li>
+ 												<li data-v-490bba84="" data-value="20" class="tag">
+ 													广东
+ 												</li>
+ 												<li data-v-490bba84="" data-value="21" class="tag">
+ 													广西
+ 												</li>
+ 												<li data-v-490bba84="" data-value="25" class="tag">
+ 													贵州
+ 												</li>
+ 												<li data-v-490bba84="" data-value="29" class="tag">
+ 													甘肃
+ 												</li>
+ 												<li data-v-490bba84="" data-value="9" class="tag">
+ 													黑龙江
+ 												</li>
+ 												<li data-v-490bba84="" data-value="17" class="tag">
+ 													河南
+ 												</li>
+ 												<li data-v-490bba84="" data-value="18" class="tag">
+ 													湖北
+ 												</li>
+ 												<li data-v-490bba84="" data-value="19" class="tag">
+ 													湖南
+ 												</li>
+ 												<li data-v-490bba84="" data-value="22" class="tag">
+ 													海南
+ 												</li>
+ 												<li data-v-490bba84="" data-value="4" class="tag">
+ 													河北
+ 												</li>
+ 												<li data-v-490bba84="" data-value="8" class="tag">
+ 													吉林
+ 												</li>
+ 												<li data-v-490bba84="" data-value="11" class="tag">
+ 													江苏
+ 												</li>
+ 												<li data-v-490bba84="" data-value="15" class="tag">
+ 													江西
+ 												</li>
+ 												<li data-v-490bba84="" data-value="7" class="tag">
+ 													辽宁
+ 												</li>
+ 												<li data-v-490bba84="" data-value="3" class="tag">
+ 													天津
+ 												</li>
+ 												<li data-v-490bba84="" data-value="6" class="tag">
+ 													内蒙
+ 												</li>
+ 												<li data-v-490bba84="" data-value="31" class="tag">
+ 													宁夏
+ 												</li>
+ 												<li data-v-490bba84="" data-value="30" class="tag">
+ 													青海
+ 												</li>
+ 												<li data-v-490bba84="" data-value="5" class="tag">
+ 													山西
+ 												</li>
+ 												<li data-v-490bba84="" data-value="10" class="tag">
+ 													上海
+ 												</li>
+ 												<li data-v-490bba84="" data-value="16" class="tag">
+ 													山东
+ 												</li>
+ 												<li data-v-490bba84="" data-value="24" class="tag">
+ 													四川
+ 												</li>
+ 												<li data-v-490bba84="" data-value="28" class="tag">
+ 													陕西
+ 												</li>
+ 												<li data-v-490bba84="" data-value="27" class="tag">
+ 													西藏
+ 												</li>
+ 												<li data-v-490bba84="" data-value="32" class="tag">
+ 													新疆
+ 												</li>
+ 												<li data-v-490bba84="" data-value="26" class="tag">
+ 													云南
+ 												</li>
+ 												<li data-v-490bba84="" data-value="12" class="tag">
+ 													浙江
+ 												</li>
+ 											</ul>
+ 										</div>
+ 									</dd>
+ 								</div>
+ 								<div data-v-ef0528d4="">
+ 									<dt data-v-ef0528d4="">院校类型</dt>
+ 									<dd data-v-ef0528d4="">
+ 										<div data-v-490bba84="" data-v-730c330a="" data-v-ef0528d4="">
+ 											<!---->
+ 											<ul data-v-490bba84="" type="radio" class="clear">
+ 												<li data-v-490bba84="" data-value="" class="tag active">
+ 													不限
+ 												</li>
+ 												<li data-v-490bba84="" data-value="1" class="tag">
+ 													工科
+ 												</li>
+ 												<li data-v-490bba84="" data-value="2" class="tag">
+ 													语言
+ 												</li>
+ 												<li data-v-490bba84="" data-value="3" class="tag">
+ 													综合
+ 												</li>
+ 												<li data-v-490bba84="" data-value="4" class="tag">
+ 													医药
+ 												</li>
+ 												<li data-v-490bba84="" data-value="5" class="tag">
+ 													体育
+ 												</li>
+ 												<li data-v-490bba84="" data-value="6" class="tag">
+ 													财经
+ 												</li>
+ 												<li data-v-490bba84="" data-value="7" class="tag">
+ 													艺术
+ 												</li>
+ 												<li data-v-490bba84="" data-value="8" class="tag">
+ 													民族
+ 												</li>
+ 												<li data-v-490bba84="" data-value="9" class="tag">
+ 													师范
+ 												</li>
+ 												<li data-v-490bba84="" data-value="10" class="tag">
+ 													林业
+ 												</li>
+ 												<li data-v-490bba84="" data-value="11" class="tag">
+ 													农业
+ 												</li>
+ 												<li data-v-490bba84="" data-value="12" class="tag">
+ 													政法
+ 												</li>
+ 												<li data-v-490bba84="" data-value="13" class="tag">
+ 													军事
+ 												</li>
+ 											</ul>
+ 										</div>
+ 									</dd>
+ 								</div>
+ 								<div data-v-ef0528d4="">
+ 									<dt data-v-ef0528d4="">院校层次</dt>
+ 									<dd data-v-ef0528d4="">
+ 										<div data-v-490bba84="" data-v-ec9360da="" data-v-ef0528d4="">
+ 											<!---->
+ 											<ul data-v-490bba84="" type="radio" class="clear">
+ 												<li data-v-490bba84="" data-value="" class="tag active">
+ 													不限
+ 												</li>
+ 												<li data-v-490bba84="" data-value="BK" class="tag">
+ 													本科
+ 												</li>
+ 												<li data-v-490bba84="" data-value="ZK" class="tag">
+ 													专科
+ 												</li>
+ 											</ul>
+ 										</div>
+ 									</dd>
+ 								</div>
+ 								<div data-v-ef0528d4="">
+ 									<dt data-v-ef0528d4="">院校特征</dt>
+ 									<dd data-v-ef0528d4="">
+ 										<div data-v-4b157fe9="" data-v-ef0528d4="">
+ 											<!---->
+ 											<ul data-v-4b157fe9="" type="radio" class="clear">
+ 												<li data-v-4b157fe9="" class="active">
+ 													不限
+ 												</li>
+ 												<li data-v-4b157fe9="" class="">
+ 													985
+ 												</li>
+ 												<li data-v-4b157fe9="" class="">
+ 													211
+ 												</li>
+ 												<li data-v-4b157fe9="" class="">
+ 													双一流
+ 												</li>
+ 												<li data-v-4b157fe9="" class="">
+ 													研究生推免资格
+ 												</li>
+ 												<li data-v-4b157fe9="" class="">
+ 													研究生院
+ 												</li>
+ 												<li data-v-4b157fe9="" class="">
+ 													独立学院
+ 												</li>
+ 											</ul>
+ 										</div>
+ 									</dd>
+ 								</div>
+ 								<div data-v-ef0528d4="">
+ 									<dt data-v-ef0528d4="">办学类型</dt>
+ 									<dd data-v-ef0528d4="">
+ 										<ul data-v-7902d0e4="" data-v-ef0528d4="" type="radio" class="clear">
+ 											<li data-v-7902d0e4="" data-value="" class="tag active">
+ 												不限
+ 											</li>
+ 											<li data-v-7902d0e4="" data-value="GONG_BAN" class="tag">
+ 												公办
+ 											</li>
+ 											<li data-v-7902d0e4="" data-value="MIN_BAN" class="tag">
+ 												民办
+ 											</li>
+ 											<li data-v-7902d0e4="" data-value="ZHONG_WAI" class="tag">
+ 												中外合作
+ 											</li>
+ 										</ul>
+ 									</dd>
+ 								</div>
+ 								<!---->
+ 								<div data-v-ef0528d4="">
+ 									<!---->
+ 									<!---->
+ 									<div data-v-ef0528d4="">
+ 										<!---->
+ 										<div data-v-1bf4e7f0="" data-v-ef0528d4="" user="[object Object]">
+ 											<!---->
+ 											<!---->
+ 											<!---->
+ 											<div data-v-1bf4e7f0="" class="haveToVip">
+ 												<div data-v-1bf4e7f0="">
+ 													<a data-v-1bf4e7f0="" href="/vip/pay?prevUrl=/">立即开通</a>
+ 													<!-- <a data-v-1bf4e7f0="" href="/coupon/activate">激活VIP</a> -->
+ 													<a data-v-1bf4e7f0="" href="/coupon/activate?type=card">权益兑换</a>
+ 												</div>
+ 											</div>
+ 											<!---->
+ 										</div>
+ 									</div>
+ 								</div>
+ 							</dl>
+ 						</div>
+ 					</div>
+ 				</div>
+ 				<div data-v-0935509e="" id="top" class="sch-list schoolList2021 container">
+ 					<div data-v-0935509e="" class="tit">
+ 						<h2 data-v-0935509e="">共找到 <b data-v-0935509e="">2899</b> 所学校/校区</h2>
+ 						<div data-v-0935509e="" class="p-radio justFind2021">
+ 							<label data-v-0935509e="">
+ 								<input data-v-0935509e="" type="checkbox">2023招生章程</label>
+ 						</div>
+ 					</div>
+ 					<div data-v-0935509e="">
+ 						<div data-v-5d7a8c64="" data-v-0935509e="">
+ 							<ul data-v-5d7a8c64="" class="schoolList">
+ 								<li data-v-5d7a8c64="">
+ 									<a data-v-5d7a8c64="" href="/college/2">
+ 										<span data-v-5d7a8c64="">
+ 											<img data-v-5d7a8c64="" src="https://static.gkux.com/service-upload-files/school-logo/2.jpg" alt="">
+ 										</span>
+ 										<div data-v-5d7a8c64="" class="schoolName">
+ 											<h3 data-v-5d7a8c64="">北京大学</h3>
+ 											<p data-v-5d7a8c64="" class="nature">
+ 												<span data-v-5d7a8c64="">隶属：教育部</span>
+ 												<span data-v-5d7a8c64="">性质：公办</span>
+ 												<span data-v-5d7a8c64="">热度：3865</span>
+ 											</p>
+ 											<p data-v-5d7a8c64="" class="attribute">
+ 												<i data-v-5d7a8c64="" class="jiubawu">985</i>
+ 												<i data-v-5d7a8c64="" class="eryiyi">211</i>
+ 												<i data-v-5d7a8c64="" class="shuangyiliu">双一流</i>
+ 												<i data-v-5d7a8c64="" class="zhaosheng">2023招生章程</i>
+ 												<!---->
+ 											</p>
+ 										</div>
+ 									</a>
+ 									<div data-v-5d7a8c64="" class="contrast">
+ 										<a data-v-5d7a8c64="" href="/college/2" class="rast">我要咨询</a>
+ 										<button data-v-7e91eeb6="" data-v-5d7a8c64="" class="">
+ 											<strong data-v-7e91eeb6=""></strong>
+ 											<span data-v-7e91eeb6="">加入对比</span>
+ 										</button>
+ 										<a data-v-5d7a8c64="" href="/college/2/score" class="test">招生录取数据</a>
+ 									</div>
+ 								</li>
+ 								<li data-v-5d7a8c64="">
+ 									<a data-v-5d7a8c64="" href="/college/1">
+ 										<span data-v-5d7a8c64="">
+ 											<img data-v-5d7a8c64="" src="https://static.gkux.com/service-upload-files/school-logo/1.jpg" alt="">
+ 										</span>
+ 										<div data-v-5d7a8c64="" class="schoolName">
+ 											<h3 data-v-5d7a8c64="">清华大学</h3>
+ 											<p data-v-5d7a8c64="" class="nature">
+ 												<span data-v-5d7a8c64="">隶属：教育部</span>
+ 												<span data-v-5d7a8c64="">性质：公办</span>
+ 												<span data-v-5d7a8c64="">热度：3981</span>
+ 											</p>
+ 											<p data-v-5d7a8c64="" class="attribute">
+ 												<i data-v-5d7a8c64="" class="jiubawu">985</i>
+ 												<i data-v-5d7a8c64="" class="eryiyi">211</i>
+ 												<i data-v-5d7a8c64="" class="shuangyiliu">双一流</i>
+ 												<i data-v-5d7a8c64="" class="zhaosheng">2023招生章程</i>
+ 												<!---->
+ 											</p>
+ 										</div>
+ 									</a>
+ 									<div data-v-5d7a8c64="" class="contrast">
+ 										<a data-v-5d7a8c64="" href="/college/1" class="rast">我要咨询</a>
+ 										<button data-v-7e91eeb6="" data-v-5d7a8c64="" class="">
+ 											<strong data-v-7e91eeb6=""></strong>
+ 											<span data-v-7e91eeb6="">加入对比</span>
+ 										</button>
+ 										<a data-v-5d7a8c64="" href="/college/1/score" class="test">招生录取数据</a>
+ 									</div>
+ 								</li>
+ 								<li data-v-5d7a8c64="">
+ 									<a data-v-5d7a8c64="" href="/college/58">
+ 										<span data-v-5d7a8c64="">
+ 											<img data-v-5d7a8c64="" src="https://static.gkux.com/service-upload-files/school-logo/58.jpg" alt="">
+ 										</span>
+ 										<div data-v-5d7a8c64="" class="schoolName">
+ 											<h3 data-v-5d7a8c64="">浙江大学</h3>
+ 											<p data-v-5d7a8c64="" class="nature">
+ 												<span data-v-5d7a8c64="">隶属：教育部</span>
+ 												<span data-v-5d7a8c64="">性质：公办</span>
+ 												<span data-v-5d7a8c64="">热度：3266</span>
+ 											</p>
+ 											<p data-v-5d7a8c64="" class="attribute">
+ 												<i data-v-5d7a8c64="" class="jiubawu">985</i>
+ 												<i data-v-5d7a8c64="" class="eryiyi">211</i>
+ 												<i data-v-5d7a8c64="" class="shuangyiliu">双一流</i>
+ 												<i data-v-5d7a8c64="" class="zhaosheng">2023招生章程</i>
+ 												<!---->
+ 											</p>
+ 										</div>
+ 									</a>
+ 									<div data-v-5d7a8c64="" class="contrast">
+ 										<a data-v-5d7a8c64="" href="/college/58" class="rast">我要咨询</a>
+ 										<button data-v-7e91eeb6="" data-v-5d7a8c64="" class="">
+ 											<strong data-v-7e91eeb6=""></strong>
+ 											<span data-v-7e91eeb6="">加入对比</span>
+ 										</button>
+ 										<a data-v-5d7a8c64="" href="/college/58/score" class="test">招生录取数据</a>
+ 									</div>
+ 								</li>
+ 								<li data-v-5d7a8c64="">
+ 									<a data-v-5d7a8c64="" href="/college/3">
+ 										<span data-v-5d7a8c64="">
+ 											<img data-v-5d7a8c64="" src="https://static.gkux.com/service-upload-files/school-logo/3.jpg" alt="">
+ 										</span>
+ 										<div data-v-5d7a8c64="" class="schoolName">
+ 											<h3 data-v-5d7a8c64="">复旦大学</h3>
+ 											<p data-v-5d7a8c64="" class="nature">
+ 												<span data-v-5d7a8c64="">隶属：教育部</span>
+ 												<span data-v-5d7a8c64="">性质：公办</span>
+ 												<span data-v-5d7a8c64="">热度：2420</span>
+ 											</p>
+ 											<p data-v-5d7a8c64="" class="attribute">
+ 												<i data-v-5d7a8c64="" class="jiubawu">985</i>
+ 												<i data-v-5d7a8c64="" class="eryiyi">211</i>
+ 												<i data-v-5d7a8c64="" class="shuangyiliu">双一流</i>
+ 												<i data-v-5d7a8c64="" class="zhaosheng">2023招生章程</i>
+ 												<!---->
+ 											</p>
+ 										</div>
+ 									</a>
+ 									<div data-v-5d7a8c64="" class="contrast">
+ 										<a data-v-5d7a8c64="" href="/college/3" class="rast">我要咨询</a>
+ 										<button data-v-7e91eeb6="" data-v-5d7a8c64="" class="">
+ 											<strong data-v-7e91eeb6=""></strong>
+ 											<span data-v-7e91eeb6="">加入对比</span>
+ 										</button>
+ 										<a data-v-5d7a8c64="" href="/college/3/score" class="test">招生录取数据</a>
+ 									</div>
+ 								</li>
+ 								<li data-v-5d7a8c64="">
+ 									<a data-v-5d7a8c64="" href="/college/6">
+ 										<span data-v-5d7a8c64="">
+ 											<img data-v-5d7a8c64="" src="https://static.gkux.com/service-upload-files/school-logo/6.jpg" alt="">
+ 										</span>
+ 										<div data-v-5d7a8c64="" class="schoolName">
+ 											<h3 data-v-5d7a8c64="">中国人民大学</h3>
+ 											<p data-v-5d7a8c64="" class="nature">
+ 												<span data-v-5d7a8c64="">隶属：教育部</span>
+ 												<span data-v-5d7a8c64="">性质：公办</span>
+ 												<span data-v-5d7a8c64="">热度：1851</span>
+ 											</p>
+ 											<p data-v-5d7a8c64="" class="attribute">
+ 												<i data-v-5d7a8c64="" class="jiubawu">985</i>
+ 												<i data-v-5d7a8c64="" class="eryiyi">211</i>
+ 												<i data-v-5d7a8c64="" class="shuangyiliu">双一流</i>
+ 												<i data-v-5d7a8c64="" class="zhaosheng">2023招生章程</i>
+ 												<!---->
+ 											</p>
+ 										</div>
+ 									</a>
+ 									<div data-v-5d7a8c64="" class="contrast">
+ 										<a data-v-5d7a8c64="" href="/college/6" class="rast">我要咨询</a>
+ 										<button data-v-7e91eeb6="" data-v-5d7a8c64="" class="">
+ 											<strong data-v-7e91eeb6=""></strong>
+ 											<span data-v-7e91eeb6="">加入对比</span>
+ 										</button>
+ 										<a data-v-5d7a8c64="" href="/college/6/score" class="test">招生录取数据</a>
+ 									</div>
+ 								</li>
+ 								<li data-v-5d7a8c64="">
+ 									<a data-v-5d7a8c64="" href="/college/4">
+ 										<span data-v-5d7a8c64="">
+ 											<img data-v-5d7a8c64="" src="https://static.gkux.com/service-upload-files/school-logo/4.jpg" alt="">
+ 										</span>
+ 										<div data-v-5d7a8c64="" class="schoolName">
+ 											<h3 data-v-5d7a8c64="">上海交通大学</h3>
+ 											<p data-v-5d7a8c64="" class="nature">
+ 												<span data-v-5d7a8c64="">隶属：教育部</span>
+ 												<span data-v-5d7a8c64="">性质：公办</span>
+ 												<span data-v-5d7a8c64="">热度：2254</span>
+ 											</p>
+ 											<p data-v-5d7a8c64="" class="attribute">
+ 												<i data-v-5d7a8c64="" class="jiubawu">985</i>
+ 												<i data-v-5d7a8c64="" class="eryiyi">211</i>
+ 												<i data-v-5d7a8c64="" class="shuangyiliu">双一流</i>
+ 												<i data-v-5d7a8c64="" class="zhaosheng">2023招生章程</i>
+ 												<!---->
+ 											</p>
+ 										</div>
+ 									</a>
+ 									<div data-v-5d7a8c64="" class="contrast">
+ 										<a data-v-5d7a8c64="" href="/college/4" class="rast">我要咨询</a>
+ 										<button data-v-7e91eeb6="" data-v-5d7a8c64="" class="">
+ 											<strong data-v-7e91eeb6=""></strong>
+ 											<span data-v-7e91eeb6="">加入对比</span>
+ 										</button>
+ 										<a data-v-5d7a8c64="" href="/college/4/score" class="test">招生录取数据</a>
+ 									</div>
+ 								</li>
+ 								<li data-v-5d7a8c64="">
+ 									<a data-v-5d7a8c64="" href="/college/13">
+ 										<span data-v-5d7a8c64="">
+ 											<img data-v-5d7a8c64="" src="https://static.gkux.com/service-upload-files/school-logo/13.jpg" alt="">
+ 										</span>
+ 										<div data-v-5d7a8c64="" class="schoolName">
+ 											<h3 data-v-5d7a8c64="">武汉大学</h3>
+ 											<p data-v-5d7a8c64="" class="nature">
+ 												<span data-v-5d7a8c64="">隶属：教育部</span>
+ 												<span data-v-5d7a8c64="">性质：公办</span>
+ 												<span data-v-5d7a8c64="">热度：3636</span>
+ 											</p>
+ 											<p data-v-5d7a8c64="" class="attribute">
+ 												<i data-v-5d7a8c64="" class="jiubawu">985</i>
+ 												<i data-v-5d7a8c64="" class="eryiyi">211</i>
+ 												<i data-v-5d7a8c64="" class="shuangyiliu">双一流</i>
+ 												<i data-v-5d7a8c64="" class="zhaosheng">2023招生章程</i>
+ 												<!---->
+ 											</p>
+ 										</div>
+ 									</a>
+ 									<div data-v-5d7a8c64="" class="contrast">
+ 										<a data-v-5d7a8c64="" href="/college/13" class="rast">我要咨询</a>
+ 										<button data-v-7e91eeb6="" data-v-5d7a8c64="" class="">
+ 											<strong data-v-7e91eeb6=""></strong>
+ 											<span data-v-7e91eeb6="">加入对比</span>
+ 										</button>
+ 										<a data-v-5d7a8c64="" href="/college/13/score" class="test">招生录取数据</a>
+ 									</div>
+ 								</li>
+ 								<li data-v-5d7a8c64="">
+ 									<a data-v-5d7a8c64="" href="/college/10">
+ 										<span data-v-5d7a8c64="">
+ 											<img data-v-5d7a8c64="" src="https://static.gkux.com/service-upload-files/school-logo/10.jpg" alt="">
+ 										</span>
+ 										<div data-v-5d7a8c64="" class="schoolName">
+ 											<h3 data-v-5d7a8c64="">南京大学</h3>
+ 											<p data-v-5d7a8c64="" class="nature">
+ 												<span data-v-5d7a8c64="">隶属：教育部</span>
+ 												<span data-v-5d7a8c64="">性质：公办</span>
+ 												<span data-v-5d7a8c64="">热度：2652</span>
+ 											</p>
+ 											<p data-v-5d7a8c64="" class="attribute">
+ 												<i data-v-5d7a8c64="" class="jiubawu">985</i>
+ 												<i data-v-5d7a8c64="" class="eryiyi">211</i>
+ 												<i data-v-5d7a8c64="" class="shuangyiliu">双一流</i>
+ 												<i data-v-5d7a8c64="" class="zhaosheng">2023招生章程</i>
+ 												<!---->
+ 											</p>
+ 										</div>
+ 									</a>
+ 									<div data-v-5d7a8c64="" class="contrast">
+ 										<a data-v-5d7a8c64="" href="/college/10" class="rast">我要咨询</a>
+ 										<button data-v-7e91eeb6="" data-v-5d7a8c64="" class="">
+ 											<strong data-v-7e91eeb6=""></strong>
+ 											<span data-v-7e91eeb6="">加入对比</span>
+ 										</button>
+ 										<a data-v-5d7a8c64="" href="/college/10/score" class="test">招生录取数据</a>
+ 									</div>
+ 								</li>
+ 								<li data-v-5d7a8c64="">
+ 									<a data-v-5d7a8c64="" href="/college/8">
+ 										<span data-v-5d7a8c64="">
+ 											<img data-v-5d7a8c64="" src="https://static.gkux.com/service-upload-files/school-logo/8.jpg" alt="">
+ 										</span>
+ 										<div data-v-5d7a8c64="" class="schoolName">
+ 											<h3 data-v-5d7a8c64="">中山大学</h3>
+ 											<p data-v-5d7a8c64="" class="nature">
+ 												<span data-v-5d7a8c64="">隶属：教育部</span>
+ 												<span data-v-5d7a8c64="">性质：公办</span>
+ 												<span data-v-5d7a8c64="">热度：3327</span>
+ 											</p>
+ 											<p data-v-5d7a8c64="" class="attribute">
+ 												<i data-v-5d7a8c64="" class="jiubawu">985</i>
+ 												<i data-v-5d7a8c64="" class="eryiyi">211</i>
+ 												<i data-v-5d7a8c64="" class="shuangyiliu">双一流</i>
+ 												<i data-v-5d7a8c64="" class="zhaosheng">2023招生章程</i>
+ 												<!---->
+ 											</p>
+ 										</div>
+ 									</a>
+ 									<div data-v-5d7a8c64="" class="contrast">
+ 										<a data-v-5d7a8c64="" href="/college/8" class="rast">我要咨询</a>
+ 										<button data-v-7e91eeb6="" data-v-5d7a8c64="" class="">
+ 											<strong data-v-7e91eeb6=""></strong>
+ 											<span data-v-7e91eeb6="">加入对比</span>
+ 										</button>
+ 										<a data-v-5d7a8c64="" href="/college/8/score" class="test">招生录取数据</a>
+ 									</div>
+ 								</li>
+ 								<li data-v-5d7a8c64="">
+ 									<a data-v-5d7a8c64="" href="/college/43">
+ 										<span data-v-5d7a8c64="">
+ 											<img data-v-5d7a8c64="" src="https://static.gkux.com/service-upload-files/school-logo/43.jpg" alt="">
+ 										</span>
+ 										<div data-v-5d7a8c64="" class="schoolName">
+ 											<h3 data-v-5d7a8c64="">吉林大学</h3>
+ 											<p data-v-5d7a8c64="" class="nature">
+ 												<span data-v-5d7a8c64="">隶属：教育部</span>
+ 												<span data-v-5d7a8c64="">性质：公办</span>
+ 												<span data-v-5d7a8c64="">热度：2035</span>
+ 											</p>
+ 											<p data-v-5d7a8c64="" class="attribute">
+ 												<i data-v-5d7a8c64="" class="jiubawu">985</i>
+ 												<i data-v-5d7a8c64="" class="eryiyi">211</i>
+ 												<i data-v-5d7a8c64="" class="shuangyiliu">双一流</i>
+ 												<i data-v-5d7a8c64="" class="zhaosheng">2023招生章程</i>
+ 												<!---->
+ 											</p>
+ 										</div>
+ 									</a>
+ 									<div data-v-5d7a8c64="" class="contrast">
+ 										<a data-v-5d7a8c64="" href="/college/43" class="rast">我要咨询</a>
+ 										<button data-v-7e91eeb6="" data-v-5d7a8c64="" class="">
+ 											<strong data-v-7e91eeb6=""></strong>
+ 											<span data-v-7e91eeb6="">加入对比</span>
+ 										</button>
+ 										<a data-v-5d7a8c64="" href="/college/43/score" class="test">招生录取数据</a>
+ 									</div>
+ 								</li>
+ 							</ul>
+ 						</div>
+ 						<div data-v-4b292677="" data-v-0935509e="" class="gb_pages">
+ 							<div data-v-4b292677="" class="gb_page_con clear">
+ 								<a data-v-4b292677="" value="0" class="page gb_page_index">首页</a>
+ 								<!---->
+ 								<a data-v-4b292677="" value="1" class="page gb_page_cur">1</a>
+ 								<a data-v-4b292677="" value="2" class="page">2</a>
+ 								<a data-v-4b292677="" value="3" class="page">3</a>
+ 								<a data-v-4b292677="" value="4" class="page">4</a>
+ 								<a data-v-4b292677="" value="5" class="page">5</a>
+ 								<a data-v-4b292677="" title="下一页" value="2" class="page gb_page_next">下一页</a>
+ 								<a data-v-4b292677="" value="290" class="page gb_page_last">末页</a>
+ 								<div data-v-4b292677="" class="quick_jumper">
+ 									<em data-v-4b292677="">跳至</em>
+ 									<input data-v-72729d57="" data-v-4b292677="" type="number" placeholder-style="color:#b3b3b3" placeholder-class="new-input-placeholder">
+ 									<em data-v-4b292677="">页</em>
+ 								</div>
+ 								<a data-v-4b292677="" value="290" class="page gb_page_last">跳转</a>
+ 							</div>
+ 						</div>
+ 					</div>
+ 					<!---->
+ 				</div>
+ 			</div>
+ 			<!---->
+ 			<!---->
+ 			<div class="footer clearfix">
+ 				<div class="container links">
+ 					<div class="right-cols">
+ 						<div class="col flex flex-col items-center">
+ 							<img src="//static.gkux.com/static/web/public/img/weixinkefu.e361ef75.png">
+ 							<p>
+ 								<a href="#">微信官方客服</a>
+ 							</p>
+ 						</div>
+ 						<div class="col flex flex-col items-center">
+ 							<img src="//static.gkux.com/static/b06261536/images/app_qrcode.jpg">
+ 							<p>
+ 								<a href="#">下载手机APP</a>
+ 							</p>
+ 						</div>
+ 					</div>
+ 					<div class="left-cols">
+ 						<div class="col">
+ 							<ul>
+ 								<li>新手帮助</li>
+ 								<li>
+ 									<a href="/news/detail/u/faq">常见问题</a>
+ 								</li>
+ 								<li>
+ 									<a href="/newbieGuide">新手指南</a>
+ 								</li>
+ 								<!-- <li>
+ 									<a href="/vip">开通VIP</a>
+ 								</li> -->
+ 							</ul>
+ 						</div>
+ 						<div class="col">
+ 							<ul>
+ 								<li>关于我们</li>
+ 								<li>
+ 									<a href="/news/detail/u/about">公司介绍</a>
+ 								</li>
+ 								<li>
+ 									<a href="/news/detail/u/contact">联系我们</a>
+ 								</li>
+ 							</ul>
+ 						</div>
+ 						<div class="col">
+ 							<ul>
+ 								<li>官方声明</li>
+ 								<li>
+ 									<a href="/news/detail/u/service">服务条款</a>
+ 								</li>
+ 								<li>
+ 									<a href="/news/detail/u/disclaimer">免责声明</a>
+ 								</li>
+ 							</ul>
+ 						</div>
+ 						<div class="col" style="width: 190px;">
+ 							<ul>
+ 								<li>联系我们</li>
+ 								<li>客服：400-0680-068</li>
+ 								<li>客服微信：gaokaouxuan120</li>
+ 							</ul>
+ 						</div>
+ 					</div>
+ 				</div>
+ 				<div class="copyright">
+ 					<div class="indexwidth100">
+ 						<span class="logo"></span>
+ 						<div class="copy2">
+ 							<p>© 2021 高考U选 云启智慧科技有限公司</p>
+ 							<a target="_blank" href="https://beian.miit.gov.cn/">鄂ICP备20010258号-2</a>
+ 						</div>
+ 					</div>
+ 				</div>
+ 			</div>
+ 		</div>
+ 	</div>
+ 	
+ 	
+ 	<!-- 	<div class="qimo_chatpup" id="qimo_chatpup" style="display: none; right: 18px; bottom: 0px; width: 355px; height: 500px;">
+ 			<iframe id="chatIframe" src="https://webchat.7moor.com/view/moor_chat.html?v=20230620&amp;clientId=&amp;urlTitle=%E5%A4%A7%E5%AD%A6%20-%20%E9%AB%98%E8%80%83U%E9%80%89&amp;fromUrl=http%3A%2F%2Fwww.gkux.com%2Fcolleges&amp;serviceStates=1&amp;accessId=e3ef9ce0-19ad-11eb-9d08-5b0e65d3d54e&amp;styleColor=5b799a&amp;peers=%5B%7B%22id%22%3A%2210062381%22%2C%22name%22%3A%22%E5%AE%A2%E6%9C%8D%22%2C%22status%22%3A%22enable%22%7D%5D&amp;sessionLastToPeer=&amp;otherParams=&amp;seoSource=%E7%AB%99%E5%86%85&amp;seoKeywords=&amp;xstKeywords=&amp;companyName=%E4%BA%91%E5%90%AF%E6%99%BA%E6%85%A7&amp;seoUrl=http%3A%2F%2Fwww.gkux.com%2Fmajors&amp;language=zh-CN&amp;href=http%3A%2F%2Fwww.gkux.com%2F&amp;priority=false&amp;showAnnexUrl=false&amp;unionAccessId=undefined&amp;hideImgUpload=false&amp;hideFileUpload=false&amp;accessAfterMessage=undefined&amp;customColor=undefined&amp;videoDownloadBtn=false" height="100%" width="100%" allowfullscreen=""></iframe>
+ 			<div id="maskChat"></div>
+ 		</div> -->
+ 		<div id="chatBtn" class="chatBtn" style="display: none; right: 18px; z-index: -100; background-color: rgb(91, 121, 154); border-radius: 5px 5px 0px 0px; bottom: -1px; padding: 8px 10px;">
+ 			<img width="25px" height="25px" src="https://webchat.7moor.com/images/1.png?1221" style="margin: 0px 5px -6px 0px;">
+ 			<span>咨询客服</span>
+ 			<span id="qimo_badge"></span>
+ 		</div>
+ 		<div id="qimo_showNewMsg" class="qimo_showNewMsg" style="display: none; ">
+ 			<div id="qimo_showNewMsg_box" class="qimo_showNewMsg_box">
+ 				<div id="qimo_showNewMsg_title_box" class="qimo_showNewMsg_title_box">
+ 					<img src="https://webchat.7moor.com/images/agentLogo.png">
+ 					<span id="qimo_showNewMsg_title" class="qimo_showNewMsg_title"></span>
+ 				</div>
+ 				<div id="qimo_showNewMsg_content" class="qimo_showNewMsg_content"></div>
+ 			</div>
+ 			<span id="qimo_showNewMsg_close" class="qimo_showNewMsg_close">x</span>
+ 		</div>
+ 	</div>
+ 	<div>
+ 		<div class="qimo_inviteBox" id="qimo_inviteBox" style="display: none; right: 10px; bottom: 10px; background: rgb(63, 184, 253);">
+ 			<img class="qimo_invite_close" id="qimo_invite_close" src="https://webchat.7moor.com/images/invite-close.png">
+ 			<div class="qimo_inviteBox_top">
+ 				<div class="qimo_inviteBox_top_img" id="qimo_inviteBox_top_img">
+ 					<img id="qimo_inviteBox_img" src="https://fs-im-kefu.7moor.com/im/486e1f70-bde0-11e7-8806-e7bf8b6e8c91/2017-12-03/1512299414438/896beb70-d81a-11e7-b6e7-9da891414b0f.png">
+ 				</div>
+ 				<div class="qimo_inviteBox_top_right" id="qimo_inviteBox_top_right">
+ 					<p id="qimo_inviteBox_InviteWords">欢迎咨询，请问有什么可以帮您的吗？</p>
+ 					<div class="qimo_inviteBox_top_button" id="qimo_inviteBox_top_button">
+ 						<div id="invite_click_button_1" class="divbuttons msie11PadTop" style="color: rgb(255, 255, 255); border-color: rgb(255, 255, 255);">立即咨询</div>
+ 						<div id="invite_click_button_2" class="divbuttons msie11PadTop" style="color: rgb(255, 255, 255); border-color: rgb(255, 255, 255);">以后再说</div>
+ 					</div>
+ 				</div>
+ 			</div>
+ 			<div class="qimo_inviteBox_bottom">
+ 				<textarea id="sendInviteText" placeholder="请输入您想要输入的内容..." rows="2"></textarea>
+ 				<div id="sendInviteContent" class="sendInviteContent msie11PadTop" style="background: rgb(63, 184, 253);">发送</div>
+ 			</div>
+ 		</div>
+ 	</div>
+ 	<div>
+ 		<div class="qimo_screenpop" id="qimo_screenpop" style="display: none">
+ 			<div class="screendragbar" id="screendrag"></div>
+ 			<div class="qimo_headerimg" id="qimo_headerimg">
+ 				<div class="screenminimg" style="display: none" id="screenminimg">
+ 					<img src="https://webchat.7moor.com/images/small.png">
+ 				</div>
+ 				<div class="screenminimg" id="screenmaximg">
+ 					<img src="https://webchat.7moor.com/images/big.png">
+ 				</div>
+ 				<div class="screenminimg" id="screencloseimg">
+ 					<img src="https://webchat.7moor.com/images/close.png" style="width: 16px;height: 16px;">
+ 				</div>
+ 			</div>
+ 			<div id="mask"></div>
+ 			<iframe id="screenIframe" src="" height="100%" width="100%" allow="microphone; camera"></iframe>
+ 		</div>
+ 	</div>
+ 	<div>
+ 		<div class="qimo_videopup" id="qimo_videopup" style="display: none">
+ 			<div style="" class="m7_dragbar" id="drag">
+ 				<div class="qimo_minimg" id="qimo_minimg">
+ 					<img src="https://webchat.7moor.com/images/small.png">
+ 				</div>
+ 				<div class="qimo_maximg" id="qimo_maximg" style="display: none">
+ 					<img src="https://webchat.7moor.com/images/big.png">
+ 				</div>
+ 			</div>
+ 			<div id="mask"></div>
+ 			<div id="m7videoIframe" style=" height: 100%; width: 100%;"></div>
+ 		</div>
+ 	</div>
+
+  
+  <script type="text/javascript" src="js/runtime.f4634494.js"></script> 
+  <script type="text/javascript" src="js/common.637fc29a.js"></script> 
+  <script src="js/jquery-1.8.3.min.js"></script>	
+  <script type="text/javascript" src="js/index.js"></script>   
+ </body>
+</html>

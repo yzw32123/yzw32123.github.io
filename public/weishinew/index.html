@@ -1,0 +1,660 @@
+<!doctype html>
+<html class="no-js">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=0">
+	<meta name="viewport" content="width=drvice-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;"> -->
+	<meta name="viewport" content="width=device-width,user-scalable=no, initial-scale=1">
+	<title>为师</title> 
+
+	<link rel="icon" type="image/png" href="../qgj_qt/images/favicon.png"> 
+
+	<link rel="stylesheet" href="css/amazeui.min.css">
+	<link rel="stylesheet" href="css/swiper.min.css">
+	<link rel="stylesheet" href="css/app.css"> 
+	<!-- jquery -->
+	<script src="js/jquery.min.js"></script>  
+	<script src="js/swiper.min.js"></script>
+
+</head>
+
+<body>
+<!--热门城市  -->
+<div class="touchcity" id="cspand" style="display:none;">
+	<div class="schbox">
+		<span>搜索城市:</span><input id="cityipt" type="text" />
+	</div>
+	<div class="citybox"></div>
+	<div class="indexBar"></div>
+	<a class="locate"></a>
+</div>
+<!-- 搜索 -->
+<!-- 搜索框 -->
+<div class="search_bomb_box">
+	<div class="search_top fix">
+		<a class="search_bomb_box_a"><img src="images/back_jt.png"></a>
+		<div>
+			<form>
+				<input type="text" name="" placeholder="课程、PPT">
+				<button type="submit"><img src="images/sous.png"></button>
+			</form>
+		</div>
+	</div>
+	<div class="search_txt">
+		<h2>热门搜索</h2>
+		<ul>
+			<li><a href="list.html">PHP</a></li>
+			<li><a href="list.html">WEB前端</a></li>
+			<li><a href="list.html">英语</a></li>
+			<li><a href="list.html">数学</a></li>
+			<!-- <li><a href="list.html">材质贴图</a></li>
+			<li><a href="list.html">发光字</a></li>
+			<li><a href="list.html">发光纸</a></li> -->
+		</ul> 
+	</div>
+</div> 
+<!-- 外框 -->
+<div id="waik"> 
+<!-- 头部 -->
+<div id="top"  style="box-shadow: none;">  
+	<div class="sos_t">
+		<div id="citypick">
+			<span id="cityname">请选择</span>
+		</div>
+		<div class="so_input">
+			<p><input type="text" id="input1"  class="am-form-field am-round" placeholder="课程、PPT"/></p>
+		</div>
+		<div class="xiaox">
+			<a href="live_tv.html">
+				<i></i>
+				<img src="images/xiaox.png"> 
+			</a>	
+		</div>
+	</div>  
+</div>
+<script>
+/* $(function() {    
+ 	var n=1; 
+ 	//监听滚动条事件，改变背景透明度  
+ 	$(window).scroll(function() {  	        
+ 		var top = $(document).scrollTop();
+ 		if ((top/150) >= 0.9) {
+ 			n=0.9;
+ 		}else{
+ 			n=(top/150);
+ 		}
+ 		$("#top").css("opacity",n);
+
+		
+ 	});  
+ }); */
+</script>
+<!-- banner -->
+<div class="swiper-container banner_shouy">
+	<div class="swiper-wrapper">
+		<div class="swiper-slide">
+		<img src="images_old/nuli.jpg" style="height:219px"></div>
+		<div class="swiper-slide">
+		<img src="images_old/banner2.jpeg" style="height:219px"></div>
+		<div class="swiper-slide">
+		<img src="images_old/banner3.jpg" style="height:219px"></div>
+	</div>
+	<div class="swiper-pagination lunbo_banner"></div>
+</div> 
+<!-- 快捷导航 -->
+<div class="swiper-container nav_iconbox">
+	<div class="swiper-wrapper">
+		<!-- 每个ul有10个li，不能多于10个 -->
+		<ul class="swiper-slide"> 
+			<li>
+				<a href="teacher.html">
+					<img src="images/nav_icon01.png"> 
+					<span>教师列表</span>
+				</a> 
+			</li>
+			<li>
+				<a href="course.html">
+					<img src="images/nav_icon02.png">
+					<span>精讲课程</span>
+				</a>
+			</li>
+			<li>
+				<a href="kejian.html">
+					<img src="images/nav_icon03.png">
+					<span>优质课件</span>
+				</a>
+			</li>
+			<li>
+				<a href="help.html">
+					<img src="images/nav_icon08.png">
+					<span>常见问题</span>
+				</a>
+			</li>
+			<li>
+				<a href="style.html">
+					<img src="images/nav_icon05.png">
+					<span>我的订阅</span>
+				</a>
+			</li>
+			<li>
+			<!-- 	<a href="style.html">
+					<img src="images/nav_icon06.png">
+					<span>充值中心</span>
+				</a>
+			</li>
+			<li>
+				<a href="style.html">
+					<img src="images/nav_icon07.png">
+					<span>每日推荐</span>
+				</a>
+			</li>
+			<li>
+				<a href="style.html">
+					<img src="images/nav_icon08.png">
+					<span>品质商家</span>
+				</a>
+			</li>
+			<li>
+				<a href="style.html">
+					<img src="images/nav_icon09.png">
+					<span>广告协会</span>
+				</a>
+			</li>
+			<li>
+				<a href="style.html">
+					<img src="images/nav_icon10.png">
+					<span>广告联盟</span>
+				</a>
+			</li> -->
+		</ul> 
+		<!-- <ul class="swiper-slide">
+			<li>
+				<a href="style.html">
+					<img src="images/nav_icon01.png">
+					<span>广告之家</span>
+				</a>
+			</li>
+		</ul> -->
+	</div>	
+ 	<div class="swiper-pagination icon01"></div>	 
+</div>
+<!-- 公告开始 -->
+<div class="news_sj_dxs_box">
+	<div class="scrollnews">
+		<span><a href="newslist.html"><img src="images/gongg_img.png"></a></span>
+		<ul>
+			<li><i>公告</i><a href="report_xq.html">优质课件区已开通,海量下载</a></li>
+			<li><i>公告</i><a href="report_xq.html">温故而知新,可以为师矣</a></li>
+			<li><i>公告</i><a href="report_xq.html">上传课件功能已开通！</a></li>
+		</ul>
+		<a class="gengd" href="report.html">更多</a> 
+	</div> 
+</div>
+<!--公告结束  --> 
+<!-- 我的服务开始 -->
+<div class="my_fuwu">
+	<div class="bt">
+		<img src="images/my_fuwu_img.png">
+		<p>推荐课程</p>
+		<a href="#">查看全部+</a>
+	</div>
+	<ul class="my_fuwu_list" id="video_tuijian">
+		<li>
+			<a href="#">
+				<dl>
+					<dd><img src="images/my_img.png" alt=""></dd>
+					<dt><p>家政</p><span>服务到位，洁净到家</span></dt>
+				</dl>
+			</a>
+		</li>
+		<li>
+			<a href="#">
+				<dl>
+					<dd><img src="images/my_img1.png" alt=""></dd>
+					<dt><p>物品真理包装</p><span>心灵手巧，事事顺心心灵手巧，事事顺心</span></dt>
+				</dl>
+			</a>
+		</li>
+		<li>
+			<a href="#">
+				<dl>
+					<dd><img src="images/my_img2.png" alt=""></dd>
+					<dt><p>高端搬家</p><span>我们用心，请您放心</span></dt>
+				</dl>
+			</a>
+		</li>
+		<li>
+			<a href="#">
+				<dl>
+					<dd><img src="images/my_img3.png" alt=""></dd>
+					<dt><p>家具拆装</p><span>找我们，你收纳的是幸福</span></dt>
+				</dl>
+			</a>
+		</li>
+	</ul>
+</div>
+<!-- 我的服务开始结束 -->
+<!-- 推荐列表 -->
+<div class="tuijian_list wrapper02" id="demo05">
+	<div class="scroller">
+	<ul class="clearfix" id="kemu">
+		<li><a>推荐</a></li>
+		<li><a>热门</a></li>
+		<li><a>搬家</a></li>
+		<li><a>住房</a></li>
+		<li><a>二手</a></li>
+		<li><a>兼职</a></li>  
+		<li><a>热门</a></li>
+		<li><a>搬家</a></li>
+		<li><a>住房</a></li>
+		<li><a>二手</a></li>
+		<li><a>兼职</a></li> 
+		<li><a>热门</a></li>
+		<li><a>搬家</a></li>
+		<li><a>住房</a></li>
+		<li><a>二手</a></li>
+		<li><a>兼职</a></li> 
+	</ul>
+	</div>
+</div>
+<script>
+
+</script>
+<div class="tuij_neit_list">
+	<ul id="shipin">
+		<li>
+			<div class="top"> 
+				<div class="bt"> 
+					<span>专业制作迷你字，1元/cm起 质量保证欢迎咨询！单笔质量保证欢迎咨询！</span>
+				</div> 
+			</div>
+			<div class="img">
+				<a href="#"><img src="./images/tuijian_img.jpg"></a>
+				<a href="#"><img src="./images/tuijian_img1.jpg"></a>
+				<a href="#"><img src="./images/tuijian_img3.jpg"></a>
+				<a href="#"><img src="./images/tuijian_img2.jpg"></a>
+			</div> 
+			<div class="bottom">
+				<h2>2018-12-25    15:44   发布</h2>
+				<div>
+					<spn><img src="./images/yanj.png">100万+</spn>
+					<spn onclick="javascript:alert('收藏成功')"><img src="./images/icon_goods_like.png">16</spn>
+				</div>
+			</div> 
+		</li>
+		<li>
+			<div class="top"> 
+				<div class="bt"> 
+					<span>专业制作迷你字，1元/cm起 质量保证欢迎咨询！单笔质量保证欢迎咨询！</span>
+				</div> 
+			</div>
+			<div class="img">
+				<a href="#"><img src="./images/tuijian_img4.jpg"></a>
+				<a href="#"><img src="./images/tuijian_img5.jpg"></a>
+				<a href="#"><img src="./images/tuijian_img6.jpg"></a>
+				<a href="#"><img src="./images/tuijian_img7.jpg"></a>
+			</div> 
+			<div class="bottom">
+				<h2>2018-12-25    15:44   发布</h2>
+				<div>
+					<spn><img src="./images/yanj.png">100万+</spn>
+					<spn onclick="javascript:alert('收藏成功')"><img src="./images/icon_goods_like.png">16</spn>
+				</div>
+			</div> 
+		</li>
+		<li>
+			<div class="top"> 
+				<div class="bt"> 
+					<span>专业制作迷你字，1元/cm起 质量保证欢迎咨询！单笔质量保证欢迎咨询！</span>
+				</div> 
+			</div>
+			<div class="img">
+				<a href="#"><img src="./images/tuijian_img3.jpg"></a>
+				<a href="#"><img src="./images/tuijian_img7.jpg"></a>
+				<a href="#"><img src="./images/tuijian_img1.jpg"></a>
+				<a href="#"><img src="./images/tuijian_img4.jpg"></a>
+			</div> 
+			<div class="bottom">
+				<h2>2018-12-25    15:44   发布</h2>
+				<div>
+					<spn><img src="./images/yanj.png">100万+</spn>
+					<spn onclick="javascript:alert('收藏成功')"><img src="./images/icon_goods_like.png">16</spn>
+				</div>
+			</div> 
+		</li>
+		<li>
+			<div class="top"> 
+				<div class="bt"> 
+					<span>专业制作迷你字，1元/cm起 质量保证欢迎咨询！单笔质量保证欢迎咨询！</span>
+				</div> 
+			</div>
+			<div class="img">
+				<a href="#"><img src="./images/tuijian_img.jpg"></a>
+				<a href="#"><img src="./images/tuijian_img1.jpg"></a>
+				<a href="#"><img src="./images/tuijian_img3.jpg"></a>
+				<a href="#"><img src="./images/tuijian_img2.jpg"></a>
+			</div> 
+			<div class="bottom">
+				<h2>2018-12-25    15:44   发布</h2>
+				<div>
+					<spn><img src="./images/yanj.png">100万+</spn>
+					<spn onclick="javascript:alert('收藏成功')"><img src="./images/icon_goods_like.png">16</spn>
+				</div>
+			</div> 
+		</li>
+		<li>
+			<div class="top"> 
+				<div class="bt"> 
+					<span>专业制作迷你字，1元/cm起 质量保证欢迎咨询！单笔质量保证欢迎咨询！</span>
+				</div> 
+			</div>
+			<div class="img">
+				<a href="#"><img src="./images/tuijian_img4.jpg"></a>
+				<a href="#"><img src="./images/tuijian_img5.jpg"></a>
+				<a href="#"><img src="./images/tuijian_img6.jpg"></a>
+				<a href="#"><img src="./images/tuijian_img7.jpg"></a>
+			</div> 
+			<div class="bottom">
+				<h2>2018-12-25    15:44   发布</h2>
+				<div>
+					<spn><img src="./images/yanj.png">100万+</spn>
+					<spn onclick="javascript:alert('收藏成功')"><img src="./images/icon_goods_like.png">16</spn>
+				</div>
+			</div> 
+		</li>
+		<li>
+			<div class="top"> 
+				<div class="bt"> 
+					<span>专业制作迷你字，1元/cm起 质量保证欢迎咨询！单笔质量保证欢迎咨询！</span>
+				</div> 
+			</div>
+			<div class="img">
+				<a href="#"><img src="./images/tuijian_img3.jpg"></a>
+				<a href="#"><img src="./images/tuijian_img7.jpg"></a>
+				<a href="#"><img src="./images/tuijian_img1.jpg"></a>
+				<a href="#"><img src="./images/tuijian_img4.jpg"></a>
+			</div> 
+			<div class="bottom">
+				<h2>2018-12-25    15:44   发布</h2>
+				<div>
+					<spn><img src="./images/yanj.png">100万+</spn>
+					<spn onclick="javascript:alert('收藏成功')"><img src="./images/icon_goods_like.png">16</spn>
+				</div>
+			</div> 
+		</li>
+	</ul>
+</div>
+<!-- 推荐列表结束 -->
+
+<!-- 底部导航 -->
+<div class="foot_menu">
+	<div class="bei"></div> 
+	<ul>
+		<li class="no">
+			<a href="index.html">
+				<i><img src="images/haoh_ios_h1.png"></i>
+				<span>首页</span>
+			</a>
+		</li>
+		<li>
+			<a href="mall_class.html">
+				<i><img src="images/haoh_ios_x2.png"></i>
+				<span>发现</span>
+			</a>
+		</li> 
+		<li class="jiad">
+			<!-- <div class="bei"></div>  -->
+			<a href="release.html">
+				<i><img src="images/haoh_ios_x3.png"></i>
+				<!-- <span>菜 单</span> -->
+			</a>  
+		</li>
+		<li>
+			<a href="live_tv.html">
+				<i><img src="images/haoh_ios_x4.png"></i>
+				<span>消息</span>
+			</a> 
+		</li>
+		<li>
+			<a href="my.html">
+				<i><img src="images/haoh_ios_x5.png"></i>
+				<span>我的</span>
+			</a> 
+		</li>
+	</ul> 
+</div>
+<div style="height:100px;line-height: 40px;text-align: center;color:#bbb">加载中</div>
+<!-- 外框结束div -->
+</div> 
+
+<!-- js妹子ui -->
+<script src="js/amazeui.min.js"></script>   
+</body>
+</html>
+<script src="js/LAreaData1.js" ></script>
+<script src="js/citypickerhc.js" ></script>
+<script>
+// 首页
+ // 搜索显示隐藏
+$(function(){
+	$("#input1").mousedown(
+		function(){
+			$(".search_bomb_box").show()
+			$("#waik").hide()	 
+		}
+	)
+	$(".search_bomb_box .search_top>a").mousedown(
+		function(){
+			$(".search_bomb_box").hide()
+			$("#waik").show()	 
+		}
+	)
+}) 
+
+// 选择城市
+$("#citypick").click(function(){
+		citypicker();
+	});
+		
+// banner
+var swiper = new Swiper('.banner_shouy', {
+	pagination: {
+		el: '.lunbo_banner',
+		type: 'fraction',
+	},
+	autoplay: {
+		delay: 3000,
+		stopOnLastSlide: false,
+		disableOnInteraction: true,
+	}, 
+});
+
+
+// 快捷导航
+
+var swiper = new Swiper('.nav_iconbox', {
+	pagination: {
+		el: '.icon01',
+	},
+	 speed:500,
+	 autoplayDisableOnInteraction : false,
+ });
+
+
+//  平台公告
+
+$(document).ready(function(){
+	//滚动文字
+	function runtxt(){
+		$(".scrollnews ul").animate({marginTop:"-.4rem"},300,
+			function(){
+				$(".scrollnews ul li:last").after($(".scrollnews ul li:first"))
+				$(".scrollnews ul").css("margin-top",0)
+			}
+		)
+	}   
+	$(".scrollnews ul li a").mouseenter(
+		function(){
+			clearInterval(timer)
+		}
+	)
+	$(".scrollnews ul li a").mouseleave(
+		function(){
+			timer=setInterval(runtxt,4000)
+		}
+	)
+	timer=setInterval(runtxt,4000)
+})
+ 
+</script>
+<!-- 左右滑动导航 -->
+<!-- <script type="text/javascript" src="js/dhjs/flexible.js"></script> -->
+<script type="text/javascript" src="js/dhjs/iscroll.js"></script>
+<script type="text/javascript" src="js/dhjs/navbarscroll.js"></script>
+<script type="text/javascript">
+$(function(){
+ 
+	//demo示例五 通过id调取
+	$('#demo05').navbarscroll({
+		defaultSelect:0,
+		endClickScroll:function(obj){
+			console.log(obj.text())
+		}
+	});
+	 
+});  
+</script>
+
+
+<script type="text/javascript">
+	
+	$(document).ready(function(){
+			  video_tuijian();
+			  select_kemu();
+			 /* mingshi();
+			 my_shoucang(); */
+	            
+	             
+	       });
+		   
+		   
+		   function video_tuijian(){
+		   				 $.ajax({
+		   				     url:"/index.php/index/api/video_tuijian",
+		   				     dataType:"json",
+		   				     type:"get",
+		   				     success:function(json){
+		   						 ///static/uploads/'+val['video_pic']+'
+		   						 var html = '';
+		   				         console.log(json);
+		   				       if(json['code'] != 1){
+		   						  
+		   				 					html += '<h3>暂无推荐</h3>';
+		   				 				}else{
+		   									  $.each(json['msg'],function (n,val) {
+		   										  if(val['video_pic'] == ''){
+		   											  var img = '/static/html/images/shipin.png';
+		   										  }else{
+		   											  var img = '/static/uploads/'+val['video_pic'];
+		   										  }
+		   										  if(val['video_laiyuan'] ==2){
+		   											   //html += '<a onclick="video_num()" href="'+val['video_src']+'"><li ><img src="'+img+'" style="width:90px;margin-left:10px" ><div class="tit">'+val['video_name']+'-'+val['teacher_name']+'</div><div class="price">'+val['nianji_cate']+'<span>'+val['kemu_cate']+'</span></div></li></a>';
+													   html += '<li><a onclick="video_num()" href="'+val['video_src']+'"><dl><dd><img src="'+img+'" alt=""></dd><dt><p>'+val['video_name']+'--'+val['teacher_name']+'</p><span>'+val['nianji_cate']+'&nbsp;&nbsp;---&nbsp;&nbsp;'+val['kemu_cate']+'</span></dt></dl></a></li>';
+		   										  }else if(val['video_laiyuan'] == 1){
+		   											    html += '<li><a onclick="video_num()" href="shipin_chakan.html?id='+val['id']+'"><dl><dd><img src="'+img+'" alt=""></dd><dt><p>'+val['video_name']+'--'+val['teacher_name']+'</p><span>'+val['nianji_cate']+'&nbsp;&nbsp;---&nbsp;&nbsp;'+val['kemu_cate']+'</span></dt></dl></a></li>';
+		   										  }/* else{
+		   											  
+		   											  html += '<a href="yinpin_chakan.html?id='+val['id']+'"><div class="tj"><div class="col-xs-6 col-sm-6 col-md-6"><img src="/static/html/images/yinpin.png" style="margin-top:12px"/></div><div class="col-xs-6 col-sm-6 col-md-6 p"><p>《'+val['video_name']+'》</p><p>教师：'+val['teacher_name']+'</p><p>分类:'+val['nianji_cate']+'&nbsp;&nbsp;'+val['kemu_cate']+'</p></div></div><div class="line"></div></a>';
+		   										  } */
+		   									                          
+		   									                        });
+		   									
+		   								}
+		   				         	$("#video_tuijian").html(html);
+		   				 
+		   				     }
+		   				 })
+		   }
+		   
+		   //所有科目
+		   function select_kemu(){
+		   				 $.ajax({
+		   				     url:"/index.php/index/api/select_kemu",
+		   				     dataType:"json",
+		   				     type:"get",
+		   				     success:function(json){
+		   					var html ='';
+		   				       if(json['code'] != 1){
+		   						  // alert(111);
+		   				 					html += '<h3 style="text-align:center">暂无科目</h3>';
+		   				 				}else{
+		   									  $.each(json['msg'],function (n,val) {
+		   											html += '<li onclick="kemu('+val['id']+',this)"><a>'+val['kemu_cate']+'</a></li>';
+		   									                        });
+		   									
+		   								}
+		   				         	$("#kemu").html(html);
+									kemu(json['msg'][0]['id'],this);
+									$("#kemu li:first").addClass("cur");
+		   				     }
+		   				 })
+		   }
+		   
+		   //点击科目选择视频
+		   function kemu(id,a){
+		   			  
+		   			   $(a).addClass("cur").siblings().removeClass("cur");
+		   			   $.ajax({
+		   			       url:"/index.php/index/api/select_kemu_video",
+		   			       dataType:"json",
+		   			       type:"get",
+		   				   data:{
+		   					 'id':id  
+		   				   },
+		   			       success:function(json){
+		   			         						 var html = '';
+		   			           console.log(json);
+		   			         if(json['code'] != 1){
+		   			         						   //alert(111);
+		   			   					html += '<h3 style="text-align:center">暂无推荐</h3>';
+		   			   				}else{
+		   			         									  $.each(json['msg'],function (n,val) {
+		   															  if(val['video_pic'] == ''){
+		   															  												  var img = '/static/html/images/shipin.png';
+		   															  }else{
+		   															  												  var img = '/static/uploads/'+val['video_pic'];
+		   															  }
+		   			   											  if(val['video_laiyuan'] ==2){
+		   			   											  											 
+															html += '<a onclick="video_num()" href="'+val['video_src']+'"><li><div class="top"><div class="bt"> <span>'+val['course_jianjie']+'</span></div></div><div class="img"><img style="width:140px;" src="'+img+'"></div> <div class="bottom"><h2>'+val['video_name']+'</h2><div><spn><img src="./images/yanj.png">'+val['teacher_name']+'</spn>&nbsp;&nbsp;<spn onclick="javascript:alert("收藏成功")"><img src="./images/icon_goods_like.png">16</spn></div></div></li></a>';
+		   			   											  }else{
+		   			   											  											   html += '<a onclick="video_num()" href="shipin_chakan.html?id='+val['id']+'"><li><div class="top"><div class="bt"> <span>'+val['course_jianjie']+'</span></div></div><div class="img"><img style="width:140px" src="'+img+'"></div> <div class="bottom"><h2>'+val['video_name']+'</h2><div><spn><img src="./images/yanj.png">'+val['teacher_name']+'</spn>&nbsp;&nbsp;<spn onclick="javascript:alert("收藏成功")"><img src="./images/icon_goods_like.png">16</spn></div></div></li></a>';
+		   			   											  }
+		   			         									                        });
+		   			         									
+		   			         								}
+		   			           	$("#shipin").html(html)
+		   			   
+		   			       }
+		   			   })
+		   }
+		   //看视频次数
+		   function video_num(){
+		   	$.ajax({
+		   	    url:"/index.php/api/weishi/paihang_xiugai",
+		   	    dataType:"json",
+		   	    type:"get",
+		   		
+		   	    success:function(json){
+		   						/* layer.msg(json['msg']); */
+		   								
+		   	      				}
+		   	        
+		   	
+		   	    
+		   	})
+		   }
+</script>

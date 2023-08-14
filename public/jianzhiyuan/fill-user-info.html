@@ -1,0 +1,729 @@
+<!doctype html>
+<html lang="en" data-server-rendered="true" data-v-1b705696 data-v-17b9541a>
+  
+  <head>
+    <title>完善用户信息 - 简志愿</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="egg, typescript, vue, webpack, server side render">
+    <meta name="description" content="IBlog">
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <meta name="renderer" content="webkit">
+    <meta name="force-rendering" content="webkit">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="msapplication-TileImage" content="images/icons/icon-144x144.png">
+    <meta name="msapplication-TileColor" content="#2F3BA2">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Weather PWA">
+    <link rel="apple-touch-icon" href="/logo.png">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <script type="text/javascript" src="./js/qrcode.min.js">
+    </script>
+    <script src="./js/echarts.min.js">
+    </script>
+    <script type="text/javascript" src="https://webchat.7moor.com/javascripts/7moorInit.js?accessId=e3ef9ce0-19ad-11eb-9d08-5b0e65d3d54e&autoShow=false&language=ZHCN" async="async">
+    </script>
+    <link rel="stylesheet" href="./css/common.4ac08c98.css">
+    <link rel="stylesheet" href="./fillUserInfo.a9494de9.css">
+  </head>
+  
+  <body>
+    <div id="app">
+      <div class="main">
+        <div user-info="userInfo" class="top-header" data-v-62490ec7>
+          <div class="top" data-v-62490ec7>
+            <div class="container" data-v-62490ec7>
+              <div class="left" data-v-62490ec7>欢迎访问简志愿，填出美好未来！</div>
+              <ul class="right" data-v-62490ec7>
+                <li class="program1" data-v-62490ec7>微信小程序
+                  <span data-v-62490ec7>
+                    <img src="./images/xcx.cda11650.jpg" data-v-62490ec7></span>
+                </li>
+                <li class="program2" data-v-62490ec7>APP下载
+                  <span data-v-62490ec7>
+                    <img src="./images/app_qrcode.jpg" data-v-62490ec7></span>
+                </li>
+                <a href="/newbieGuide" data-v-62490ec7>
+                  <li class="program3" data-v-62490ec7>新手指南</li>
+                </a>
+               <!-- <li class="program2" data-v-62490ec7>
+                  <a href="/coupon/activate" data-v-62490ec7>激活VIP</a>
+                </li> -->
+               <li class="program0" data-v-62490ec7><p data-v-62490ec7><a href="./register.html" data-v-62490ec7>注册</a> <a id="login" data-v-62490ec7>登录</a></p>
+                <!----></li>
+              </ul>
+            </div>
+          </div>
+          <div class="nav" data-v-62490ec7>
+            <div class="container" data-v-62490ec7>
+              <div class="secherLogo" data-v-62490ec7>
+                <div class="logo" data-v-62490ec7>
+                  <a href="./index.html" data-v-62490ec7>
+                    <img title="简志愿" src="./images/jian_logo.png" data-v-62490ec7>
+                  </a>
+                </div>
+                <div class="secher" data-v-62490ec7>
+                  <form action="/search" method="get" data-v-b8c29c26 data-v-62490ec7>
+                    <input autocomplete="off" type="string" name="keyword" placeholder="搜索学校、专业" maxlength="16" class="f14" data-v-b8c29c26>
+                    <button type="submit" data-v-b8c29c26>
+                    </button>
+                  </form>
+                </div>
+              </div>
+              <ul class="navbar" data-v-62490ec7>
+                <li data-v-62490ec7>
+                  <a href="./index.html" class="mian-a" data-v-62490ec7>
+                    <em data-v-62490ec7>首页</em>
+                  </a>
+                </li>
+                <li data-v-62490ec7>
+                  <a href="./colleges.html" class="mian-a" data-v-62490ec7>
+                    <em data-v-62490ec7>数据查询</em>
+                  </a>
+                  <div data-v-62490ec7>
+                    <a href="/about-enroll/school/rank" data-v-62490ec7>录取数据查询</a>
+                    <a href="/admission-plan/school" data-v-62490ec7>招生计划数据</a>
+                    <a href="./colleges.html" data-v-62490ec7>找大学</a>
+                    <a href="./majors.html" data-v-62490ec7>查专业</a>
+                    <a href="./jobs.html" data-v-62490ec7>搜职业</a>
+                    <a href="./college-bang.html" data-v-62490ec7>大学排名</a>
+                    <a href="./rank.html" data-v-62490ec7>位次查询</a> 
+                    <a href="./batch-line.html" data-v-62490ec7>查批次线</a>
+                  </div>
+                </li>
+                <li data-v-62490ec7>
+                  <a href="./intention-add.html" class="mian-a" data-v-62490ec7>
+                    <em data-v-62490ec7>志愿填报</em>
+                  </a>
+                  <div data-v-62490ec7>
+                    <a href="./can-school.html" data-v-62490ec7>可上院校
+                      <i class="hot" data-v-62490ec7></i>
+                    </a>
+                    <a href="./intention-add.html" data-v-62490ec7>智能模拟填报</a>
+                  </div>
+                </li>
+                <li data-v-62490ec7>
+                  <a href="./test-evaluation.html" class="mian-a" data-v-62490ec7>
+                    <em data-v-62490ec7>测试评估</em>
+                  </a>
+                  <div data-v-62490ec7>
+                    <a href="./test-evaluation.html" data-v-62490ec7>录取概率测试
+                      <i class="hot" data-v-62490ec7></i>
+                    </a>
+                    <a href="./compare-college.html" data-v-62490ec7>院校对比
+                      <i class="hot" data-v-62490ec7></i>
+                    </a>
+                    <a href="./subject.html" data-v-62490ec7>专业对比</a>
+                  </div>
+                </li>
+                <li data-v-62490ec7>
+                  <a href="/newGk/index" class="mian-a" data-v-62490ec7>
+                    <em data-v-62490ec7>生涯规划</em>
+                  </a>
+                  <div data-v-62490ec7>
+                    <a href="./job-for-you.html" data-v-62490ec7>职业性格测试</a>
+                    <a href="/newGk/index" data-v-62490ec7>新高考选科</a>
+                  </div>
+                </li>
+                <li data-v-62490ec7>
+                  <a href="./new.html" class="mian-a" data-v-62490ec7>
+                    <em data-v-62490ec7>高考资讯</em>
+                  </a>
+                <!--  <div data-v-62490ec7>
+                    <a href="./new.html" data-v-62490ec7>热门资讯</a>
+                    <a href="/news/2" data-v-62490ec7>高考资讯</a>
+                    <a href="/news/3" data-v-62490ec7>院校动态</a>
+                    <a href="/news/4" data-v-62490ec7>招生政策</a>
+                  </div> -->
+                </li>
+               <!-- <li data-v-62490ec7>
+                  <a href="/classroom" class="mian-a" data-v-62490ec7>
+                    <em data-v-62490ec7>U选课堂</em>
+                  </a>
+                </li> -->
+              </ul>
+             <!-- <div class="vipAndPhone" data-v-62490ec7>
+                <div class="vip viped" data-v-62490ec7>开通VIP</div>
+                <div class="phones" data-v-62490ec7>手机版
+                  <span data-v-62490ec7>
+                    <img src="//static.gkux.com/static/b06261536/images/app_qrcode.jpg" data-v-62490ec7></span>
+                </div>
+              </div> -->
+            </div>
+          </div>
+          <div class="login-mask" style="display:none;" data-v-65213d27 data-v-62490ec7>
+           <div class="login" data-v-65213d27>
+            <div class="close" data-v-65213d27></div> 
+            <h2 data-v-65213d27><em data-v-65213d27></em> 简志愿登录 <em data-v-65213d27></em></h2> 
+            <div class="messageAndId" data-v-65213d27>
+             <span class="active" data-v-65213d27>账号登录</span>
+             <span data-v-65213d27>会员卡登录</span>
+            </div> 
+            <ul class="re-input" id="re-input" data-v-65213d27 style="display: none;">
+             <form action="./login.html" method="post" data-v-65213d27>
+              <div class="account" data-v-65213d27>
+               <li data-v-65213d27><input placeholder="请输入用户名" name="uname" type="number" maxlength="11" value="" data-v-6e36b945 data-v-65213d27></li> 
+               <li class="password" data-v-65213d27><input placeholder="请输入密码" name="pwd" type="password" maxlength="16" minlength="6" data-v-e5fc95c0 data-v-65213d27></li> 
+               <li class="authcode" style="display:none;" data-v-65213d27><label data-v-65213d27><span data-v-65213d27></span> <input placeholder="请输入验证码" name="captcha" type="captcha" maxlength="6" minlength="3" data-v-65213d27></label></li>
+              </div> 
+              <!----> 
+              <div class="forget" data-v-65213d27>
+               <a href="/forget-pwd" data-v-65213d27>忘记密码</a> 
+               <a href="./register.html" data-v-65213d27>去注册</a>
+              </div> 
+              <li class="button" data-v-65213d27><button type="button" data-v-65213d27>登录</button></li>
+             </form>
+            </ul> 
+            <ul class="re-input" id="re-inputs" data-v-65213d27>
+             <form action="./login.html" method="post" data-v-65213d27>
+              <div class="account" data-v-65213d27>
+               <li data-v-65213d27><input placeholder="志愿卡、升学卡、体验卡号" name="uname" type="number" maxlength="11" value="" data-v-6e36b945 data-v-65213d27></li> 
+               <li class="password" data-v-65213d27><input placeholder="会员卡密码" name="pwd" type="password" maxlength="16" minlength="6" data-v-e5fc95c0 data-v-65213d27></li> 
+               <li class="authcode" style="display:none;" data-v-65213d27><label data-v-65213d27><span data-v-65213d27></span> <input placeholder="请输入验证码" name="captcha" type="captcha" maxlength="6" minlength="3" data-v-65213d27></label></li>
+              </div> 
+              <!----> 
+              <div class="forget" data-v-65213d27>
+               <a href="/forget-pwd" data-v-65213d27>忘记密码</a> 
+               <a href="/register" data-v-65213d27>去注册</a>
+              </div> 
+              <li class="button" data-v-65213d27><button type="button" data-v-65213d27>登录</button></li>
+             </form>
+            </ul> 
+            <div id="login_container" data-v-65213d27></div> 
+            <div data-v-169f800d class="other" data-v-65213d27>
+             <div class="otherLine" data-v-65213d27>
+              <i data-v-65213d27></i> 
+              <p data-v-169f800d data-v-65213d27>其他登录方式</p>
+             </div> 
+             <a class="weixin" data-v-65213d27></a>
+            </div>
+           </div>
+          </div> 
+          <div class="leftFixList" data-v-62490ec7>
+            <ul data-v-62490ec7>
+              <li class="leftfix1" data-v-62490ec7>
+                <a href="###" data-v-62490ec7>小程序</a>
+                <span data-v-62490ec7>
+                  <img src="//static.gkux.com/static/web/public/img/xcx.cda11650.jpg" data-v-62490ec7>
+                </span>
+              </li>
+              <li class="leftfix3" data-v-62490ec7>
+                <a href="./compare-college.html" data-v-62490ec7>院校对比</a>
+              </li>
+              <li class="leftfix4" data-v-62490ec7>
+                <a href="./intention-add.html" data-v-62490ec7>智能填报</a>
+              </li>
+              <li class="leftfix6" data-v-62490ec7>
+                <a href="/newbieGuide" data-v-62490ec7>新手指南</a>
+              </li>
+              <li class="leftfix5" data-v-62490ec7>
+                <a data-v-62490ec7>置顶</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!---->
+        <div>
+          <div class="flex justify-between mx-auto items-center" style="width:1300px;" data-v-1b705696>
+            <div class="path" style="width:1200px!important;" data-v-1b705696>
+              <ul data-v-b62a9f34 data-v-1b705696>
+                <li data-v-b62a9f34>
+                  <a href="/" data-v-b62a9f34>首页</a>
+                  <span data-v-b62a9f34>/</span>
+                </li>
+                <li data-v-b62a9f34>
+                  <a data-v-b62a9f34>完善基本信息</a>
+                  <!---->
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="fillUserInfo" style="min-height:613px;" data-v-17b9541a>
+            <h3 data-v-17b9541a>
+              <p data-v-17b9541a>
+              </p>完善基本信息</h3>
+            <div class="useInfoBox" data-v-17b9541a>
+              <form class="el-form mx-auto el-form--label-right" style="max-width:460px;" data-v-17b9541a>
+                <div class="el-form-item" data-v-17b9541a>
+                  <label class="el-form-item__label" style="width:100px;">用户姓名:</label>
+                  <div class="el-form-item__content" style="margin-left:100px;">
+                    <div class="el-input" data-v-17b9541a>
+                      <!---->
+                      <input type="text" autocomplete="off" placeholder="请输入名称" class="el-input__inner">
+                      <!---->
+                      <!---->
+                      <!---->
+                      <!---->
+                    </div>
+                    <!---->
+                  </div>
+                </div>
+                <div class="el-form-item" data-v-17b9541a>
+                  <label class="el-form-item__label" style="width:100px;">高考省份:</label>
+                  <div class="el-form-item__content" style="margin-left:100px;">
+                    <div class="el-select" data-v-17b9541a>
+                      <!---->
+                      <div class="el-input el-input--suffix">
+                        <!---->
+                        <input type="text" readonly="readonly" autocomplete="off" placeholder="请选择高考省份" class="el-input__inner">
+                        <!---->
+                        <span class="el-input__suffix">
+                          <span class="el-input__suffix-inner">
+                            <i class="el-select__caret el-input__icon el-icon-arrow-up">
+                            </i>
+                            <!---->
+                            <!---->
+                            <!---->
+                            <!---->
+                            <!---->
+                          </span>
+                          <!---->
+                        </span>
+                        <!---->
+                        <!---->
+                      </div>
+                      <div class="el-select-dropdown el-popper" style="min-width:;display:none;">
+                        <div class="el-scrollbar" style="display:none;">
+                          <div class="el-select-dropdown__wrap el-scrollbar__wrap el-scrollbar__wrap--hidden-default">
+                            <ul class="el-scrollbar__view el-select-dropdown__list">
+                              <!---->
+                              <li class="el-select-dropdown__item" data-v-17b9541a>
+                                <span>安徽</span>
+                              </li>
+                              <li class="el-select-dropdown__item" data-v-17b9541a>
+                                <span>北京</span>
+                              </li>
+                              <li class="el-select-dropdown__item" data-v-17b9541a>
+                                <span>重庆</span>
+                              </li>
+                              <li class="el-select-dropdown__item" data-v-17b9541a>
+                                <span>福建</span>
+                              </li>
+                              <li class="el-select-dropdown__item" data-v-17b9541a>
+                                <span>广东</span>
+                              </li>
+                              <li class="el-select-dropdown__item" data-v-17b9541a>
+                                <span>广西</span>
+                              </li>
+                              <li class="el-select-dropdown__item" data-v-17b9541a>
+                                <span>贵州</span>
+                              </li>
+                              <li class="el-select-dropdown__item" data-v-17b9541a>
+                                <span>甘肃</span>
+                              </li>
+                              <li class="el-select-dropdown__item" data-v-17b9541a>
+                                <span>黑龙江</span>
+                              </li>
+                              <li class="el-select-dropdown__item" data-v-17b9541a>
+                                <span>河南</span>
+                              </li>
+                              <li class="el-select-dropdown__item" data-v-17b9541a>
+                                <span>湖北</span>
+                              </li>
+                              <li class="el-select-dropdown__item" data-v-17b9541a>
+                                <span>湖南</span>
+                              </li>
+                              <li class="el-select-dropdown__item" data-v-17b9541a>
+                                <span>海南</span>
+                              </li>
+                              <li class="el-select-dropdown__item" data-v-17b9541a>
+                                <span>河北</span>
+                              </li>
+                              <li class="el-select-dropdown__item" data-v-17b9541a>
+                                <span>吉林</span>
+                              </li>
+                              <li class="el-select-dropdown__item" data-v-17b9541a>
+                                <span>江苏</span>
+                              </li>
+                              <li class="el-select-dropdown__item" data-v-17b9541a>
+                                <span>江西</span>
+                              </li>
+                              <li class="el-select-dropdown__item" data-v-17b9541a>
+                                <span>辽宁</span>
+                              </li>
+                              <li class="el-select-dropdown__item" data-v-17b9541a>
+                                <span>天津</span>
+                              </li>
+                              <li class="el-select-dropdown__item" data-v-17b9541a>
+                                <span>内蒙</span>
+                              </li>
+                              <li class="el-select-dropdown__item" data-v-17b9541a>
+                                <span>宁夏</span>
+                              </li>
+                              <li class="el-select-dropdown__item" data-v-17b9541a>
+                                <span>青海</span>
+                              </li>
+                              <li class="el-select-dropdown__item" data-v-17b9541a>
+                                <span>山西</span>
+                              </li>
+                              <li class="el-select-dropdown__item" data-v-17b9541a>
+                                <span>上海</span>
+                              </li>
+                              <li class="el-select-dropdown__item" data-v-17b9541a>
+                                <span>山东</span>
+                              </li>
+                              <li class="el-select-dropdown__item" data-v-17b9541a>
+                                <span>四川</span>
+                              </li>
+                              <li class="el-select-dropdown__item" data-v-17b9541a>
+                                <span>陕西</span>
+                              </li>
+                              <li class="el-select-dropdown__item" data-v-17b9541a>
+                                <span>新疆</span>
+                              </li>
+                              <li class="el-select-dropdown__item" data-v-17b9541a>
+                                <span>云南</span>
+                              </li>
+                              <li class="el-select-dropdown__item" data-v-17b9541a>
+                                <span>浙江</span>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="el-scrollbar__bar is-horizontal">
+                            <div class="el-scrollbar__thumb" style="width:0;transform:translateX(0%);ms-transform:translateX(0%);webkit-transform:translateX(0%);">
+                            </div>
+                          </div>
+                          <div class="el-scrollbar__bar is-vertical">
+                            <div class="el-scrollbar__thumb" style="height:0;transform:translateY(0%);ms-transform:translateY(0%);webkit-transform:translateY(0%);">
+                            </div>
+                          </div>
+                        </div>
+                        <p class="el-select-dropdown__empty">无数据</p>
+                      </div>
+                    </div>
+                    <!---->
+                  </div>
+                </div>
+                <div class="el-form-item" data-v-17b9541a>
+                  <label class="el-form-item__label" style="width:100px;">高考文理科:</label>
+                  <div class="el-form-item__content" style="margin-left:100px;">
+                    <div class="el-select" data-v-17b9541a>
+                      <!---->
+                      <div class="el-input el-input--suffix">
+                        <!---->
+                        <input type="text" readonly="readonly" autocomplete="off" placeholder="请选择高考文理科" class="el-input__inner">
+                        <!---->
+                        <span class="el-input__suffix">
+                          <span class="el-input__suffix-inner">
+                            <i class="el-select__caret el-input__icon el-icon-arrow-up">
+                            </i>
+                            <!---->
+                            <!---->
+                            <!---->
+                            <!---->
+                            <!---->
+                          </span>
+                          <!---->
+                        </span>
+                        <!---->
+                        <!---->
+                      </div>
+                      <div class="el-select-dropdown el-popper" style="min-width:;display:none;">
+                        <div class="el-scrollbar" style="display:none;">
+                          <div class="el-select-dropdown__wrap el-scrollbar__wrap el-scrollbar__wrap--hidden-default">
+                            <ul class="el-scrollbar__view el-select-dropdown__list">
+                              <!---->
+                              <li class="el-select-dropdown__item" data-v-17b9541a>
+                                <span>理科</span>
+                              </li>
+                              <li class="el-select-dropdown__item" data-v-17b9541a>
+                                <span>文科</span>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="el-scrollbar__bar is-horizontal">
+                            <div class="el-scrollbar__thumb" style="width:0;transform:translateX(0%);ms-transform:translateX(0%);webkit-transform:translateX(0%);">
+                            </div>
+                          </div>
+                          <div class="el-scrollbar__bar is-vertical">
+                            <div class="el-scrollbar__thumb" style="height:0;transform:translateY(0%);ms-transform:translateY(0%);webkit-transform:translateY(0%);">
+                            </div>
+                          </div>
+                        </div>
+                        <p class="el-select-dropdown__empty">无数据</p>
+                      </div>
+                    </div>
+                    <!---->
+                  </div>
+                </div>
+                <!---->
+                <!---->
+                <!---->
+                <div class="el-form-item" data-v-17b9541a>
+                  <label class="el-form-item__label" style="width:100px;">所属高中:</label>
+                  <div class="el-form-item__content" style="margin-left:100px;">
+                    <div class="el-input" data-v-17b9541a>
+                      <!---->
+                      <input type="text" autocomplete="off" placeholder="请输入所属高中" maxlength="16" class="el-input__inner">
+                      <!---->
+                      <!---->
+                      <!---->
+                      <!---->
+                    </div>
+                    <!---->
+                  </div>
+                </div>
+                <div class="el-form-item" data-v-17b9541a>
+                  <label class="el-form-item__label" style="width:100px;">高考年份:</label>
+                  <div class="el-form-item__content" style="margin-left:100px;">
+                    <div class="el-select" data-v-17b9541a>
+                      <!---->
+                      <div class="el-input el-input--suffix">
+                        <!---->
+                        <input type="text" readonly="readonly" autocomplete="off" placeholder="请选择高考年份" class="el-input__inner">
+                        <!---->
+                        <span class="el-input__suffix">
+                          <span class="el-input__suffix-inner">
+                            <i class="el-select__caret el-input__icon el-icon-arrow-up">
+                            </i>
+                            <!---->
+                            <!---->
+                            <!---->
+                            <!---->
+                            <!---->
+                          </span>
+                          <!---->
+                        </span>
+                        <!---->
+                        <!---->
+                      </div>
+                      <div class="el-select-dropdown el-popper" style="min-width:;display:none;">
+                        <div class="el-scrollbar" style="display:none;">
+                          <div class="el-select-dropdown__wrap el-scrollbar__wrap el-scrollbar__wrap--hidden-default">
+                            <ul class="el-scrollbar__view el-select-dropdown__list">
+                              <!---->
+                              <li class="el-select-dropdown__item selected" data-v-17b9541a>
+                                <span>2023</span>
+                              </li>
+                              <li class="el-select-dropdown__item" data-v-17b9541a>
+                                <span>2024</span>
+                              </li>
+                              <li class="el-select-dropdown__item" data-v-17b9541a>
+                                <span>2025</span>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="el-scrollbar__bar is-horizontal">
+                            <div class="el-scrollbar__thumb" style="width:0;transform:translateX(0%);ms-transform:translateX(0%);webkit-transform:translateX(0%);">
+                            </div>
+                          </div>
+                          <div class="el-scrollbar__bar is-vertical">
+                            <div class="el-scrollbar__thumb" style="height:0;transform:translateY(0%);ms-transform:translateY(0%);webkit-transform:translateY(0%);">
+                            </div>
+                          </div>
+                        </div>
+                        <p class="el-select-dropdown__empty">无数据</p>
+                      </div>
+                    </div>
+                    <!---->
+                  </div>
+                </div>
+                <div class="el-form-item" data-v-17b9541a>
+                  <label class="el-form-item__label" style="width:100px;">高考总分:</label>
+                  <div class="el-form-item__content" style="margin-left:100px;">
+                    <div class="el-input" data-v-17b9541a>
+                      <!---->
+                      <input type="number" autocomplete="off" min="1" max="1000" placeholder="请输入高考总分" class="el-input__inner">
+                      <!---->
+                      <!---->
+                      <!---->
+                      <!---->
+                    </div>
+                    <!---->
+                  </div>
+                </div>
+				<div class="el-form-item" data-v-17b9541a>
+				  <label class="el-form-item__label" style="width:100px;">会员卡号:</label>
+				  <div class="el-form-item__content" style="margin-left:100px;">
+				    <div class="el-input" data-v-17b9541a>
+				      <!---->
+				      <input type="number" autocomplete="off" min="1" max="1000" placeholder="请输入会员卡号" class="el-input__inner">
+				      <!---->
+				      <!---->
+				      <!---->
+				      <!---->
+				    </div>
+				    <!---->
+				  </div>
+				</div>
+				<div class="el-form-item" data-v-17b9541a>
+				  <label class="el-form-item__label" style="width:100px;">会员卡密码:</label>
+				  <div class="el-form-item__content" style="margin-left:100px;">
+				    <div class="el-input" data-v-17b9541a>
+				      <!---->
+				      <input type="number" autocomplete="off" min="1" max="1000" placeholder="请输入会员卡密码" class="el-input__inner">
+				      <!---->
+				      <!---->
+				      <!---->
+				      <!---->
+				    </div>
+				    <!---->
+				  </div>
+				</div>
+                <div class="el-form-item" data-v-17b9541a>
+                  <label class="el-form-item__label" style="width:100px;">省内排名:</label>
+                  <div class="el-form-item__content" style="margin-left:100px;">
+                    <div class="el-input" data-v-17b9541a>
+                      <!---->
+                      <input type="number" autocomplete="off" min="1" placeholder="请输入排名，高考出分前可无限次修改" class="el-input__inner">
+                      <!---->
+                      <!---->
+                      <!---->
+                      <!---->
+                    </div>
+                    <!---->
+                  </div>
+                </div>
+                <div class="el-form-item" data-v-17b9541a>
+                  <!---->
+                  <div class="el-form-item__content" style="margin-left:100px;">
+                    <div class="hide" style="font-size:14px;" data-v-17b9541a>
+                      <input type="checkbox" class="common-check" data-v-17b9541a>
+                      <span style="line-height:34px;" data-v-17b9541a>我已阅读并同意
+                        <a target="_blank" href="/news/detail/39" style="color:rgba(0,186,255,1);" data-v-17b9541a>服务条款</a>及
+                        <a target="_blank" href="/news/detail/38" style="color:rgba(0,186,255,1);" data-v-17b9541a>免责声明</a>
+                      </span>
+                    </div>
+                    <!---->
+                  </div>
+                </div>
+                <div class="el-form-item" data-v-17b9541a>
+                  <!---->
+                  <div class="el-form-item__content" style="margin-left:100px;">
+                    <button type="button" class="el-button w-4/5 el-button--primary" data-v-17b9541a>
+                      <!---->
+                      <!---->
+                      <span>修改</span>
+                    </button>
+                    <!---->
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div data-v-0c4659ba data-v-17b9541a>
+              <ul class="law-box" data-v-0c4659ba>
+                <h6 data-v-0c4659ba>用户须知</h6>
+                <li class="item" data-v-0c4659ba>
+                  <p class="title left" data-v-0c4659ba>适用省份</p>
+                  <p class="content right" data-v-0c4659ba>除西藏、香港、澳门、台湾外，其他省份均适用。</p>
+                </li>
+                <li class="item" data-v-0c4659ba>
+                  <p class="title left" data-v-0c4659ba>适用考生</p>
+                  <p class="content right" data-v-0c4659ba>普通类文理科考生、新高考选科类考生（提前批次、自主招生及艺术体育类考生暂不适用）</p>
+                </li>
+                <li class="item" data-v-0c4659ba>
+                  <p class="title left" data-v-0c4659ba>使用时间</p>
+                  <p class="content right" data-v-0c4659ba>VIP有效期至高考年份10月1日，非高考年份志愿填报期间不可用。</p>
+                </li>
+                <li class="item" data-v-0c4659ba>
+                  <p class="title left" data-v-0c4659ba>信息填写</p>
+                  <p class="content right" data-v-0c4659ba>高考省份/高考年份（注册后不可修改，如需修改请联系客服，只可修改一次） 文理科目/新高考选考科目（2023年高考成绩发布后不可修改） 高考总分（高考出分前填写预估分，可无限次修改，2023年高考成绩发布后只可修改一次）位次（高考出分前系统自动给出，若已知精准位次请按实际情况填写）。</p>
+                </li>
+                <li class="item" data-v-0c4659ba>
+                  <p class="title left" data-v-0c4659ba>功能须知</p>
+                  <p class="content right" data-v-0c4659ba>推荐功能实际基于您高考成绩在省内的排名情况而推荐符合条件的院校。本查询系统的信息仅供参考，具体数据请以学校官网或考试院公布为准。</p>
+                </li>
+                <li class="item" data-v-0c4659ba>
+                  <p class="title left" data-v-0c4659ba>购买须知</p>
+                  <p class="content right" data-v-0c4659ba>本产品为虚拟商品，一经出售，不支持退换。</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!---->
+        <!---->
+        <div class="footer clearfix">
+          <div class="container links">
+            <div class="right-cols">
+              <div class="col flex flex-col items-center">
+                <img src="//static.gkux.com/static/web/public/img/weixinkefu.e361ef75.png">
+                <p>
+                  <a href="#">微信官方客服</a>
+                </p>
+              </div>
+              <div class="col flex flex-col items-center">
+                <img src="//static.gkux.com/static/b06261536/images/app_qrcode.jpg">
+                <p>
+                  <a href="#">下载手机APP</a>
+                </p>
+              </div>
+            </div>
+            <div class="left-cols">
+              <div class="col">
+                <ul>
+                  <li>新手帮助</li>
+                  <li>
+                    <a href="/news/detail/u/faq">常见问题</a>
+                  </li>
+                  <li>
+                    <a href="/newbieGuide">新手指南</a>
+                  </li>
+                 <!-- <li>
+                    <a href="/vip">开通VIP</a>
+                  </li> -->
+                </ul>
+              </div>
+              <div class="col">
+                <ul>
+                  <li>关于我们</li>
+                  <li>
+                    <a href="/news/detail/u/about">公司介绍</a>
+                  </li>
+                  <li>
+                    <a href="/news/detail/u/contact">联系我们</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col">
+                <ul>
+                  <li>官方声明</li>
+                  <li>
+                    <a href="/news/detail/u/service">服务条款</a>
+                  </li>
+                  <li>
+                    <a href="/news/detail/u/disclaimer">免责声明</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col" style=" width: 190px;">
+                <ul>
+                  <li>联系我们</li>
+                  <li>客服：400-0680-068</li>
+                  <li>客服微信：gaokaouxuan120</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="copyright">
+            <div class="indexwidth100">
+              <span class="logo">
+              </span>
+              <div class="copy2">
+                <p>© 2023简志愿</p>
+                <a target="_blank" href="https://beian.miit.gov.cn/">鄂ICP备20010258号-2</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <script type="text/javascript" src="js/runtime.f4634494.js">
+    </script>
+    <script type="text/javascript" src="js/chunk/common.637fc29a.js">
+    </script>
+   <!-- <script type="text/javascript" src="//static.gkux.com/static/web/public/js/chunk/auth/fillUserInfo.46ec4a4b.js">
+    </script> -->
+	<script src="js/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript" src="js/index.js"></script> 
+  </body>
+  <script>var _hmt = _hmt || []; (function() {
+      var hm = document.createElement('script');
+      hm.src = 'https://hm.baidu.com/hm.js?c9a8f0996d5b087244d0719ad63045f2';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(hm, s);
+    })();</script>
+
+</html>

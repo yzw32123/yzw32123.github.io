@@ -1,0 +1,234 @@
+
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, maximum-scale=1.0, initial-scale=1.0, user-scalable=0" />
+<title></title>
+<link rel="stylesheet" type="text/css" href="../static/html/css/bootstrap.min.css" />
+<link type="text/css" rel="stylesheet" href="css/style.css">
+<style type="text/css">
+	.rows li {
+	    list-style: none;
+	    float: left;
+	    margin-left: 30px;
+		font-size: 14px;
+	}
+	.container{
+		border-bottom: 1px solid #eee;
+		    padding: 16px;
+	}
+	.selected{
+		color:rgb(2,167,240);
+	}
+</style>
+</head>
+<body>
+<div class="header">
+<div class="box">
+<div class="L"><a onClick="javascript:history.back(-1)" class="goback"><img src="images/goback.png" /></a></div>
+<div class="C"><p>教师列表</p></div>
+</div>
+</div>
+<div class="clear"></div>
+<div class="hbox"></div>
+<!-- <div class="container">
+	   <div class="row" >
+	      <ul class="rows" id="kemu">
+			  <li>科目:</li>
+			  <li >全部</li>
+			  <li>语文</li>
+			  <li>数学</li>
+			  <li>英语</li>
+			  <li>语文</li>
+			  <li>数学</li>
+			  <li>英语</li>
+			  <li>语文</li>
+			  <li>数学</li>
+			  <li>英语</li>
+		  </ul>
+	   </div>
+	</div> -->
+<div class="courseBox" style="padding:0">
+<ul class="ul_3" id="shipin">
+<li>
+<div class="L"><img src="images/1.jpg"></div>
+<div class="R">
+<div class="tit">UI设计法则-名师直播课</div>
+<div class="sub">有效期：2021-02-31</div>
+<div class="xx"><span></span><p>开始学习</p></div>
+</div>
+</li>
+<li>
+<div class="L"><img src="images/1.jpg"></div>
+<div class="R">
+<div class="tit">UI设计法则-名师直播课</div>
+<div class="sub">有效期：2021-02-31</div>
+<div class="xx"><span></span><p>开始学习</p></div>
+</div>
+</li>
+<li>
+<div class="L"><img src="images/1.jpg"></div>
+<div class="R">
+<div class="tit">UI设计法则-名师直播课</div>
+<div class="sub">有效期：2021-02-31</div>
+<div class="xx"><span></span><p>开始学习</p></div>
+</div>
+</li>
+</ul>
+</div>
+<div class="h54"></div>
+<div class="clear"></div>
+<div class="footerBox">
+<div class="footer">
+<ul>
+<li>
+<a href="index.html">
+<img src="images/f1.png">
+<p>首页</p>
+</a>
+</li>
+<li class="on">
+<a href="teacher.html">
+<img src="images/f03.png">
+<p>教师</p>
+</a>
+</li>
+<li>
+<a href="course.html">
+<img src="images/f5.png">
+<p>课程</p>
+</a>
+</li>
+<li>
+<a href="means.html">
+<img src="images/f2.png">
+<p>课件</p>
+</a>
+</li>
+<li>
+<a href="my.html">
+<img src="images/f4.png">
+<p>我的</p>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</body>
+</html>
+  <script src="../static/html/js/jquery.min.js" type="text/javascript"></script>
+    <script src="../static/html/js/bootstrap.min.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		
+		select_kemu();
+		video_tuijian();
+		  function video_tuijian(){
+		  				 $.ajax({
+		  				     url:"/index.php/api/weishi/teacher",
+		  				     dataType:"json",
+		  				     type:"get",
+		  				     success:function(json){
+		  						 var html = '';
+		  				         console.log(json);
+		  				       if(json['code'] != 1){
+		  						   //alert(111);
+		  				 					html += '<h3>暂无教师</h3>';
+		  				 				}else{
+		  									  $.each(json['msg'],function (n,val) {
+												  if(val['images'] == ''){
+												  												  var img = '/static/images/jiaoshi.png';
+												  }else{
+												  												  var img = '/static/uploads/'+val['images'];
+												  }
+										
+												  											   html += '<a onclick="video_num()" href="teacher_course.html?teacher_id='+val['id']+'"><li><div class="L"><img src="'+img+'" style="width: 110px;"></div><div class="R"><div class="tit">'+val['teacher_name']+'</div><div class="sub">'+val['school']+'</div><div class="xx"><p>'+val['jianjie']+'</p></div></div></a>';
+												
+		  									                          /* html += '<div class="tj"><div class="col-xs-6 col-sm-6 col-md-6"><img src="/static/uploads/'+val['video_pic']+'"/></div><div class="col-xs-6 col-sm-6 col-md-6 p"><p>《'+val['video_name']+'》</p><p>教师：'+val['teacher_name']+'</p><p>分类:'+val['nianji_cate']+'&nbsp;&nbsp;'+val['kemu_cate']+'</p></div></div><div class="line"></div>'; */
+		  									                        });
+		  									
+		  								}
+		  				         	$("#shipin").html(html)
+		  				 
+		  				     }
+		  				 })
+		  }
+		  
+		  function select_kemu(){
+		  				 $.ajax({
+		  				     url:"/index.php/index/api/select_kemu",
+		  				     dataType:"json",
+		  				     type:"get",
+		  				     success:function(json){
+		  						 var html = ' <li>科目:</li><li class="selected">全部</li>';
+		  				         console.log(json);
+		  				       if(json['code'] != 1){
+		  						  // alert(111);
+		  				 					html += '<h3 style="text-align:center">暂无科目</h3>';
+		  				 				}else{
+		  									  $.each(json['msg'],function (n,val) {
+		  											html += '<li onclick="kemu('+val['id']+',this)">'+val['kemu_cate']+'</li>';
+		  									                        });
+		  									
+		  								}
+		  				         	$("#kemu").html(html);
+		  				 
+		  				     }
+		  				 })
+		  }
+		  
+		  
+		  function kemu(id,a){
+			  
+			   $(a).addClass("selected").siblings().removeClass("selected");
+			   $.ajax({
+			       url:"/index.php/index/api/select_kemu_video",
+			       dataType:"json",
+			       type:"get",
+				   data:{
+					 'id':id  
+				   },
+			       success:function(json){
+			         						 var html = '';
+			           console.log(json);
+			         if(json['code'] != 1){
+			         						   //alert(111);
+			   					html += '<h3 style="text-align:center">暂无推荐</h3>';
+			   				}else{
+			         									  $.each(json['msg'],function (n,val) {
+															  if(val['video_pic'] == ''){
+															  												  var img = '/static/html/images/shipin.png';
+															  }else{
+															  												  var img = '/static/uploads/'+val['video_pic'];
+															  }
+			   											  if(val['video_laiyuan'] ==2){
+			   											  											   html += '<a onclick="video_num()" href="'+val['video_src']+'"><li><div class="L"><img src="'+img+'" style="width: 110px;"></div><div class="R"><div class="tit">'+val['video_name']+'-'+val['teacher_name']+'</div><div class="sub">'+val['kemu_cate']+'</div><div class="xx"><span></span><p>'+val['nianji_cate']+'</p></div></div></li></a>';
+			   											  }else{
+			   											  											   html += '<a onclick="video_num()" href="shipin_chakan.html?id='+val['id']+'"><li><div class="L"><img src="'+img+'" style="width: 110px;"></div><div class="R"><div class="tit">'+val['video_name']+'-'+val['teacher_name']+'</div><div class="sub">'+val['kemu_cate']+'</div><div class="xx"><span></span><p>'+val['nianji_cate']+'</p></div></div></a>';
+			   											  }
+			         									                          /* html += '<div class="tj"><div class="col-xs-6 col-sm-6 col-md-6"><img src="/static/uploads/'+val['video_pic']+'"/></div><div class="col-xs-6 col-sm-6 col-md-6 p"><p>《'+val['video_name']+'》</p><p>教师：'+val['teacher_name']+'</p><p>分类:'+val['nianji_cate']+'&nbsp;&nbsp;'+val['kemu_cate']+'</p></div></div><div class="line"></div>'; */
+			         									                        });
+			         									
+			         								}
+			           	$("#shipin").html(html)
+			   
+			       }
+			   })
+		  }
+		  //看视频次数
+		  function video_num(){
+		  	$.ajax({
+		  	    url:"/index.php/api/weishi/paihang_xiugai",
+		  	    dataType:"json",
+		  	    type:"get",
+		  		
+		  	    success:function(json){
+		  						/* layer.msg(json['msg']); */
+		  								
+		  	      				}
+		  	        
+		  	
+		  	    
+		  	})
+		  }
+	</script>

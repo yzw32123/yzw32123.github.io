@@ -1,0 +1,183 @@
+<!doctype html>
+<html class="no-js">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=0">
+	<meta name="viewport" content="width=drvice-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;"> -->
+	<meta name="viewport" content="width=device-width,user-scalable=no, initial-scale=1">
+	<title>黔管家</title> 
+
+	<link rel="icon" type="image/png" href="../qgj_qt/images/favicon.png"> 
+
+	<link rel="stylesheet" href="css/amazeui.min.css">
+	<link rel="stylesheet" href="css/swiper.min.css">
+	<link rel="stylesheet" href="css/app.css"> 
+	<!-- jquery -->
+	<script src="js/jquery.min.js"></script>  
+	<script src="js/swiper.min.js"></script>
+<!-- 生日 -->
+<script type="text/javascript" src="js/mobileSelect.js"></script>
+<script type="text/javascript" src="js/selectDate.js"></script>
+</head>
+
+<body>
+ 
+<!-- 外框 -->
+<div id="waik"> 
+<!-- 头部 --> 
+<div id="top" style="background:#24c516;" class="ziye_top"> 
+    <div class="sos_t sos_t_zy "> 
+        <div class="fanh_shang fanh_yems">
+            <a href="javascript:;" onclick="history.back();"><img src="images/jiant1.png"></a>
+        </div>
+        <div class="text">设置</div>
+        <div class="right">
+            <div class="zd"><a href="#">&nbsp;</a></div> 
+        </div>
+    </div>  
+</div>
+<!-- 内容 -->
+<br>
+<br>
+<div class="list_index_my" style=" margin-top:1px;">
+    <div class="my_dind">
+        <div class="bt">
+            <a href="#">
+                <h3>头像</h3>
+                <div class="right"> 
+                    <span class="toux"><img src="./images/toux1.jpg"></span>
+                    <img src="images/right_jiant.png">
+                </div> 
+            </a>
+        </div>
+    </div>
+    <div class="my_dind">
+        <div class="bt">
+            <a href="my_sz_zh.html">
+                <h3>用户名</h3>
+                <div class="right"> 
+                    <span>小花朵朵</span>
+                    <!-- <img src="images/right_jiant.png"> -->
+                </div> 
+            </a>
+        </div>
+    </div>
+    <div class="my_dind">
+        <div class="bt">
+            <a href="#">
+                <h3>昵称昵称</h3>
+                <div class="right"> 
+                    <span>南阳花匠广告</span>
+                    <img src="images/right_jiant.png">
+                </div> 
+            </a>
+        </div>
+    </div> 
+</div>
+<div class="list_index_my"> 
+    <div class="my_dind">
+        <div class="bt">
+            <a href="#">
+                <h3>性别</h3>
+                <div class="right"> 
+                    <span>保密</span>
+                    <img src="images/right_jiant.png">
+                </div> 
+            </a>
+        </div>
+    </div>
+    <div class="my_dind">
+        <div class="bt">
+            <a href="#">
+                <h3>出生日期</h3>
+                <div class="right"> 
+                    <span id="select_1" class="select_1">1949年10月23日</span>
+                    <img src="images/right_jiant.png">
+                </div> 
+            </a>
+        </div>
+    </div> 
+</div>
+<div class="list_index_my"> 
+    <div class="my_dind">
+        <div class="bt">
+            <a href="#">
+                <h3>所在地</h3>
+                <div class="right"> 
+                    <span>贵阳</span>
+                    <img src="images/right_jiant.png">
+                </div> 
+            </a>
+        </div>
+    </div>
+    <div class="my_dind">
+        <div class="bt">
+            <a href="#">
+                <h3>家乡</h3>
+                <div class="right"> 
+                    <span>黔东南</span>
+                    <img src="images/right_jiant.png">
+                </div> 
+            </a>
+        </div>
+    </div> 
+</div>
+
+<!-- 外框结束div -->
+</div> 
+
+<!-- js妹子ui -->
+<script src="js/amazeui.min.js"></script>   
+</body>
+</html>
+ 
+<script type="text/javascript">
+    // $(".cddf").click(function(){
+    //     alert('dashi') 
+    // });
+
+function dddfff(){
+    document.getElementsByClassName('select_1')[0].click();
+}
+    
+
+    /*设置全部参数*/
+    $.selectDate("#select_1",{
+        start:1994,
+        end:2019,
+        select:[2012,5,6],
+        title:'请选择'
+    },function (data) {
+        console.log(data);
+    });
+    /*默认全部参数*/
+    $.selectDate("#select_2",{},function (data) {
+        alert(data.year+"-"+data.month+"-"+data.day);
+        console.log(data);
+    });
+    /*设置默认选择*/
+    $.selectDate("#select_3",{
+        select:[2011,2,6]
+    },function (data) {
+        console.log(data);
+    });
+    /*设置日期区间*/
+    $.selectDate("#select_4",{
+        start:1994,
+        end:2019
+    },function (data) {
+        console.log(data);
+    });
+
+    /*只选择年月*/
+    $.selectDateSimple("#select_5",{
+        start:1994,
+        end:2019,
+        select:[2012,5]
+    },function (data) {
+        console.log(data);
+    });
+</script>
